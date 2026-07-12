@@ -1,0 +1,17 @@
+[
+  {"question": "What is the SI unit of force?", "options": ["Joule", "Newton", "Watt", "Pascal"], "correctIndex": 1},
+  {"question": "Who proposed the three laws of motion?", "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"], "correctIndex": 1},
+  {"question": "What is the unit of electric current?", "options": ["Volt", "Ohm", "Ampere", "Watt"], "correctIndex": 2},
+  {"question": "What is the SI unit of energy?", "options": ["Newton", "Joule", "Watt", "Pascal"], "correctIndex": 1},
+  {"question": "Which type of lens is used to correct short-sightedness?", "options": ["Convex lens", "Concave lens", "Bifocal lens", "Cylindrical lens"], "correctIndex": 1},
+  {"question": "What is the formula for calculating speed?", "options": ["Distance x Time", "Distance / Time", "Time / Distance", "Mass x Acceleration"], "correctIndex": 1},
+  {"question": "Which scientist developed the theory of relativity?", "options": ["Isaac Newton", "Albert Einstein", "Max Planck", "Stephen Hawking"], "correctIndex": 1},
+  {"question": "What is the value of acceleration due to gravity on Earth (approx)?", "options": ["8.9 m/s\u00b2", "9.8 m/s\u00b2", "10.8 m/s\u00b2", "7.8 m/s\u00b2"], "correctIndex": 1},
+  {"question": "Which of these is a scalar quantity?", "options": ["Velocity", "Force", "Speed", "Displacement"], "correctIndex": 2},
+  {"question": "What device is used to measure atmospheric pressure?", "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"], "correctIndex": 1},
+  {"question": "What is the unit used to measure electrical resistance?", "options": ["Ampere", "Volt", "Ohm", "Watt"], "correctIndex": 2},
+  {"question": "Which law states that every action has an equal and opposite reaction?", "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Gravitation"], "correctIndex": 2},
+  {"question": "What type of energy is stored in a stretched rubber band?", "options": ["Kinetic energy", "Potential energy", "Thermal energy", "Chemical energy"], "correctIndex": 1},
+  {"question": "Which particle carries a negative charge?", "options": ["Proton", "Neutron", "Electron", "Photon"], "correctIndex": 2},
+  {"question": "What is the phenomenon of light bending when passing through different media called?", "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"], "correctIndex": 1}
+]

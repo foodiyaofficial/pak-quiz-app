@@ -19,6 +19,9 @@
 
         <activity android:name=".QuizActivity" android:exported="false" />
         <activity android:name=".ResultActivity" android:exported="false" />
+        <activity android:name=".ReviewActivity" android:exported="false" />
+        <activity android:name=".AboutActivity" android:exported="false" />
+        <activity android:name=".InterstitialAdActivity" android:exported="false" />
 
     </application>
 

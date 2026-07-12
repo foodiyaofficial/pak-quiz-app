@@ -1,0 +1,17 @@
+[
+  {"question": "Choose the correct synonym of 'Happy':", "options": ["Sad", "Joyful", "Angry", "Tired"], "correctIndex": 1},
+  {"question": "Choose the correct antonym of 'Ancient':", "options": ["Old", "Modern", "Historic", "Aged"], "correctIndex": 1},
+  {"question": "Identify the correct sentence:", "options": ["He go to school daily.", "He goes to school daily.", "He going to school daily.", "He gone to school daily."], "correctIndex": 1},
+  {"question": "What is the plural of 'Child'?", "options": ["Childs", "Children", "Childes", "Childrens"], "correctIndex": 1},
+  {"question": "Choose the correctly spelled word:", "options": ["Recieve", "Receive", "Receeve", "Receve"], "correctIndex": 1},
+  {"question": "'She sings beautifully' \u2013 identify the adverb:", "options": ["She", "Sings", "Beautifully", "None"], "correctIndex": 2},
+  {"question": "What is the past tense of 'Go'?", "options": ["Goed", "Gone", "Went", "Going"], "correctIndex": 2},
+  {"question": "Choose the correct article: '___ apple a day keeps the doctor away.'", "options": ["A", "An", "The", "No article"], "correctIndex": 1},
+  {"question": "Identify the noun in: 'The dog barked loudly.'", "options": ["The", "Dog", "Barked", "Loudly"], "correctIndex": 1},
+  {"question": "What is the opposite of 'Increase'?", "options": ["Decrease", "Expand", "Grow", "Rise"], "correctIndex": 0},
+  {"question": "Choose the correct sentence:", "options": ["Neither of them are ready.", "Neither of them is ready.", "Neither of them were ready.", "Neither of them being ready."], "correctIndex": 1},
+  {"question": "'Break the ice' means:", "options": ["To literally break ice", "To start a conversation in a stiff situation", "To end a friendship", "To cause trouble"], "correctIndex": 1},
+  {"question": "Which word is a preposition?", "options": ["Run", "Quickly", "Under", "Happy"], "correctIndex": 2},
+  {"question": "Choose the correct passive voice of: 'She writes a letter.'", "options": ["A letter is written by her.", "A letter was written by her.", "A letter writes by her.", "A letter is writing by her."], "correctIndex": 0},
+  {"question": "What type of word is 'Quickly'?", "options": ["Noun", "Verb", "Adjective", "Adverb"], "correctIndex": 3}
+]

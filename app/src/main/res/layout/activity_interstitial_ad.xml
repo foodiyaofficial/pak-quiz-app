@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A1A1A"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- AdMob Interstitial Ad Placeholder: this whole screen simulates where a full-screen
+         interstitial ad would appear (loaded and shown via InterstitialAd.show(activity)
+         from the Google Mobile Ads SDK). See README "Adding real AdMob ads" section. -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advertisement"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:letterSpacing="0.15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AdMob Interstitial Ad Placeholder"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="A real ad will appear here once AdMob is connected"
+        android:textColor="#AAAAAA"
+        android:textSize="13sp"
+        android:gravity="center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Continue to Results"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/primary_dark" />
+
+</LinearLayout>

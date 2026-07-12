@@ -1,0 +1,17 @@
+[
+  {"question": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "correctIndex": 2},
+  {"question": "What is the value of pi (\u03c0) approximately?", "options": ["3.12", "3.14", "3.16", "3.18"], "correctIndex": 1},
+  {"question": "Solve: 7 x 8 = ?", "options": ["54", "56", "58", "64"], "correctIndex": 1},
+  {"question": "What is the square root of 144?", "options": ["10", "11", "12", "13"], "correctIndex": 2},
+  {"question": "If a train travels 60 km in 1 hour, how far does it travel in 3 hours?", "options": ["120 km", "150 km", "180 km", "200 km"], "correctIndex": 2},
+  {"question": "What is 25% expressed as a fraction?", "options": ["1/2", "1/3", "1/4", "1/5"], "correctIndex": 2},
+  {"question": "What is the sum of angles in a triangle?", "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"], "correctIndex": 1},
+  {"question": "What is 12 squared?", "options": ["124", "134", "144", "154"], "correctIndex": 2},
+  {"question": "Simplify: (10 + 5) x 2", "options": ["20", "25", "30", "35"], "correctIndex": 2},
+  {"question": "What is the next number in the series: 2, 4, 8, 16, ?", "options": ["24", "28", "32", "36"], "correctIndex": 2},
+  {"question": "What is 100 divided by 4?", "options": ["20", "25", "30", "35"], "correctIndex": 1},
+  {"question": "A rectangle has length 8 and width 5. What is its area?", "options": ["13", "26", "40", "45"], "correctIndex": 2},
+  {"question": "What is the LCM of 4 and 6?", "options": ["10", "12", "14", "24"], "correctIndex": 1},
+  {"question": "If x + 5 = 12, what is x?", "options": ["5", "6", "7", "8"], "correctIndex": 2},
+  {"question": "What is 3/4 as a percentage?", "options": ["25%", "50%", "75%", "80%"], "correctIndex": 2}
+]

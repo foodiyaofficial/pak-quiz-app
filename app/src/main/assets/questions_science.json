@@ -1,0 +1,17 @@
+[
+  {"question": "What is the chemical symbol for water?", "options": ["H2O", "CO2", "O2", "H2"], "correctIndex": 0},
+  {"question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "correctIndex": 1},
+  {"question": "What gas do humans exhale that plants use?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "correctIndex": 2},
+  {"question": "What is the powerhouse of the cell?", "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi body"], "correctIndex": 2},
+  {"question": "Which force keeps us on the ground?", "options": ["Magnetism", "Gravity", "Friction", "Tension"], "correctIndex": 1},
+  {"question": "What is the boiling point of water at sea level in Celsius?", "options": ["90", "100", "110", "80"], "correctIndex": 1},
+  {"question": "Which organ pumps blood throughout the human body?", "options": ["Lungs", "Liver", "Heart", "Kidney"], "correctIndex": 2},
+  {"question": "What is the study of living organisms called?", "options": ["Physics", "Biology", "Chemistry", "Geology"], "correctIndex": 1},
+  {"question": "Sound cannot travel through which of these?", "options": ["Air", "Water", "Vacuum", "Solid"], "correctIndex": 2},
+  {"question": "What is the chemical formula for table salt?", "options": ["NaCl", "KCl", "CaCl2", "NaOH"], "correctIndex": 0},
+  {"question": "How many bones are there in an adult human body?", "options": ["186", "206", "226", "246"], "correctIndex": 1},
+  {"question": "Which vitamin is produced when skin is exposed to sunlight?", "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], "correctIndex": 2},
+  {"question": "What is the speed of light approximately?", "options": ["3,00,000 km/s", "1,50,000 km/s", "5,00,000 km/s", "1,00,000 km/s"], "correctIndex": 0},
+  {"question": "Which is the largest planet in our solar system?", "options": ["Earth", "Saturn", "Jupiter", "Neptune"], "correctIndex": 2},
+  {"question": "What is the process by which plants make their food called?", "options": ["Respiration", "Photosynthesis", "Digestion", "Transpiration"], "correctIndex": 1}
+]

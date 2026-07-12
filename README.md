@@ -1,89 +1,88 @@
-# Pak Quiz Prep
+# Zeenith Prep (formerly Pak Quiz Prep)
 
-A 100% offline Android quiz app for Pakistani students — Islamic Studies + General Knowledge / test prep (NTS, PPSC, CSS, etc).
+A polished, 100% offline Android quiz app for Pakistani students preparing for
+NTS, PPSC, FPSC/CSS, ISSB, and university entry tests.
 
-- No backend, no server, no APIs, no internet permission
-- No sign-up
-- All questions are bundled inside the app as JSON files
-- Scores are stored only on the user's device (SharedPreferences)
+## What's new in this update
 
----
-
-## How the APK gets built (no software installation needed on your side)
-
-Since you can't install Android Studio, this project uses **GitHub Actions** — a free
-build robot that lives on GitHub's servers. Every time you push code to GitHub, it
-automatically compiles a working `.apk` file for you, entirely in the browser. You
-never install anything.
-
----
-
-## Step 1 — Create a GitHub account (if you don't have one)
-
-Go to https://github.com and sign up for free.
-
-## Step 2 — Create a new repository
-
-1. Click the **+** icon (top right) → **New repository**
-2. Name it `pak-quiz-app` (or anything you like)
-3. Keep it **Public**
-4. Do NOT check "Add a README" (we already have one)
-5. Click **Create repository**
-
-## Step 3 — Upload these files to GitHub (no software needed)
-
-1. On your new repo's page, click **"uploading an existing file"** (or the "Add file" → "Upload files" button)
-2. Open the `pakquiz` folder I've given you, and drag **the entire folder contents** (not the outer zip) into the browser upload box
-   - Make sure the folder structure stays intact: `app/`, `.github/`, `build.gradle`, `settings.gradle`, etc.
-   - GitHub's drag-and-drop preserves subfolders as long as you drag folders, not just files
-3. Scroll down, write a commit message like "Initial commit", and click **Commit changes**
-
-**Tip:** If drag-and-drop of folders doesn't work well in your browser, GitHub also
-has a "GitHub Desktop"-free option: use the **github.dev** web editor
-(press `.` while viewing your empty repo) which lets you create files/folders
-directly in the browser and paste content in — no installation required either way.
-
-## Step 4 — Let GitHub Actions build your APK
-
-1. Once you commit, go to the **Actions** tab on your repository
-2. You'll see a workflow called **"Build APK"** running automatically (it triggers on every push to `main`)
-3. Wait 2–5 minutes for it to finish (green checkmark = success)
-4. Click on the completed run → scroll down to **Artifacts** → download **PakQuiz-debug-apk**
-5. This gives you a `.zip` — inside is your `app-debug.apk`. That's your working Android app!
-
-You can now transfer this APK to any Android phone and install it directly (enable
-"Install from unknown sources" once) to test it.
-
-## Step 5 — Publish to Google Play Store
-
-1. Create a Google Play Console account at https://play.google.com/console
-   (one-time $25 registration fee — set by Google, unavoidable for any publisher)
-2. Click **Create app**, fill in app name, description, category (Education), etc.
-3. You'll need a **signed release build**, not the debug APK. To do this without
-   installing anything locally, tell me once you're at this step and I'll add a
-   second GitHub Actions workflow that generates a signed release **.aab** (Android App Bundle)
-   using a keystore you generate once (I can also generate that keystore for you here).
-4. Upload the `.aab` file under **Production → Create release**
-5. Fill in store listing details (screenshots, icon, description, privacy policy — required even for apps with no data collection; a one-line "This app collects no data" page is enough, I can generate that too)
-6. Submit for review (Google usually takes 1–7 days for a new app)
+- **Renamed** from "Pak Quiz Prep" to **Zeenith Prep**
+- **New app icon**: gold star on a deep green background
+- **6 new subject categories** added (8 total): Islamic Studies, General
+  Knowledge, General Science, Physics, Chemistry, Biology, English, Mathematics
+- **Instant answer feedback**: tapping an option immediately shows green
+  (correct) / red (wrong), and reveals the correct answer if you got it wrong
+- **Review Answers screen**: after finishing a quiz, you can see every
+  question again with your answer vs. the correct one
+- **Redesigned interface**: emerald-and-gold "luxury" theme, colorful subject
+  tiles in a grid (each subject has its own color), card-based question UI,
+  progress bar
+- **About / Privacy Policy screen**: accessible from the (i) icon on the
+  home screen
+- **AdMob placeholders added** (banner + interstitial) — see below for how
+  to turn these into real ads
 
 ---
 
-## Adding more questions later
+## Building the new APK (same process as before)
 
-Just open `app/src/main/assets/questions_islamiat.json` or `questions_gk.json`
-directly in GitHub's web editor (click the file → pencil/edit icon) and add more
-entries in the same format:
+1. Take everything inside this zip and replace the contents of your existing
+   `pak-quiz-app` GitHub repo with these files (delete old files first if
+   names differ, then upload these — or just drag-and-drop overwrite in
+   github.dev, which replaces files with matching names automatically)
+2. Commit the changes
+3. Go to the **Actions** tab — a new build kicks off automatically
+4. Download the new APK from **Artifacts** once it's green, same as before
 
-```json
-{"question": "Your question?", "options": ["A", "B", "C", "D"], "correctIndex": 0}
-```
+---
 
-`correctIndex` is 0 for option A, 1 for B, 2 for C, 3 for D. Save (commit), and
-GitHub Actions will automatically rebuild the APK with your new questions.
+## Adding real AdMob ads (when you're ready)
 
-## Adding more categories later
+Right now the app shows **grey placeholder boxes** labeled "AdMob Banner Ad
+Placeholder" (on the Home and Result screens) and a **full-screen placeholder
+screen** labeled "AdMob Interstitial Ad Placeholder" (shown after finishing a
+quiz, before results) — exactly where real ads will go, so you can see the
+layout without needing an AdMob account yet.
 
-Add a new entry to the `categories` list in
-`app/src/main/java/com/pakquiz/app/QuestionBank.kt`, and add a matching JSON file
-in `app/src/main/assets/`.
+To turn these into real ads later:
+
+1. Create a free account at https://admob.google.com and register your app
+   to get an **App ID** and **Ad Unit IDs** (one for banner, one for
+   interstitial)
+2. Add the Google Mobile Ads SDK dependency to `app/build.gradle`:
+   ```gradle
+   implementation 'com.google.android.gms:play-services-ads:23.3.0'
+   ```
+3. Add your AdMob App ID to `AndroidManifest.xml` inside `<application>`:
+   ```xml
+   <meta-data
+       android:name="com.google.android.gms.ads.APPLICATION_ID"
+       android:value="ca-app-pub-xxxxxxxxxxxxxxxx~xxxxxxxxxx"/>
+   ```
+4. Replace the placeholder `FrameLayout` in `activity_main.xml` /
+   `activity_result.xml` with a real `com.google.android.gms.ads.AdView`,
+   and load it in code with `AdView.loadAd(AdRequest.Builder().build())`
+5. Replace `InterstitialAdActivity`'s placeholder screen with a real
+   `InterstitialAd.load(...)` call, and call `.show(activity)` when it's
+   ready, then continue to `ResultActivity`
+
+**Important:** Google requires you to use **test ad unit IDs** during
+development and testing (using your real IDs before the app is published
+can get your AdMob account flagged). Test IDs are published in Google's
+AdMob documentation. Tell me when you're ready for this step and I can wire
+the real SDK calls in for you — I just can't fetch live Ad Unit IDs since
+those are tied to your personal AdMob account.
+
+---
+
+## Adding more questions or categories
+
+Same as before — edit the JSON files directly in github.dev under
+`app/src/main/assets/`, or add a new category to the `categories` list in
+`QuestionBank.kt` plus a matching JSON file.
+
+## Publishing to Play Store
+
+Still pending — let me know when you're ready and I'll generate the signing
+keystore, the release-build GitHub Actions workflow, and help you fill out
+the Play Console listing (screenshots, description, the privacy policy page
+which the app's About screen text can double as a starting point for).

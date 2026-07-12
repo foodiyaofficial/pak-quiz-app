@@ -20,14 +20,24 @@ class ResultActivity : AppCompatActivity() {
         val categoryTitle = intent.getStringExtra("category_title") ?: "Quiz"
         val categoryJson = intent.getStringExtra("category_json") ?: "questions_islamiat.json"
 
+        @Suppress("UNCHECKED_CAST", "DEPRECATION")
+        val holder = intent.getSerializableExtra("review_data") as? QuestionsHolder
+
         val prefs = getSharedPreferences("pakquiz_scores", MODE_PRIVATE)
         val bestKey = "best_$categoryId"
         val previousBest = prefs.getInt(bestKey, 0)
         val newBest = if (score > previousBest) score else previousBest
         prefs.edit().putInt(bestKey, newBest).apply()
 
-        binding.scoreText.text = "${getString(R.string.your_score)}: $score / $total"
+        binding.scoreText.text = "$score / $total"
         binding.bestScoreText.text = "${getString(R.string.best_score)}: $newBest / $total"
+
+        binding.reviewButton.setOnClickListener {
+            val intent = Intent(this, ReviewActivity::class.java)
+            intent.putExtra("review_data", holder)
+            intent.putExtra("category_title", categoryTitle)
+            startActivity(intent)
+        }
 
         binding.retryButton.setOnClickListener {
             val intent = Intent(this, QuizActivity::class.java)

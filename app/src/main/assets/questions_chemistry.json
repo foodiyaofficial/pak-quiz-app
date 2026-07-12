@@ -1,0 +1,17 @@
+[
+  {"question": "What is the atomic number of Hydrogen?", "options": ["0", "1", "2", "3"], "correctIndex": 1},
+  {"question": "Which gas is most abundant in Earth's atmosphere?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"], "correctIndex": 2},
+  {"question": "What is the pH value of pure water?", "options": ["5", "6", "7", "8"], "correctIndex": 2},
+  {"question": "Which element is known as the 'King of Chemicals'?", "options": ["Sodium Hydroxide", "Sulphuric Acid", "Hydrochloric Acid", "Nitric Acid"], "correctIndex": 1},
+  {"question": "What is the chemical symbol for Gold?", "options": ["Ag", "Au", "Gd", "Go"], "correctIndex": 1},
+  {"question": "Which particle is found in the nucleus of an atom along with protons?", "options": ["Electron", "Neutron", "Photon", "Positron"], "correctIndex": 1},
+  {"question": "What type of bond is formed by the sharing of electrons?", "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"], "correctIndex": 1},
+  {"question": "What is the process of converting a liquid to gas called?", "options": ["Condensation", "Evaporation", "Sublimation", "Deposition"], "correctIndex": 1},
+  {"question": "Which acid is present in the human stomach?", "options": ["Sulphuric acid", "Hydrochloric acid", "Nitric acid", "Acetic acid"], "correctIndex": 1},
+  {"question": "What is the chemical formula for methane?", "options": ["CH4", "C2H6", "CO2", "C2H2"], "correctIndex": 0},
+  {"question": "Which metal is liquid at room temperature?", "options": ["Iron", "Mercury", "Lead", "Zinc"], "correctIndex": 1},
+  {"question": "What is the common name for Sodium Chloride?", "options": ["Baking Soda", "Table Salt", "Chalk", "Vinegar"], "correctIndex": 1},
+  {"question": "Which gas is used to fill balloons because it's lighter than air?", "options": ["Oxygen", "Nitrogen", "Helium", "Carbon Dioxide"], "correctIndex": 2},
+  {"question": "What do we call substances that speed up chemical reactions?", "options": ["Inhibitors", "Catalysts", "Reactants", "Solvents"], "correctIndex": 1},
+  {"question": "What is the chemical formula of carbon dioxide?", "options": ["CO", "CO2", "C2O", "CO3"], "correctIndex": 1}
+]

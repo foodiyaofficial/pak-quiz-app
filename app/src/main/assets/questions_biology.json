@@ -1,0 +1,17 @@
+[
+  {"question": "What is the basic unit of life?", "options": ["Tissue", "Cell", "Organ", "Organism"], "correctIndex": 1},
+  {"question": "Which blood group is known as the universal donor?", "options": ["A", "B", "AB", "O negative"], "correctIndex": 3},
+  {"question": "What is the largest organ in the human body?", "options": ["Liver", "Heart", "Skin", "Brain"], "correctIndex": 2},
+  {"question": "Which part of the plant conducts photosynthesis?", "options": ["Root", "Stem", "Leaf", "Flower"], "correctIndex": 2},
+  {"question": "How many chambers does the human heart have?", "options": ["2", "3", "4", "5"], "correctIndex": 2},
+  {"question": "What is the study of heredity called?", "options": ["Ecology", "Genetics", "Anatomy", "Physiology"], "correctIndex": 1},
+  {"question": "Which gland is known as the master gland of the body?", "options": ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], "correctIndex": 2},
+  {"question": "What carries oxygen in human blood?", "options": ["White blood cells", "Platelets", "Hemoglobin", "Plasma"], "correctIndex": 2},
+  {"question": "Which organism is responsible for malaria?", "options": ["Bacteria", "Virus", "Plasmodium (parasite)", "Fungus"], "correctIndex": 2},
+  {"question": "What is the powerhouse organelle of a plant cell that captures sunlight?", "options": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"], "correctIndex": 1},
+  {"question": "How many pairs of chromosomes are in a normal human cell?", "options": ["21", "22", "23", "24"], "correctIndex": 2},
+  {"question": "Which system in the human body is responsible for digestion?", "options": ["Respiratory system", "Digestive system", "Nervous system", "Circulatory system"], "correctIndex": 1},
+  {"question": "What is the process called by which a caterpillar becomes a butterfly?", "options": ["Fertilization", "Metamorphosis", "Pollination", "Germination"], "correctIndex": 1},
+  {"question": "Which vitamin deficiency causes night blindness?", "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "correctIndex": 0},
+  {"question": "What is the function of red blood cells?", "options": ["Fight infection", "Clot blood", "Carry oxygen", "Produce antibodies"], "correctIndex": 2}
+]
