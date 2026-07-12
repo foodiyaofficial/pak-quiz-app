@@ -40,10 +40,13 @@ class ResultActivity : AppCompatActivity() {
         }
 
         binding.retryButton.setOnClickListener {
-            val intent = Intent(this, QuizActivity::class.java)
-            intent.putExtra("category_id", categoryId)
-            intent.putExtra("category_json", categoryJson)
-            intent.putExtra("category_title", categoryTitle)
+            val isFullTest = categoryId == "fulltest"
+            val intent = Intent(this, if (isFullTest) FullTestActivity::class.java else QuizActivity::class.java)
+            if (!isFullTest) {
+                intent.putExtra("category_id", categoryId)
+                intent.putExtra("category_json", categoryJson)
+                intent.putExtra("category_title", categoryTitle)
+            }
             startActivity(intent)
             finish()
         }

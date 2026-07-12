@@ -22,6 +22,7 @@
         <activity android:name=".ReviewActivity" android:exported="false" />
         <activity android:name=".AboutActivity" android:exported="false" />
         <activity android:name=".InterstitialAdActivity" android:exported="false" />
+        <activity android:name=".FullTestActivity" android:exported="false" />
 
     </application>
 

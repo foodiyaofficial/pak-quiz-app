@@ -28,6 +28,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, AboutActivity::class.java))
         }
 
+        binding.fullTestInclude.root.setOnClickListener {
+            startActivity(Intent(this, FullTestActivity::class.java))
+        }
+
         // TODO (AdMob): once you have a real Ad Unit ID, replace bannerAdContainer's placeholder
         // TextView with a com.google.android.gms.ads.AdView and call adView.loadAd(AdRequest.Builder().build())
         // See README section "Adding real AdMob ads" for the exact steps.

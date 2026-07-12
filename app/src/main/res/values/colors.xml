@@ -1,22 +1,26 @@
 <resources>
-    <color name="primary">#0E3B2E</color>
-    <color name="primary_dark">#082821</color>
-    <color name="primary_light">#1A5C47</color>
+    <!-- Dark luxury palette: deep charcoal/near-black base, emerald + gold accents -->
+    <color name="primary">#0F5C46</color>
+    <color name="primary_dark">#06120F</color>
+    <color name="primary_light">#1A7A5E</color>
     <color name="accent">#D4AF37</color>
-    <color name="accent_light">#E8C766</color>
-    <color name="background">#F4F1E8</color>
-    <color name="surface">#FFFFFF</color>
-    <color name="text_dark">#1B1B1B</color>
-    <color name="text_muted">#6B6B63</color>
+    <color name="accent_light">#F0D879</color>
+    <color name="background">#0B0E0D</color>
+    <color name="surface">#161B19</color>
+    <color name="surface_light">#212926</color>
+    <color name="text_dark">#F2F0E8</color>
+    <color name="text_muted">#9A9A92</color>
     <color name="white">#FFFFFF</color>
-    <color name="correct">#2E7D32</color>
-    <color name="wrong">#C62828</color>
-    <color name="card_islamiat">#0E3B2E</color>
-    <color name="card_gk">#8A5A00</color>
-    <color name="card_science">#144A6B</color>
-    <color name="card_physics">#5B2C6F</color>
-    <color name="card_chemistry">#8E3B46</color>
-    <color name="card_biology">#1F6E43</color>
-    <color name="card_english">#734A12</color>
-    <color name="card_math">#2E4A62</color>
+    <color name="correct">#3FAE58</color>
+    <color name="wrong">#E5484D</color>
+    <color name="card_islamiat">#0F5C46</color>
+    <color name="card_gk">#B8860B</color>
+    <color name="card_science">#1B6FA3</color>
+    <color name="card_physics">#7B4397</color>
+    <color name="card_chemistry">#B14A5A</color>
+    <color name="card_biology">#2B8A56</color>
+    <color name="card_english">#9C6B1F</color>
+    <color name="card_math">#3B5D82</color>
+    <color name="card_pakstudies">#146B4F</color>
+    <color name="card_fulltest">#8C2D3F</color>
 </resources>

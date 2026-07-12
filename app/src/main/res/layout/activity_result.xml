@@ -79,7 +79,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:text="@string/back_to_categories"
-            android:textColor="@color/primary_dark"
+            android:textColor="@color/accent_light"
+            app:strokeColor="@color/accent_light"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     </LinearLayout>

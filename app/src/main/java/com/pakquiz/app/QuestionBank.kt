@@ -29,6 +29,44 @@ object QuestionBank {
         return list.shuffled().take(QUESTIONS_PER_QUIZ)
     }
 
+    const val FULL_TEST_SIZE = 100
+
+    fun loadFullTest(context: Context): List<Question> {
+        val combined = mutableListOf<Question>()
+        for (category in categories) {
+            val jsonString = context.assets.open(category.jsonFile).bufferedReader().use { it.readText() }
+            val array = JSONArray(jsonString)
+            for (i in 0 until array.length()) {
+                val obj = array.getJSONObject(i)
+                val optionsArray = obj.getJSONArray("options")
+                val options = mutableListOf<String>()
+                for (j in 0 until optionsArray.length()) {
+                    options.add(optionsArray.getString(j))
+                }
+                combined.add(
+                    Question(
+                        question = obj.getString("question"),
+                        options = options,
+                        correctIndex = obj.getInt("correctIndex")
+                    )
+                )
+            }
+        }
+        val shuffled = combined.shuffled()
+        return if (shuffled.size >= FULL_TEST_SIZE) {
+            shuffled.take(FULL_TEST_SIZE)
+        } else {
+            // Not enough unique questions yet to fill 100 without repeats - cycle through until we hit 100
+            val result = mutableListOf<Question>()
+            var i = 0
+            while (result.size < FULL_TEST_SIZE) {
+                result.add(shuffled[i % shuffled.size])
+                i++
+            }
+            result.shuffled()
+        }
+    }
+
     val categories = listOf(
         Category(
             id = "islamiat",
@@ -85,6 +123,14 @@ object QuestionBank {
             jsonFile = "questions_english.json",
             colorRes = R.color.card_english,
             emoji = "\uD83D\uDCDA"
+        ),
+        Category(
+            id = "pakstudies",
+            title = "Pakistan Studies",
+            subtitle = "Constitution, Politics & National History",
+            jsonFile = "questions_pakstudies.json",
+            colorRes = R.color.card_pakstudies,
+            emoji = "\uD83C\uDDF5\uD83C\uDDF0"
         ),
         Category(
             id = "math",

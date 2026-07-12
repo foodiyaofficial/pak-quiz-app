@@ -49,6 +49,10 @@
 
     </LinearLayout>
 
+    <include
+        android:id="@+id/fullTestInclude"
+        layout="@layout/item_full_test" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/categoryRecyclerView"
         android:layout_width="match_parent"

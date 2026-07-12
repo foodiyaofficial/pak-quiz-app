@@ -7,11 +7,10 @@
     android:background="@color/background">
 
     <LinearLayout
-        android:id="@+id/quizHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/primary"
+        android:background="@color/card_fulltest"
         android:padding="18dp">
 
         <TextView
@@ -54,7 +53,6 @@
                 android:lineSpacingExtra="4dp" />
 
             <LinearLayout
-                android:id="@+id/optionsContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -156,7 +154,7 @@
         android:textColor="@color/white"
         android:textSize="17sp"
         android:textStyle="bold"
-        android:backgroundTint="@color/primary"
+        android:backgroundTint="@color/card_fulltest"
         app:cornerRadius="14dp"
         android:enabled="false" />
 
