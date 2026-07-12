@@ -1,0 +1,22 @@
+[
+  {"question": "What is the capital of Pakistan?", "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"], "correctIndex": 2},
+  {"question": "When did Pakistan gain independence?", "options": ["14 August 1947", "15 August 1947", "23 March 1940", "14 August 1948"], "correctIndex": 0},
+  {"question": "Who was the founder of Pakistan?", "options": ["Allama Iqbal", "Quaid-e-Azam Muhammad Ali Jinnah", "Liaquat Ali Khan", "Sir Syed Ahmed Khan"], "correctIndex": 1},
+  {"question": "Which is the largest province of Pakistan by area?", "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"], "correctIndex": 2},
+  {"question": "What is the national language of Pakistan?", "options": ["Punjabi", "Urdu", "Sindhi", "Pashto"], "correctIndex": 1},
+  {"question": "The Pakistan Resolution was passed in which year?", "options": ["1930", "1940", "1947", "1935"], "correctIndex": 1},
+  {"question": "Which river is the longest in Pakistan?", "options": ["Jhelum", "Chenab", "Indus", "Ravi"], "correctIndex": 2},
+  {"question": "Who was the first Prime Minister of Pakistan?", "options": ["Liaquat Ali Khan", "Muhammad Ali Jinnah", "Chaudhry Muhammad Ali", "Feroz Khan Noon"], "correctIndex": 0},
+  {"question": "What is the currency of Pakistan?", "options": ["Rupee", "Dinar", "Riyal", "Taka"], "correctIndex": 0},
+  {"question": "Which mountain range is home to K2, the second highest peak in the world?", "options": ["Himalayas", "Hindu Kush", "Karakoram", "Sulaiman Range"], "correctIndex": 2},
+  {"question": "Which organization conducts the CSS exam in Pakistan?", "options": ["PPSC", "FPSC", "NTS", "HEC"], "correctIndex": 1},
+  {"question": "What does NTS stand for?", "options": ["National Talent Screening", "National Testing Service", "National Test System", "National Talent Society"], "correctIndex": 1},
+  {"question": "What is the currency symbol for the US Dollar?", "options": ["$", "£", "€", "¥"], "correctIndex": 0},
+  {"question": "Which is the largest ocean in the world?", "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"], "correctIndex": 2},
+  {"question": "Who is known as the 'Poet of the East'?", "options": ["Allama Iqbal", "Mirza Ghalib", "Faiz Ahmed Faiz", "Ahmed Faraz"], "correctIndex": 0},
+  {"question": "The headquarters of the United Nations is located in which city?", "options": ["Geneva", "New York", "Paris", "London"], "correctIndex": 1},
+  {"question": "Which gas do plants absorb from the atmosphere for photosynthesis?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "correctIndex": 2},
+  {"question": "Who wrote the national anthem of Pakistan?", "options": ["Hafeez Jalandhari", "Allama Iqbal", "Ahmed Rushdi", "Faiz Ahmed Faiz"], "correctIndex": 0},
+  {"question": "Which is the smallest province of Pakistan by area?", "options": ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan"], "correctIndex": 1},
+  {"question": "What is the normal human body temperature in Fahrenheit?", "options": ["96.4", "98.6", "100.4", "97.2"], "correctIndex": 1}
+]

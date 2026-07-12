@@ -1,0 +1,22 @@
+[
+  {"question": "How many chapters (Surahs) are there in the Holy Quran?", "options": ["114", "112", "116", "110"], "correctIndex": 0},
+  {"question": "Which was the first revealed Surah of the Quran?", "options": ["Al-Fatiha", "Al-Alaq", "Al-Baqarah", "Al-Ikhlas"], "correctIndex": 1},
+  {"question": "In which cave did the first revelation come to Prophet Muhammad (PBUH)?", "options": ["Cave of Thawr", "Cave of Hira", "Cave of Uhud", "Cave of Badr"], "correctIndex": 1},
+  {"question": "Who was the first Caliph of Islam?", "options": ["Hazrat Umar (RA)", "Hazrat Usman (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Ali (RA)"], "correctIndex": 2},
+  {"question": "How many pillars of Islam are there?", "options": ["4", "5", "6", "7"], "correctIndex": 1},
+  {"question": "Which Surah is known as the heart of the Quran?", "options": ["Yaseen", "Ar-Rahman", "Al-Mulk", "Al-Kahf"], "correctIndex": 0},
+  {"question": "In which month was the Holy Quran first revealed?", "options": ["Shawwal", "Ramadan", "Rajab", "Muharram"], "correctIndex": 1},
+  {"question": "Who is known as the 'Sword of Allah'?", "options": ["Hazrat Khalid bin Waleed (RA)", "Hazrat Hamza (RA)", "Hazrat Saad bin Abi Waqas (RA)", "Hazrat Zubair (RA)"], "correctIndex": 0},
+  {"question": "What is the name of the migration of Prophet Muhammad (PBUH) from Makkah to Madinah called?", "options": ["Hijra", "Isra", "Meraj", "Ghazwa"], "correctIndex": 0},
+  {"question": "Which battle is known as the first battle in Islam?", "options": ["Battle of Uhud", "Battle of Badr", "Battle of Khandaq", "Battle of Hunayn"], "correctIndex": 1},
+  {"question": "How many times is the name 'Muhammad' mentioned in the Quran?", "options": ["2", "3", "4", "5"], "correctIndex": 2},
+  {"question": "Which angel is responsible for bringing revelations to prophets?", "options": ["Hazrat Mikail (AS)", "Hazrat Jibrael (AS)", "Hazrat Israfil (AS)", "Hazrat Izraeel (AS)"], "correctIndex": 1},
+  {"question": "What was the birth name of Prophet Ibrahim's (AS) son who was to be sacrificed, according to Islamic belief?", "options": ["Ishaq (AS)", "Ismail (AS)", "Yaqub (AS)", "Yusuf (AS)"], "correctIndex": 1},
+  {"question": "Which Surah does not begin with 'Bismillah'?", "options": ["Al-Anfal", "At-Tawbah", "An-Nisa", "Al-Maidah"], "correctIndex": 1},
+  {"question": "What is the Zakat rate on savings in Islam?", "options": ["1%", "2.5%", "5%", "10%"], "correctIndex": 1},
+  {"question": "Who compiled the Quran into a single book (Mushaf) form?", "options": ["Hazrat Umar (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Usman (RA)", "Hazrat Ali (RA)"], "correctIndex": 1},
+  {"question": "Which Prophet is known as 'Kalim-Ullah' (One who spoke to Allah)?", "options": ["Hazrat Musa (AS)", "Hazrat Isa (AS)", "Hazrat Nuh (AS)", "Hazrat Adam (AS)"], "correctIndex": 0},
+  {"question": "In Islamic history, the treaty signed at Hudaybiyyah is called?", "options": ["Treaty of Madinah", "Treaty of Hudaybiyyah", "Charter of Madinah", "Treaty of Makkah"], "correctIndex": 1},
+  {"question": "Who was the maternal uncle of Prophet Muhammad's (PBUH) tribe, the Banu Hashim, associated with the Kaaba's custodianship?", "options": ["Banu Umayyah", "Banu Hashim", "Banu Makhzum", "Banu Aus"], "correctIndex": 1},
+  {"question": "What does 'Seerat-un-Nabi' mean?", "options": ["Sayings of the Prophet", "Life/Biography of the Prophet", "Battles of the Prophet", "Companions of the Prophet"], "correctIndex": 1}
+]

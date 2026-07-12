@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pak Quiz Prep</string>
+    <string name="tagline">Islamic Studies &amp; General Knowledge \u2013 Offline Test Prep</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+    <string name="your_score">Your Score</string>
+    <string name="best_score">Best Score</string>
+    <string name="try_again">Try Again</string>
+    <string name="back_to_categories">Back to Categories</string>
+</resources>
