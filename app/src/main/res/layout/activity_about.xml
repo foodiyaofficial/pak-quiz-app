@@ -58,7 +58,7 @@
                 android:layout_marginTop="8dp"
                 android:lineSpacingExtra="4dp"
                 android:textColor="@color/text_dark"
-                android:text="Zeenith Prep is a free, offline test-preparation app built for Pakistani students. It offers practice questions across Islamic Studies, General Knowledge, Science, Physics, Chemistry, Biology, English, and Mathematics \u2014 helpful for NTS, PPSC, FPSC/CSS, ISSB, and university entry tests. All content is stored on your device; the app works without an internet connection." />
+                android:text="PakQuiz is a free, offline test-preparation app built for Pakistani students. It offers practice questions across Islamic Studies, General Knowledge, Science, Physics, Chemistry, Biology, English, and Mathematics \u2014 helpful for NTS, PPSC, FPSC/CSS, ISSB, and university entry tests. All content is stored on your device; the app works without an internet connection." />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                 android:layout_marginTop="8dp"
                 android:lineSpacingExtra="4dp"
                 android:textColor="@color/text_dark"
-                android:text="Zeenith Prep does not require account sign-up and does not collect, store, or transmit any personal information to any server, because the app has no backend or internet connection for its core features. Quiz scores are stored only in your device's local storage and are never uploaded anywhere.\n\nIf this app displays advertisements (via Google AdMob), the ad network may collect limited technical data (such as device identifiers) as described in Google's own privacy policy, in order to show ads. This app itself does not access, read, or share your personal data, contacts, files, or location.\n\nFor questions about this privacy policy, please contact the developer through the app's Google Play Store listing page." />
+                android:text="PakQuiz does not require account sign-up and does not collect, store, or transmit any personal information to any server, because the app has no backend or internet connection for its core features. Quiz scores are stored only in your device's local storage and are never uploaded anywhere.\n\nIf this app displays advertisements (via Google AdMob), the ad network may collect limited technical data (such as device identifiers) as described in Google's own privacy policy, in order to show ads. This app itself does not access, read, or share your personal data, contacts, files, or location.\n\nFor questions about this privacy policy, please contact the developer through the app's Google Play Store listing page." />
 
             <TextView
                 android:layout_width="wrap_content"
