@@ -1,17 +1,502 @@
 [
-  {"question": "What is the chemical symbol for water?", "options": ["H2O", "CO2", "O2", "H2"], "correctIndex": 0},
-  {"question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "correctIndex": 1},
-  {"question": "What gas do humans exhale that plants use?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "correctIndex": 2},
-  {"question": "What is the powerhouse of the cell?", "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi body"], "correctIndex": 2},
-  {"question": "Which force keeps us on the ground?", "options": ["Magnetism", "Gravity", "Friction", "Tension"], "correctIndex": 1},
-  {"question": "What is the boiling point of water at sea level in Celsius?", "options": ["90", "100", "110", "80"], "correctIndex": 1},
-  {"question": "Which organ pumps blood throughout the human body?", "options": ["Lungs", "Liver", "Heart", "Kidney"], "correctIndex": 2},
-  {"question": "What is the study of living organisms called?", "options": ["Physics", "Biology", "Chemistry", "Geology"], "correctIndex": 1},
-  {"question": "Sound cannot travel through which of these?", "options": ["Air", "Water", "Vacuum", "Solid"], "correctIndex": 2},
-  {"question": "What is the chemical formula for table salt?", "options": ["NaCl", "KCl", "CaCl2", "NaOH"], "correctIndex": 0},
-  {"question": "How many bones are there in an adult human body?", "options": ["186", "206", "226", "246"], "correctIndex": 1},
-  {"question": "Which vitamin is produced when skin is exposed to sunlight?", "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"], "correctIndex": 2},
-  {"question": "What is the speed of light approximately?", "options": ["3,00,000 km/s", "1,50,000 km/s", "5,00,000 km/s", "1,00,000 km/s"], "correctIndex": 0},
-  {"question": "Which is the largest planet in our solar system?", "options": ["Earth", "Saturn", "Jupiter", "Neptune"], "correctIndex": 2},
-  {"question": "What is the process by which plants make their food called?", "options": ["Respiration", "Photosynthesis", "Digestion", "Transpiration"], "correctIndex": 1}
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      "H2O",
+      "CO2",
+      "O2",
+      "H2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What gas do humans exhale that plants use?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the powerhouse of the cell?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi body"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which force keeps us on the ground?",
+    "options": [
+      "Magnetism",
+      "Gravity",
+      "Friction",
+      "Tension"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the boiling point of water at sea level in Celsius?",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "80"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": [
+      "Lungs",
+      "Liver",
+      "Heart",
+      "Kidney"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the study of living organisms called?",
+    "options": [
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Geology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sound cannot travel through which of these?",
+    "options": [
+      "Air",
+      "Water",
+      "Vacuum",
+      "Solid"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the chemical formula for table salt?",
+    "options": [
+      "NaCl",
+      "KCl",
+      "CaCl2",
+      "NaOH"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "How many bones are there in an adult human body?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "246"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which vitamin is produced when skin is exposed to sunlight?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the speed of light approximately?",
+    "options": [
+      "3,00,000 km/s",
+      "1,50,000 km/s",
+      "5,00,000 km/s",
+      "1,00,000 km/s"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which is the largest planet in our solar system?",
+    "options": [
+      "Earth",
+      "Saturn",
+      "Jupiter",
+      "Neptune"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the process by which plants make their food called?",
+    "options": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of measurement for atmospheric pressure?",
+    "options": [
+      "Newton",
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which organ in the human body produces insulin?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Pancreas",
+      "Stomach"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the chemical name for common baking soda?",
+    "options": [
+      "Sodium chloride",
+      "Sodium bicarbonate",
+      "Calcium carbonate",
+      "Potassium nitrate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which planet has the most moons in our solar system (as widely known)?",
+    "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What type of energy does a moving object have?",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Thermal energy",
+      "Chemical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which blood vessels carry blood away from the heart?",
+    "options": [
+      "Veins",
+      "Arteries",
+      "Capillaries",
+      "Venules"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process by which water changes from liquid to vapor called?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Precipitation",
+      "Sublimation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which vitamin is essential for blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin E"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the main function of red blood cells?",
+    "options": [
+      "Fight infection",
+      "Carry oxygen",
+      "Clot blood",
+      "Digest food"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which instrument is used to measure earthquakes?",
+    "options": [
+      "Barometer",
+      "Seismograph",
+      "Thermometer",
+      "Anemometer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the study of fossils called?",
+    "options": [
+      "Archaeology",
+      "Paleontology",
+      "Geology",
+      "Anthropology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas is essential for combustion (burning)?",
+    "options": [
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": [
+      "Gold",
+      "Iron",
+      "Diamond",
+      "Quartz"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which part of the brain controls balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla",
+      "Hypothalamus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What do you call animals that eat both plants and meat?",
+    "options": [
+      "Herbivores",
+      "Carnivores",
+      "Omnivores",
+      "Insectivores"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which layer of the Earth is the source of volcanic activity?",
+    "options": [
+      "Crust",
+      "Mantle",
+      "Outer core",
+      "Inner core"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the primary source of energy for Earth?",
+    "options": [
+      "Moon",
+      "Sun",
+      "Wind",
+      "Geothermal heat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What causes the phases of the Moon?",
+    "options": [
+      "Earth's shadow",
+      "Moon's position relative to the Sun",
+      "Moon's rotation",
+      "Solar eclipses"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which simple machine is a ramp an example of?",
+    "options": [
+      "Lever",
+      "Pulley",
+      "Inclined plane",
+      "Wheel and axle"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for animals that are active at night?",
+    "options": [
+      "Diurnal",
+      "Nocturnal",
+      "Crepuscular",
+      "Arboreal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which nutrient is the body's main source of energy?",
+    "options": [
+      "Protein",
+      "Carbohydrates",
+      "Vitamins",
+      "Minerals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": [
+      "0 degrees",
+      "32 degrees",
+      "100 degrees",
+      "-10 degrees"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which scientist is known for the theory of evolution?",
+    "options": [
+      "Isaac Newton",
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Louis Pasteur"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the outermost layer of human skin called?",
+    "options": [
+      "Dermis",
+      "Epidermis",
+      "Hypodermis",
+      "Subcutis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which force pulls objects toward the center of the Earth?",
+    "options": [
+      "Magnetism",
+      "Friction",
+      "Gravity",
+      "Tension"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the study of the stars and celestial objects called?",
+    "options": [
+      "Astrology",
+      "Astronomy",
+      "Cosmology",
+      "Meteorology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gland regulates metabolism in the human body?",
+    "options": [
+      "Pituitary gland",
+      "Thyroid gland",
+      "Adrenal gland",
+      "Pancreas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main gas responsible for the greenhouse effect?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which sense organ is responsible for detecting sound?",
+    "options": [
+      "Eyes",
+      "Ears",
+      "Nose",
+      "Skin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process plants use to lose water vapor called?",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Photosynthesis",
+      "Absorption"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of rock is formed from cooled lava or magma?",
+    "options": [
+      "Sedimentary",
+      "Metamorphic",
+      "Igneous",
+      "Mineral"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for a substance that cannot be broken down into simpler substances?",
+    "options": [
+      "Compound",
+      "Element",
+      "Mixture",
+      "Molecule"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these is a renewable source of energy?",
+    "options": [
+      "Coal",
+      "Natural gas",
+      "Solar power",
+      "Petroleum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What do we call the process by which the body converts food into energy?",
+    "options": [
+      "Digestion",
+      "Metabolism",
+      "Respiration",
+      "Circulation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which part of a plant absorbs water and minerals from the soil?",
+    "options": [
+      "Leaf",
+      "Stem",
+      "Root",
+      "Flower"
+    ],
+    "correctIndex": 2
+  }
 ]

@@ -1,32 +1,502 @@
 [
-  {"question": "In which year was the Objectives Resolution passed?", "options": ["1947", "1949", "1956", "1962"], "correctIndex": 1},
-  {"question": "How many amendments has the 1973 Constitution of Pakistan undergone (as of recent history)?", "options": ["Over 15", "Over 25", "Over 30", "Fewer than 10"], "correctIndex": 2},
-  {"question": "Who was the first President of Pakistan?", "options": ["Ayub Khan", "Iskander Mirza", "Yahya Khan", "Zulfikar Ali Bhutto"], "correctIndex": 1},
-  {"question": "In which year was the 1973 Constitution of Pakistan enacted?", "options": ["1970", "1971", "1973", "1975"], "correctIndex": 2},
-  {"question": "How many provinces does Pakistan currently have?", "options": ["3", "4", "5", "6"], "correctIndex": 1},
-  {"question": "What is the minimum age to become a member of the National Assembly of Pakistan?", "options": ["18 years", "21 years", "25 years", "30 years"], "correctIndex": 2},
-  {"question": "Who is the ceremonial Head of State of Pakistan?", "options": ["Prime Minister", "Chief Justice", "President", "Speaker"], "correctIndex": 2},
-  {"question": "In which year did East Pakistan separate to become Bangladesh?", "options": ["1969", "1970", "1971", "1972"], "correctIndex": 2},
-  {"question": "What is the total number of seats in the National Assembly of Pakistan (general seats plus reserved, as per the constitution)?", "options": ["272", "336", "342", "365"], "correctIndex": 2},
-  {"question": "Who presented the Lahore Resolution in 1940?", "options": ["Quaid-e-Azam", "Liaquat Ali Khan", "A.K. Fazlul Huq", "Allama Iqbal"], "correctIndex": 2},
-  {"question": "What is the upper house of Pakistan's Parliament called?", "options": ["National Assembly", "Senate", "Provincial Assembly", "Federal Council"], "correctIndex": 1},
-  {"question": "Which Article of the Constitution declares Islam as the State religion of Pakistan?", "options": ["Article 2", "Article 5", "Article 9", "Article 25"], "correctIndex": 0},
-  {"question": "In which year was Pakistan's first Constitution enacted?", "options": ["1947", "1956", "1962", "1973"], "correctIndex": 1},
-  {"question": "Who is regarded as the founder of Pakistan's ideology, described in the 'Two-Nation Theory'?", "options": ["Sir Syed Ahmed Khan", "Allama Iqbal", "Both contributed significantly", "Liaquat Ali Khan"], "correctIndex": 2},
-  {"question": "What is the tenure of the President of Pakistan under the current constitution?", "options": ["4 years", "5 years", "6 years", "7 years"], "correctIndex": 1},
-  {"question": "Which city served as the first capital of Pakistan?", "options": ["Lahore", "Rawalpindi", "Karachi", "Islamabad"], "correctIndex": 2},
-  {"question": "When did Islamabad officially become the capital of Pakistan?", "options": ["1959", "1963", "1967", "1970"], "correctIndex": 1},
-  {"question": "How many members does the Senate of Pakistan have?", "options": ["87", "96", "104", "112"], "correctIndex": 2},
-  {"question": "The 18th Amendment to the Constitution of Pakistan primarily dealt with which issue?", "options": ["Judicial reforms", "Provincial autonomy", "Electoral reforms", "Defense policy"], "correctIndex": 1},
-  {"question": "Who administers the oath of office to the President of Pakistan?", "options": ["Prime Minister", "Chief Justice of Pakistan", "Speaker of National Assembly", "Chairman Senate"], "correctIndex": 1},
-  {"question": "What was the name of the boundary commission that demarcated the border between India and Pakistan in 1947?", "options": ["Simon Commission", "Radcliffe Commission", "Cripps Commission", "Cabinet Mission"], "correctIndex": 1},
-  {"question": "Which Pakistani leader is known for the 1973 nationalization policy?", "options": ["Ayub Khan", "Zulfikar Ali Bhutto", "Zia-ul-Haq", "Yahya Khan"], "correctIndex": 1},
-  {"question": "What is the term length of the National Assembly of Pakistan?", "options": ["4 years", "5 years", "6 years", "3 years"], "correctIndex": 1},
-  {"question": "Which body is responsible for conducting general elections in Pakistan?", "options": ["Supreme Court", "Election Commission of Pakistan", "National Assembly Secretariat", "Ministry of Interior"], "correctIndex": 1},
-  {"question": "The Two-Nation Theory is most associated with the demand for a separate homeland based on what?", "options": ["Language", "Religion", "Ethnicity", "Geography"], "correctIndex": 1},
-  {"question": "Which Pakistani constitutional document is often referred to as the 'Magna Carta' of Pakistan's constitutional history?", "options": ["Government of India Act 1935", "Objectives Resolution 1949", "Indian Independence Act 1947", "1956 Constitution"], "correctIndex": 1},
-  {"question": "How many times has martial law been imposed in Pakistan's history (major instances)?", "options": ["2", "3", "4", "5"], "correctIndex": 2},
-  {"question": "Who was the Prime Minister of Pakistan at the time of independence in 1947?", "options": ["Liaquat Ali Khan", "Khawaja Nazimuddin", "Chaudhry Muhammad Ali", "Feroz Khan Noon"], "correctIndex": 0},
-  {"question": "Which province of Pakistan was formerly known as North-West Frontier Province (NWFP)?", "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"], "correctIndex": 3},
-  {"question": "What is the name of Pakistan's central bank?", "options": ["National Bank of Pakistan", "State Bank of Pakistan", "Habib Bank Limited", "Bank of Punjab"], "correctIndex": 1}
+  {
+    "question": "In which year was the Objectives Resolution passed?",
+    "options": [
+      "1947",
+      "1949",
+      "1956",
+      "1962"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many amendments has the 1973 Constitution of Pakistan undergone (as of recent history)?",
+    "options": [
+      "Over 15",
+      "Over 25",
+      "Over 30",
+      "Fewer than 10"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the first President of Pakistan?",
+    "options": [
+      "Ayub Khan",
+      "Iskander Mirza",
+      "Yahya Khan",
+      "Zulfikar Ali Bhutto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which year was the 1973 Constitution of Pakistan enacted?",
+    "options": [
+      "1970",
+      "1971",
+      "1973",
+      "1975"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many provinces does Pakistan currently have?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the minimum age to become a member of the National Assembly of Pakistan?",
+    "options": [
+      "18 years",
+      "21 years",
+      "25 years",
+      "30 years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who is the ceremonial Head of State of Pakistan?",
+    "options": [
+      "Prime Minister",
+      "Chief Justice",
+      "President",
+      "Speaker"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In which year did East Pakistan separate to become Bangladesh?",
+    "options": [
+      "1969",
+      "1970",
+      "1971",
+      "1972"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the total number of seats in the National Assembly of Pakistan (general seats plus reserved, as per the constitution)?",
+    "options": [
+      "272",
+      "336",
+      "342",
+      "365"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who presented the Lahore Resolution in 1940?",
+    "options": [
+      "Quaid-e-Azam",
+      "Liaquat Ali Khan",
+      "A.K. Fazlul Huq",
+      "Allama Iqbal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the upper house of Pakistan's Parliament called?",
+    "options": [
+      "National Assembly",
+      "Senate",
+      "Provincial Assembly",
+      "Federal Council"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article of the Constitution declares Islam as the State religion of Pakistan?",
+    "options": [
+      "Article 2",
+      "Article 5",
+      "Article 9",
+      "Article 25"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year was Pakistan's first Constitution enacted?",
+    "options": [
+      "1947",
+      "1956",
+      "1962",
+      "1973"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is regarded as the founder of Pakistan's ideology, described in the 'Two-Nation Theory'?",
+    "options": [
+      "Sir Syed Ahmed Khan",
+      "Allama Iqbal",
+      "Both contributed significantly",
+      "Liaquat Ali Khan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the tenure of the President of Pakistan under the current constitution?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which city served as the first capital of Pakistan?",
+    "options": [
+      "Lahore",
+      "Rawalpindi",
+      "Karachi",
+      "Islamabad"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "When did Islamabad officially become the capital of Pakistan?",
+    "options": [
+      "1959",
+      "1963",
+      "1967",
+      "1970"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many members does the Senate of Pakistan have?",
+    "options": [
+      "87",
+      "96",
+      "104",
+      "112"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The 18th Amendment to the Constitution of Pakistan primarily dealt with which issue?",
+    "options": [
+      "Judicial reforms",
+      "Provincial autonomy",
+      "Electoral reforms",
+      "Defense policy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who administers the oath of office to the President of Pakistan?",
+    "options": [
+      "Prime Minister",
+      "Chief Justice of Pakistan",
+      "Speaker of National Assembly",
+      "Chairman Senate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What was the name of the boundary commission that demarcated the border between India and Pakistan in 1947?",
+    "options": [
+      "Simon Commission",
+      "Radcliffe Commission",
+      "Cripps Commission",
+      "Cabinet Mission"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani leader is known for the 1973 nationalization policy?",
+    "options": [
+      "Ayub Khan",
+      "Zulfikar Ali Bhutto",
+      "Zia-ul-Haq",
+      "Yahya Khan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term length of the National Assembly of Pakistan?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "3 years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which body is responsible for conducting general elections in Pakistan?",
+    "options": [
+      "Supreme Court",
+      "Election Commission of Pakistan",
+      "National Assembly Secretariat",
+      "Ministry of Interior"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Two-Nation Theory is most associated with the demand for a separate homeland based on what?",
+    "options": [
+      "Language",
+      "Religion",
+      "Ethnicity",
+      "Geography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani constitutional document is often referred to as the 'Magna Carta' of Pakistan's constitutional history?",
+    "options": [
+      "Government of India Act 1935",
+      "Objectives Resolution 1949",
+      "Indian Independence Act 1947",
+      "1956 Constitution"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many times has martial law been imposed in Pakistan's history (major instances)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the Prime Minister of Pakistan at the time of independence in 1947?",
+    "options": [
+      "Liaquat Ali Khan",
+      "Khawaja Nazimuddin",
+      "Chaudhry Muhammad Ali",
+      "Feroz Khan Noon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which province of Pakistan was formerly known as North-West Frontier Province (NWFP)?",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Balochistan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the name of Pakistan's central bank?",
+    "options": [
+      "National Bank of Pakistan",
+      "State Bank of Pakistan",
+      "Habib Bank Limited",
+      "Bank of Punjab"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which body has the power to amend the Constitution of Pakistan?",
+    "options": [
+      "Supreme Court",
+      "Parliament",
+      "President alone",
+      "Provincial Assemblies alone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of Pakistan's national flag carrier airline?",
+    "options": [
+      "Shaheen Air",
+      "Pakistan International Airlines (PIA)",
+      "Airblue",
+      "SereneAir"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani leader is known as the 'Quaid-e-Awam'?",
+    "options": [
+      "Liaquat Ali Khan",
+      "Zulfikar Ali Bhutto",
+      "Ayub Khan",
+      "Ziaul Haq"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many members does the Provincial Assembly of Punjab have (general seats plus reserved, approx.)?",
+    "options": [
+      "Around 297",
+      "Around 371",
+      "Around 130",
+      "Around 65"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term length of Senators in the Senate of Pakistan?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which document outlines the fundamental rights of citizens in Pakistan's Constitution?",
+    "options": [
+      "Preamble",
+      "Part II of the Constitution",
+      "Objectives Resolution",
+      "Government of India Act"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which year was Balochistan given province status within Pakistan?",
+    "options": [
+      "1947",
+      "1955",
+      "1970",
+      "1973"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the Governor-General of Pakistan after Quaid-e-Azam's death?",
+    "options": [
+      "Liaquat Ali Khan",
+      "Khawaja Nazimuddin",
+      "Ghulam Muhammad",
+      "Iskander Mirza"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of Pakistan's premier space research organization?",
+    "options": [
+      "PAEC",
+      "SUPARCO",
+      "PCSIR",
+      "NESCOM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which amendment to the Constitution restored parliamentary democracy after General Zia's era?",
+    "options": [
+      "8th Amendment",
+      "13th Amendment",
+      "18th Amendment",
+      "17th Amendment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the minimum age requirement to vote in Pakistan's general elections?",
+    "options": [
+      "16 years",
+      "18 years",
+      "21 years",
+      "25 years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which country recognized Pakistan first after its independence in 1947?",
+    "options": [
+      "Saudi Arabia",
+      "Iran",
+      "Turkey",
+      "United Kingdom"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the currency note printing body of Pakistan?",
+    "options": [
+      "State Bank of Pakistan",
+      "Pakistan Security Printing Corporation",
+      "National Bank of Pakistan",
+      "Federal Board of Revenue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many National Assembly seats are reserved for women (approximately, per constitution)?",
+    "options": [
+      "30",
+      "60",
+      "70",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of Pakistan's nuclear regulatory authority?",
+    "options": [
+      "PAEC",
+      "PNRA",
+      "SUPARCO",
+      "NESCOM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the Chief Justice of Pakistan at the time of the Objectives Resolution?",
+    "options": [
+      "Not applicable, it was a legislative resolution passed by the Constituent Assembly",
+      "Justice Munir",
+      "Justice Cornelius",
+      "Justice Kayani"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term used for Pakistan's system of local government at the grassroots level?",
+    "options": [
+      "Union Council",
+      "District Council",
+      "Both are part of local government",
+      "National Council"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Pakistani city served as the capital before Islamabad was built?",
+    "options": [
+      "Lahore",
+      "Karachi",
+      "Rawalpindi",
+      "Peshawar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the special court that handles constitutional matters and interprets the constitution as the highest judicial forum?",
+    "options": [
+      "High Court",
+      "Supreme Court",
+      "Federal Shariat Court",
+      "District Court"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which body oversees the Islamic compliance of laws in Pakistan?",
+    "options": [
+      "Council of Islamic Ideology",
+      "Election Commission",
+      "Public Service Commission",
+      "National Assembly Secretariat"
+    ],
+    "correctIndex": 0
+  }
 ]

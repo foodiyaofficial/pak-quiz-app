@@ -1,22 +1,502 @@
 [
-  {"question": "What is the capital of Pakistan?", "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"], "correctIndex": 2},
-  {"question": "When did Pakistan gain independence?", "options": ["14 August 1947", "15 August 1947", "23 March 1940", "14 August 1948"], "correctIndex": 0},
-  {"question": "Who was the founder of Pakistan?", "options": ["Allama Iqbal", "Quaid-e-Azam Muhammad Ali Jinnah", "Liaquat Ali Khan", "Sir Syed Ahmed Khan"], "correctIndex": 1},
-  {"question": "Which is the largest province of Pakistan by area?", "options": ["Punjab", "Sindh", "Balochistan", "Khyber Pakhtunkhwa"], "correctIndex": 2},
-  {"question": "What is the national language of Pakistan?", "options": ["Punjabi", "Urdu", "Sindhi", "Pashto"], "correctIndex": 1},
-  {"question": "The Pakistan Resolution was passed in which year?", "options": ["1930", "1940", "1947", "1935"], "correctIndex": 1},
-  {"question": "Which river is the longest in Pakistan?", "options": ["Jhelum", "Chenab", "Indus", "Ravi"], "correctIndex": 2},
-  {"question": "Who was the first Prime Minister of Pakistan?", "options": ["Liaquat Ali Khan", "Muhammad Ali Jinnah", "Chaudhry Muhammad Ali", "Feroz Khan Noon"], "correctIndex": 0},
-  {"question": "What is the currency of Pakistan?", "options": ["Rupee", "Dinar", "Riyal", "Taka"], "correctIndex": 0},
-  {"question": "Which mountain range is home to K2, the second highest peak in the world?", "options": ["Himalayas", "Hindu Kush", "Karakoram", "Sulaiman Range"], "correctIndex": 2},
-  {"question": "Which organization conducts the CSS exam in Pakistan?", "options": ["PPSC", "FPSC", "NTS", "HEC"], "correctIndex": 1},
-  {"question": "What does NTS stand for?", "options": ["National Talent Screening", "National Testing Service", "National Test System", "National Talent Society"], "correctIndex": 1},
-  {"question": "What is the currency symbol for the US Dollar?", "options": ["$", "£", "€", "¥"], "correctIndex": 0},
-  {"question": "Which is the largest ocean in the world?", "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"], "correctIndex": 2},
-  {"question": "Who is known as the 'Poet of the East'?", "options": ["Allama Iqbal", "Mirza Ghalib", "Faiz Ahmed Faiz", "Ahmed Faraz"], "correctIndex": 0},
-  {"question": "The headquarters of the United Nations is located in which city?", "options": ["Geneva", "New York", "Paris", "London"], "correctIndex": 1},
-  {"question": "Which gas do plants absorb from the atmosphere for photosynthesis?", "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"], "correctIndex": 2},
-  {"question": "Who wrote the national anthem of Pakistan?", "options": ["Hafeez Jalandhari", "Allama Iqbal", "Ahmed Rushdi", "Faiz Ahmed Faiz"], "correctIndex": 0},
-  {"question": "Which is the smallest province of Pakistan by area?", "options": ["Punjab", "Sindh", "Khyber Pakhtunkhwa", "Balochistan"], "correctIndex": 1},
-  {"question": "What is the normal human body temperature in Fahrenheit?", "options": ["96.4", "98.6", "100.4", "97.2"], "correctIndex": 1}
+  {
+    "question": "What is the capital of Pakistan?",
+    "options": [
+      "Karachi",
+      "Lahore",
+      "Islamabad",
+      "Peshawar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "When did Pakistan gain independence?",
+    "options": [
+      "14 August 1947",
+      "15 August 1947",
+      "23 March 1940",
+      "14 August 1948"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who was the founder of Pakistan?",
+    "options": [
+      "Allama Iqbal",
+      "Quaid-e-Azam Muhammad Ali Jinnah",
+      "Liaquat Ali Khan",
+      "Sir Syed Ahmed Khan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is the largest province of Pakistan by area?",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Balochistan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the national language of Pakistan?",
+    "options": [
+      "Punjabi",
+      "Urdu",
+      "Sindhi",
+      "Pashto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Pakistan Resolution was passed in which year?",
+    "options": [
+      "1930",
+      "1940",
+      "1947",
+      "1935"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which river is the longest in Pakistan?",
+    "options": [
+      "Jhelum",
+      "Chenab",
+      "Indus",
+      "Ravi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the first Prime Minister of Pakistan?",
+    "options": [
+      "Liaquat Ali Khan",
+      "Muhammad Ali Jinnah",
+      "Chaudhry Muhammad Ali",
+      "Feroz Khan Noon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the currency of Pakistan?",
+    "options": [
+      "Rupee",
+      "Dinar",
+      "Riyal",
+      "Taka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which mountain range is home to K2, the second highest peak in the world?",
+    "options": [
+      "Himalayas",
+      "Hindu Kush",
+      "Karakoram",
+      "Sulaiman Range"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organization conducts the CSS exam in Pakistan?",
+    "options": [
+      "PPSC",
+      "FPSC",
+      "NTS",
+      "HEC"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does NTS stand for?",
+    "options": [
+      "National Talent Screening",
+      "National Testing Service",
+      "National Test System",
+      "National Talent Society"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the currency symbol for the US Dollar?",
+    "options": [
+      "$",
+      "\u00a3",
+      "\u20ac",
+      "\u00a5"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which is the largest ocean in the world?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who is known as the 'Poet of the East'?",
+    "options": [
+      "Allama Iqbal",
+      "Mirza Ghalib",
+      "Faiz Ahmed Faiz",
+      "Ahmed Faraz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of the United Nations is located in which city?",
+    "options": [
+      "Geneva",
+      "New York",
+      "Paris",
+      "London"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Hydrogen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who wrote the national anthem of Pakistan?",
+    "options": [
+      "Hafeez Jalandhari",
+      "Allama Iqbal",
+      "Ahmed Rushdi",
+      "Faiz Ahmed Faiz"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which is the smallest province of Pakistan by area?",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Khyber Pakhtunkhwa",
+      "Balochistan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the normal human body temperature in Fahrenheit?",
+    "options": [
+      "96.4",
+      "98.6",
+      "100.4",
+      "97.2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many districts are there approximately in Punjab, Pakistan (most populous province)?",
+    "options": [
+      "Around 20",
+      "Around 36",
+      "Around 50",
+      "Around 10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is the highest mountain peak in Pakistan?",
+    "options": [
+      "Nanga Parbat",
+      "K2",
+      "Rakaposhi",
+      "Tirich Mir"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which sea does Pakistan's coastline border?",
+    "options": [
+      "Red Sea",
+      "Arabian Sea",
+      "Caspian Sea",
+      "Mediterranean Sea"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main crop grown in Punjab, Pakistan?",
+    "options": [
+      "Rice",
+      "Wheat",
+      "Cotton",
+      "Sugarcane"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani city is known as the 'City of Lights'?",
+    "options": [
+      "Lahore",
+      "Karachi",
+      "Islamabad",
+      "Multan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani city is known as the 'City of Gardens'?",
+    "options": [
+      "Lahore",
+      "Karachi",
+      "Peshawar",
+      "Quetta"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the tallest building in Pakistan (as commonly cited)?",
+    "options": [
+      "Centaurus Tower",
+      "Ocean Towers",
+      "Bahria Icon Tower",
+      "Habib Bank Plaza"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": [
+      "Amazon River",
+      "Nile River",
+      "Yangtze River",
+      "Mississippi River"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which country has the largest population in the world?",
+    "options": [
+      "China",
+      "India",
+      "United States",
+      "Indonesia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the smallest country in the world by area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "San Marino",
+      "Liechtenstein"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is the largest continent by area?",
+    "options": [
+      "Africa",
+      "Asia",
+      "North America",
+      "Europe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which planet is known as the 'Morning Star' or 'Evening Star'?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Mercury",
+      "Jupiter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the father of the atomic bomb?",
+    "options": [
+      "Albert Einstein",
+      "J. Robert Oppenheimer",
+      "Enrico Fermi",
+      "Niels Bohr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does GDP stand for in economics?",
+    "options": [
+      "Gross Domestic Product",
+      "General Domestic Policy",
+      "Global Development Plan",
+      "Gross Development Product"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which organization is responsible for maintaining international peace and security?",
+    "options": [
+      "WHO",
+      "United Nations",
+      "IMF",
+      "World Bank"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the currency of Saudi Arabia?",
+    "options": [
+      "Dinar",
+      "Riyal",
+      "Dirham",
+      "Rial"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani scientist won the Nobel Prize in Physics?",
+    "options": [
+      "Dr. Abdus Salam",
+      "Dr. Abdul Qadeer Khan",
+      "Dr. Atta-ur-Rahman",
+      "Dr. Salimuzzaman Siddiqui"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year was the United Nations established?",
+    "options": [
+      "1943",
+      "1945",
+      "1948",
+      "1950"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the headquarters of SAARC located in?",
+    "options": [
+      "Islamabad",
+      "New Delhi",
+      "Kathmandu",
+      "Dhaka"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the largest desert in the world (including polar deserts)?",
+    "options": [
+      "Sahara Desert",
+      "Antarctic Desert",
+      "Arabian Desert",
+      "Gobi Desert"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which is the smallest planet in our solar system?",
+    "options": [
+      "Mars",
+      "Mercury",
+      "Venus",
+      "Pluto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the study of maps called?",
+    "options": [
+      "Geology",
+      "Cartography",
+      "Geography",
+      "Topology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas makes up the majority of the sun's composition?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Helium",
+      "Nitrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who wrote the famous novel '1984'?",
+    "options": [
+      "Aldous Huxley",
+      "George Orwell",
+      "Ernest Hemingway",
+      "F. Scott Fitzgerald"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which body of the United Nations deals with global health issues?",
+    "options": [
+      "UNESCO",
+      "WHO",
+      "UNICEF",
+      "FAO"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of Pakistan's premier intelligence agency?",
+    "options": [
+      "ISI",
+      "MI6",
+      "CIA",
+      "FBI"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Pakistani mountain range separates Pakistan from Afghanistan?",
+    "options": [
+      "Himalayas",
+      "Hindu Kush",
+      "Karakoram",
+      "Sulaiman Range"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the study of weather and atmospheric conditions?",
+    "options": [
+      "Geology",
+      "Meteorology",
+      "Astronomy",
+      "Oceanography"
+    ],
+    "correctIndex": 1
+  }
 ]

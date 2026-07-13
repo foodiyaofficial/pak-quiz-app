@@ -1,22 +1,502 @@
 [
-  {"question": "How many chapters (Surahs) are there in the Holy Quran?", "options": ["114", "112", "116", "110"], "correctIndex": 0},
-  {"question": "Which was the first revealed Surah of the Quran?", "options": ["Al-Fatiha", "Al-Alaq", "Al-Baqarah", "Al-Ikhlas"], "correctIndex": 1},
-  {"question": "In which cave did the first revelation come to Prophet Muhammad (PBUH)?", "options": ["Cave of Thawr", "Cave of Hira", "Cave of Uhud", "Cave of Badr"], "correctIndex": 1},
-  {"question": "Who was the first Caliph of Islam?", "options": ["Hazrat Umar (RA)", "Hazrat Usman (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Ali (RA)"], "correctIndex": 2},
-  {"question": "How many pillars of Islam are there?", "options": ["4", "5", "6", "7"], "correctIndex": 1},
-  {"question": "Which Surah is known as the heart of the Quran?", "options": ["Yaseen", "Ar-Rahman", "Al-Mulk", "Al-Kahf"], "correctIndex": 0},
-  {"question": "In which month was the Holy Quran first revealed?", "options": ["Shawwal", "Ramadan", "Rajab", "Muharram"], "correctIndex": 1},
-  {"question": "Who is known as the 'Sword of Allah'?", "options": ["Hazrat Khalid bin Waleed (RA)", "Hazrat Hamza (RA)", "Hazrat Saad bin Abi Waqas (RA)", "Hazrat Zubair (RA)"], "correctIndex": 0},
-  {"question": "What is the name of the migration of Prophet Muhammad (PBUH) from Makkah to Madinah called?", "options": ["Hijra", "Isra", "Meraj", "Ghazwa"], "correctIndex": 0},
-  {"question": "Which battle is known as the first battle in Islam?", "options": ["Battle of Uhud", "Battle of Badr", "Battle of Khandaq", "Battle of Hunayn"], "correctIndex": 1},
-  {"question": "How many times is the name 'Muhammad' mentioned in the Quran?", "options": ["2", "3", "4", "5"], "correctIndex": 2},
-  {"question": "Which angel is responsible for bringing revelations to prophets?", "options": ["Hazrat Mikail (AS)", "Hazrat Jibrael (AS)", "Hazrat Israfil (AS)", "Hazrat Izraeel (AS)"], "correctIndex": 1},
-  {"question": "What was the birth name of Prophet Ibrahim's (AS) son who was to be sacrificed, according to Islamic belief?", "options": ["Ishaq (AS)", "Ismail (AS)", "Yaqub (AS)", "Yusuf (AS)"], "correctIndex": 1},
-  {"question": "Which Surah does not begin with 'Bismillah'?", "options": ["Al-Anfal", "At-Tawbah", "An-Nisa", "Al-Maidah"], "correctIndex": 1},
-  {"question": "What is the Zakat rate on savings in Islam?", "options": ["1%", "2.5%", "5%", "10%"], "correctIndex": 1},
-  {"question": "Who compiled the Quran into a single book (Mushaf) form?", "options": ["Hazrat Umar (RA)", "Hazrat Abu Bakr (RA)", "Hazrat Usman (RA)", "Hazrat Ali (RA)"], "correctIndex": 1},
-  {"question": "Which Prophet is known as 'Kalim-Ullah' (One who spoke to Allah)?", "options": ["Hazrat Musa (AS)", "Hazrat Isa (AS)", "Hazrat Nuh (AS)", "Hazrat Adam (AS)"], "correctIndex": 0},
-  {"question": "In Islamic history, the treaty signed at Hudaybiyyah is called?", "options": ["Treaty of Madinah", "Treaty of Hudaybiyyah", "Charter of Madinah", "Treaty of Makkah"], "correctIndex": 1},
-  {"question": "Who was the maternal uncle of Prophet Muhammad's (PBUH) tribe, the Banu Hashim, associated with the Kaaba's custodianship?", "options": ["Banu Umayyah", "Banu Hashim", "Banu Makhzum", "Banu Aus"], "correctIndex": 1},
-  {"question": "What does 'Seerat-un-Nabi' mean?", "options": ["Sayings of the Prophet", "Life/Biography of the Prophet", "Battles of the Prophet", "Companions of the Prophet"], "correctIndex": 1}
+  {
+    "question": "How many chapters (Surahs) are there in the Holy Quran?",
+    "options": [
+      "114",
+      "112",
+      "116",
+      "110"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which was the first revealed Surah of the Quran?",
+    "options": [
+      "Al-Fatiha",
+      "Al-Alaq",
+      "Al-Baqarah",
+      "Al-Ikhlas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which cave did the first revelation come to Prophet Muhammad (PBUH)?",
+    "options": [
+      "Cave of Thawr",
+      "Cave of Hira",
+      "Cave of Uhud",
+      "Cave of Badr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first Caliph of Islam?",
+    "options": [
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many pillars of Islam are there?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Surah is known as the heart of the Quran?",
+    "options": [
+      "Yaseen",
+      "Ar-Rahman",
+      "Al-Mulk",
+      "Al-Kahf"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which month was the Holy Quran first revealed?",
+    "options": [
+      "Shawwal",
+      "Ramadan",
+      "Rajab",
+      "Muharram"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the 'Sword of Allah'?",
+    "options": [
+      "Hazrat Khalid bin Waleed (RA)",
+      "Hazrat Hamza (RA)",
+      "Hazrat Saad bin Abi Waqas (RA)",
+      "Hazrat Zubair (RA)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the name of the migration of Prophet Muhammad (PBUH) from Makkah to Madinah called?",
+    "options": [
+      "Hijra",
+      "Isra",
+      "Meraj",
+      "Ghazwa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which battle is known as the first battle in Islam?",
+    "options": [
+      "Battle of Uhud",
+      "Battle of Badr",
+      "Battle of Khandaq",
+      "Battle of Hunayn"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many times is the name 'Muhammad' mentioned in the Quran?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which angel is responsible for bringing revelations to prophets?",
+    "options": [
+      "Hazrat Mikail (AS)",
+      "Hazrat Jibrael (AS)",
+      "Hazrat Israfil (AS)",
+      "Hazrat Izraeel (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What was the birth name of Prophet Ibrahim's (AS) son who was to be sacrificed, according to Islamic belief?",
+    "options": [
+      "Ishaq (AS)",
+      "Ismail (AS)",
+      "Yaqub (AS)",
+      "Yusuf (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Surah does not begin with 'Bismillah'?",
+    "options": [
+      "Al-Anfal",
+      "At-Tawbah",
+      "An-Nisa",
+      "Al-Maidah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Zakat rate on savings in Islam?",
+    "options": [
+      "1%",
+      "2.5%",
+      "5%",
+      "10%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who compiled the Quran into a single book (Mushaf) form?",
+    "options": [
+      "Hazrat Umar (RA)",
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Prophet is known as 'Kalim-Ullah' (One who spoke to Allah)?",
+    "options": [
+      "Hazrat Musa (AS)",
+      "Hazrat Isa (AS)",
+      "Hazrat Nuh (AS)",
+      "Hazrat Adam (AS)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In Islamic history, the treaty signed at Hudaybiyyah is called?",
+    "options": [
+      "Treaty of Madinah",
+      "Treaty of Hudaybiyyah",
+      "Charter of Madinah",
+      "Treaty of Makkah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the maternal uncle of Prophet Muhammad's (PBUH) tribe, the Banu Hashim, associated with the Kaaba's custodianship?",
+    "options": [
+      "Banu Umayyah",
+      "Banu Hashim",
+      "Banu Makhzum",
+      "Banu Aus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 'Seerat-un-Nabi' mean?",
+    "options": [
+      "Sayings of the Prophet",
+      "Life/Biography of the Prophet",
+      "Battles of the Prophet",
+      "Companions of the Prophet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the meaning of the word 'Quran'?",
+    "options": [
+      "The Recitation",
+      "The Book",
+      "The Guidance",
+      "The Light"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "How many Juz (parts) is the Quran divided into?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Surah is the longest in the Quran?",
+    "options": [
+      "Al-Baqarah",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-Maidah"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Surah is the shortest in the Quran?",
+    "options": [
+      "Al-Kawthar",
+      "Al-Ikhlas",
+      "An-Nasr",
+      "Al-Asr"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for the pilgrimage to Makkah?",
+    "options": [
+      "Umrah",
+      "Hajj",
+      "Ziyarat",
+      "Tawaf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which month of the Islamic calendar is Hajj performed?",
+    "options": [
+      "Ramadan",
+      "Shawwal",
+      "Dhul Hijjah",
+      "Muharram"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the name of the well near the Kaaba associated with Hazrat Hajra (AS)?",
+    "options": [
+      "Zamzam",
+      "Kausar",
+      "Salsabil",
+      "Tasneem"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who was the last Prophet in Islam?",
+    "options": [
+      "Hazrat Isa (AS)",
+      "Hazrat Muhammad (PBUH)",
+      "Hazrat Musa (AS)",
+      "Hazrat Ibrahim (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Islamic term for the profession of faith?",
+    "options": [
+      "Salah",
+      "Shahadah",
+      "Sawm",
+      "Zakat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many times a day are Muslims required to pray?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which direction do Muslims face during prayer?",
+    "options": [
+      "Madinah",
+      "Jerusalem",
+      "Kaaba in Makkah",
+      "East"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the fasting month in Islam called?",
+    "options": [
+      "Shawwal",
+      "Ramadan",
+      "Rajab",
+      "Shaban"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Eid celebrated at the end of Ramadan called?",
+    "options": [
+      "Eid-ul-Adha",
+      "Eid-ul-Fitr",
+      "Eid Milad-un-Nabi",
+      "Eid-ul-Ghadeer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Eid of sacrifice called?",
+    "options": [
+      "Eid-ul-Fitr",
+      "Eid-ul-Adha",
+      "Eid Milad-un-Nabi",
+      "Shab-e-Barat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the mother of Prophet Muhammad (PBUH)?",
+    "options": [
+      "Hazrat Aminah (RA)",
+      "Hazrat Khadijah (RA)",
+      "Hazrat Halima (RA)",
+      "Hazrat Fatima (RA)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who was the first wife of Prophet Muhammad (PBUH)?",
+    "options": [
+      "Hazrat Aisha (RA)",
+      "Hazrat Khadijah (RA)",
+      "Hazrat Hafsa (RA)",
+      "Hazrat Zainab (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the event of Prophet Muhammad's (PBUH) night journey to the heavens?",
+    "options": [
+      "Hijra",
+      "Meraj",
+      "Ghazwa",
+      "Fatah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which city is known as the birthplace of Prophet Muhammad (PBUH)?",
+    "options": [
+      "Madinah",
+      "Makkah",
+      "Taif",
+      "Jerusalem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the collection of sayings and actions of Prophet Muhammad (PBUH) called?",
+    "options": [
+      "Quran",
+      "Hadith",
+      "Fiqh",
+      "Tafseer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the second Caliph of Islam?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the fourth Caliph of Islam?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is charity given obligatorily by Muslims called?",
+    "options": [
+      "Sadaqah",
+      "Zakat",
+      "Khums",
+      "Fidya"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is voluntary charity in Islam called?",
+    "options": [
+      "Zakat",
+      "Sadaqah",
+      "Nisab",
+      "Kaffarah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which battle is known for the digging of a trench for defense of Madinah?",
+    "options": [
+      "Battle of Badr",
+      "Battle of Uhud",
+      "Battle of the Trench (Khandaq)",
+      "Battle of Hunayn"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was appointed as the scribe of revelation among the companions?",
+    "options": [
+      "Hazrat Zaid bin Thabit (RA)",
+      "Hazrat Bilal (RA)",
+      "Hazrat Salman al-Farsi (RA)",
+      "Hazrat Ammar (RA)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the Islamic term for the Day of Judgment?",
+    "options": [
+      "Qiyamah",
+      "Barzakh",
+      "Jannah",
+      "Jahannam"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following is considered one of the Five Pillars of Islam?",
+    "options": [
+      "Jihad",
+      "Salah (Prayer)",
+      "Tawheed",
+      "Iman"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which angel is responsible for blowing the trumpet on the Day of Judgment?",
+    "options": [
+      "Hazrat Jibrael (AS)",
+      "Hazrat Mikail (AS)",
+      "Hazrat Israfil (AS)",
+      "Hazrat Izraeel (AS)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the name of the sacred black cube-shaped structure in Makkah?",
+    "options": [
+      "Kaaba",
+      "Masjid al-Aqsa",
+      "Masjid an-Nabawi",
+      "Dome of the Rock"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Surah is recited in almost every unit (Rakat) of the daily prayers?",
+    "options": [
+      "Al-Ikhlas",
+      "Al-Fatiha",
+      "Al-Baqarah",
+      "Yaseen"
+    ],
+    "correctIndex": 1
+  }
 ]

@@ -1,17 +1,502 @@
 [
-  {"question": "What is the basic unit of life?", "options": ["Tissue", "Cell", "Organ", "Organism"], "correctIndex": 1},
-  {"question": "Which blood group is known as the universal donor?", "options": ["A", "B", "AB", "O negative"], "correctIndex": 3},
-  {"question": "What is the largest organ in the human body?", "options": ["Liver", "Heart", "Skin", "Brain"], "correctIndex": 2},
-  {"question": "Which part of the plant conducts photosynthesis?", "options": ["Root", "Stem", "Leaf", "Flower"], "correctIndex": 2},
-  {"question": "How many chambers does the human heart have?", "options": ["2", "3", "4", "5"], "correctIndex": 2},
-  {"question": "What is the study of heredity called?", "options": ["Ecology", "Genetics", "Anatomy", "Physiology"], "correctIndex": 1},
-  {"question": "Which gland is known as the master gland of the body?", "options": ["Thyroid", "Adrenal", "Pituitary", "Pancreas"], "correctIndex": 2},
-  {"question": "What carries oxygen in human blood?", "options": ["White blood cells", "Platelets", "Hemoglobin", "Plasma"], "correctIndex": 2},
-  {"question": "Which organism is responsible for malaria?", "options": ["Bacteria", "Virus", "Plasmodium (parasite)", "Fungus"], "correctIndex": 2},
-  {"question": "What is the powerhouse organelle of a plant cell that captures sunlight?", "options": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"], "correctIndex": 1},
-  {"question": "How many pairs of chromosomes are in a normal human cell?", "options": ["21", "22", "23", "24"], "correctIndex": 2},
-  {"question": "Which system in the human body is responsible for digestion?", "options": ["Respiratory system", "Digestive system", "Nervous system", "Circulatory system"], "correctIndex": 1},
-  {"question": "What is the process called by which a caterpillar becomes a butterfly?", "options": ["Fertilization", "Metamorphosis", "Pollination", "Germination"], "correctIndex": 1},
-  {"question": "Which vitamin deficiency causes night blindness?", "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], "correctIndex": 0},
-  {"question": "What is the function of red blood cells?", "options": ["Fight infection", "Clot blood", "Carry oxygen", "Produce antibodies"], "correctIndex": 2}
+  {
+    "question": "What is the basic unit of life?",
+    "options": [
+      "Tissue",
+      "Cell",
+      "Organ",
+      "Organism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which blood group is known as the universal donor?",
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O negative"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      "Liver",
+      "Heart",
+      "Skin",
+      "Brain"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which part of the plant conducts photosynthesis?",
+    "options": [
+      "Root",
+      "Stem",
+      "Leaf",
+      "Flower"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many chambers does the human heart have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the study of heredity called?",
+    "options": [
+      "Ecology",
+      "Genetics",
+      "Anatomy",
+      "Physiology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gland is known as the master gland of the body?",
+    "options": [
+      "Thyroid",
+      "Adrenal",
+      "Pituitary",
+      "Pancreas"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What carries oxygen in human blood?",
+    "options": [
+      "White blood cells",
+      "Platelets",
+      "Hemoglobin",
+      "Plasma"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organism is responsible for malaria?",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Plasmodium (parasite)",
+      "Fungus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the powerhouse organelle of a plant cell that captures sunlight?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Nucleus",
+      "Vacuole"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many pairs of chromosomes are in a normal human cell?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which system in the human body is responsible for digestion?",
+    "options": [
+      "Respiratory system",
+      "Digestive system",
+      "Nervous system",
+      "Circulatory system"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process called by which a caterpillar becomes a butterfly?",
+    "options": [
+      "Fertilization",
+      "Metamorphosis",
+      "Pollination",
+      "Germination"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which vitamin deficiency causes night blindness?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the function of red blood cells?",
+    "options": [
+      "Fight infection",
+      "Clot blood",
+      "Carry oxygen",
+      "Produce antibodies"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the powerhouse of the cell, responsible for energy production?",
+    "options": [
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria",
+      "Golgi apparatus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the process by which cells divide to form two identical daughter cells?",
+    "options": [
+      "Meiosis",
+      "Mitosis",
+      "Fertilization",
+      "Fission"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the basic functional unit of the kidney?",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Villus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which part of the eye controls the amount of light entering it?",
+    "options": [
+      "Cornea",
+      "Retina",
+      "Iris",
+      "Lens"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for organisms that produce their own food?",
+    "options": [
+      "Consumers",
+      "Producers",
+      "Decomposers",
+      "Predators"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the male reproductive organ in flowering plants called?",
+    "options": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Petal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the female reproductive organ in flowering plants called?",
+    "options": [
+      "Stamen",
+      "Anther",
+      "Pistil",
+      "Filament"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which blood cells are responsible for fighting infection?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma cells"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the diversity of life in a particular habitat?",
+    "options": [
+      "Ecosystem",
+      "Biodiversity",
+      "Population",
+      "Community"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which organ produces bile in the human body?",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Gallbladder",
+      "Stomach"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the study of heredity and variation called?",
+    "options": [
+      "Ecology",
+      "Genetics",
+      "Taxonomy",
+      "Physiology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What are the building blocks of proteins called?",
+    "options": [
+      "Nucleotides",
+      "Amino acids",
+      "Fatty acids",
+      "Monosaccharides"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which human body system is responsible for transporting nutrients and gases?",
+    "options": [
+      "Digestive system",
+      "Circulatory system",
+      "Nervous system",
+      "Respiratory system"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for animals without a backbone?",
+    "options": [
+      "Vertebrates",
+      "Invertebrates",
+      "Mammals",
+      "Amphibians"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which pigment gives plants their green color?",
+    "options": [
+      "Carotene",
+      "Chlorophyll",
+      "Melanin",
+      "Xanthophyll"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of a caterpillar transforming into a butterfly called?",
+    "options": [
+      "Fertilization",
+      "Pollination",
+      "Metamorphosis",
+      "Germination"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which organ filters waste from the blood?",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Lungs",
+      "Heart"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the transfer of pollen from anther to stigma?",
+    "options": [
+      "Fertilization",
+      "Pollination",
+      "Germination",
+      "Photosynthesis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which cell structure controls what enters and leaves the cell?",
+    "options": [
+      "Cell wall",
+      "Cell membrane",
+      "Nucleus",
+      "Cytoplasm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the study of animals called?",
+    "options": [
+      "Botany",
+      "Zoology",
+      "Ecology",
+      "Microbiology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the study of plants called?",
+    "options": [
+      "Zoology",
+      "Botany",
+      "Genetics",
+      "Anatomy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of teeth are used for tearing food?",
+    "options": [
+      "Incisors",
+      "Canines",
+      "Molars",
+      "Premolars"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the number of chromosomes in a human sperm or egg cell?",
+    "options": [
+      "23",
+      "46",
+      "22",
+      "44"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which vitamin deficiency causes scurvy?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the loss of water vapor from plant leaves?",
+    "options": [
+      "Respiration",
+      "Transpiration",
+      "Excretion",
+      "Absorption"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gland is responsible for producing adrenaline?",
+    "options": [
+      "Thyroid gland",
+      "Pituitary gland",
+      "Adrenal gland",
+      "Pancreas"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for animals that give birth to live young?",
+    "options": [
+      "Oviparous",
+      "Viviparous",
+      "Ovoviviparous",
+      "Parthenogenic"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which part of the digestive system absorbs most nutrients?",
+    "options": [
+      "Stomach",
+      "Large intestine",
+      "Small intestine",
+      "Esophagus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the scientific term for the study of tissues?",
+    "options": [
+      "Cytology",
+      "Histology",
+      "Physiology",
+      "Anatomy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of blood vessel has valves to prevent backflow of blood?",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Capillaries",
+      "Aorta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is DNA short for?",
+    "options": [
+      "Deoxyribonucleic acid",
+      "Dinitrogen acid",
+      "Diribonucleic acid",
+      "Deoxyribose nucleus acid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which human organ is primarily responsible for gas exchange?",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Kidneys",
+      "Liver"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for a group of similar cells performing the same function?",
+    "options": [
+      "Organ",
+      "Tissue",
+      "System",
+      "Organism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which part of the plant conducts water from roots to leaves?",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Cambium",
+      "Cortex"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for organisms that break down dead organic matter?",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers",
+      "Herbivores"
+    ],
+    "correctIndex": 2
+  }
 ]

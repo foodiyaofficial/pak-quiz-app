@@ -1,17 +1,502 @@
 [
-  {"question": "What is 15% of 200?", "options": ["20", "25", "30", "35"], "correctIndex": 2},
-  {"question": "What is the value of pi (\u03c0) approximately?", "options": ["3.12", "3.14", "3.16", "3.18"], "correctIndex": 1},
-  {"question": "Solve: 7 x 8 = ?", "options": ["54", "56", "58", "64"], "correctIndex": 1},
-  {"question": "What is the square root of 144?", "options": ["10", "11", "12", "13"], "correctIndex": 2},
-  {"question": "If a train travels 60 km in 1 hour, how far does it travel in 3 hours?", "options": ["120 km", "150 km", "180 km", "200 km"], "correctIndex": 2},
-  {"question": "What is 25% expressed as a fraction?", "options": ["1/2", "1/3", "1/4", "1/5"], "correctIndex": 2},
-  {"question": "What is the sum of angles in a triangle?", "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"], "correctIndex": 1},
-  {"question": "What is 12 squared?", "options": ["124", "134", "144", "154"], "correctIndex": 2},
-  {"question": "Simplify: (10 + 5) x 2", "options": ["20", "25", "30", "35"], "correctIndex": 2},
-  {"question": "What is the next number in the series: 2, 4, 8, 16, ?", "options": ["24", "28", "32", "36"], "correctIndex": 2},
-  {"question": "What is 100 divided by 4?", "options": ["20", "25", "30", "35"], "correctIndex": 1},
-  {"question": "A rectangle has length 8 and width 5. What is its area?", "options": ["13", "26", "40", "45"], "correctIndex": 2},
-  {"question": "What is the LCM of 4 and 6?", "options": ["10", "12", "14", "24"], "correctIndex": 1},
-  {"question": "If x + 5 = 12, what is x?", "options": ["5", "6", "7", "8"], "correctIndex": 2},
-  {"question": "What is 3/4 as a percentage?", "options": ["25%", "50%", "75%", "80%"], "correctIndex": 2}
+  {
+    "question": "What is 15% of 200?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of pi (\u03c0) approximately?",
+    "options": [
+      "3.12",
+      "3.14",
+      "3.16",
+      "3.18"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Solve: 7 x 8 = ?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the square root of 144?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If a train travels 60 km in 1 hour, how far does it travel in 3 hours?",
+    "options": [
+      "120 km",
+      "150 km",
+      "180 km",
+      "200 km"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 25% expressed as a fraction?",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the sum of angles in a triangle?",
+    "options": [
+      "90 degrees",
+      "180 degrees",
+      "270 degrees",
+      "360 degrees"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 12 squared?",
+    "options": [
+      "124",
+      "134",
+      "144",
+      "154"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: (10 + 5) x 2",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the next number in the series: 2, 4, 8, 16, ?",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 100 divided by 4?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A rectangle has length 8 and width 5. What is its area?",
+    "options": [
+      "13",
+      "26",
+      "40",
+      "45"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the LCM of 4 and 6?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "24"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If x + 5 = 12, what is x?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 3/4 as a percentage?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "80%"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 20% of 150?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve: 9 x 7 = ?",
+    "options": [
+      "56",
+      "63",
+      "72",
+      "81"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the square root of 169?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If a car travels 80 km in 2 hours, what is its speed?",
+    "options": [
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 40% expressed as a fraction?",
+    "options": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the sum of angles in a quadrilateral?",
+    "options": [
+      "180 degrees",
+      "270 degrees",
+      "360 degrees",
+      "450 degrees"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 15 squared?",
+    "options": [
+      "205",
+      "215",
+      "225",
+      "235"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: (20 - 5) x 3",
+    "options": [
+      "30",
+      "35",
+      "45",
+      "50"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the next number in the series: 3, 6, 12, 24, ?",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "30"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 144 divided by 12?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A square has a side of 6 units. What is its area?",
+    "options": [
+      "24",
+      "30",
+      "36",
+      "42"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the LCM of 3 and 5?",
+    "options": [
+      "8",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If 2x + 3 = 11, what is x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 5/8 as a percentage?",
+    "options": [
+      "55.5%",
+      "62.5%",
+      "65%",
+      "70%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the GCD (greatest common divisor) of 12 and 18?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 8 cubed (8^3)?",
+    "options": [
+      "256",
+      "512",
+      "64",
+      "128"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A triangle has angles of 60, 60, and how many degrees for the third angle?",
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of 0.75 as a fraction?",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 10 and width 4?",
+    "options": [
+      "24",
+      "28",
+      "32",
+      "40"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Solve for x: 5x = 45",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the average of 10, 20, and 30?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 60% of 200?",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "130"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of 2 to the power of 5 (2^5)?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the circumference formula for a circle?",
+    "options": [
+      "pi x r",
+      "2 x pi x r",
+      "pi x r squared",
+      "2 x r"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If a shirt costs 800 rupees after a 20% discount, what was the original price?",
+    "options": [
+      "900",
+      "950",
+      "1000",
+      "1050"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the median of the numbers 3, 7, 9, 12, 15?",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 1/4 + 1/2?",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/4",
+      "1"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of x if x - 7 = 13?",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is 30% of 90?",
+    "options": [
+      "24",
+      "27",
+      "30",
+      "33"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many degrees are there in a right angle?",
+    "options": [
+      "45",
+      "90",
+      "180",
+      "360"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of 100 - 37?",
+    "options": [
+      "53",
+      "63",
+      "73",
+      "83"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A rectangle has area 48 and width 6. What is its length?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the reciprocal of 5?",
+    "options": [
+      "5",
+      "-5",
+      "1/5",
+      "0"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the sum of the first 5 natural numbers (1 to 5)?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctIndex": 1
+  }
 ]

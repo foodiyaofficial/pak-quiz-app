@@ -1,17 +1,502 @@
 [
-  {"question": "Choose the correct synonym of 'Happy':", "options": ["Sad", "Joyful", "Angry", "Tired"], "correctIndex": 1},
-  {"question": "Choose the correct antonym of 'Ancient':", "options": ["Old", "Modern", "Historic", "Aged"], "correctIndex": 1},
-  {"question": "Identify the correct sentence:", "options": ["He go to school daily.", "He goes to school daily.", "He going to school daily.", "He gone to school daily."], "correctIndex": 1},
-  {"question": "What is the plural of 'Child'?", "options": ["Childs", "Children", "Childes", "Childrens"], "correctIndex": 1},
-  {"question": "Choose the correctly spelled word:", "options": ["Recieve", "Receive", "Receeve", "Receve"], "correctIndex": 1},
-  {"question": "'She sings beautifully' \u2013 identify the adverb:", "options": ["She", "Sings", "Beautifully", "None"], "correctIndex": 2},
-  {"question": "What is the past tense of 'Go'?", "options": ["Goed", "Gone", "Went", "Going"], "correctIndex": 2},
-  {"question": "Choose the correct article: '___ apple a day keeps the doctor away.'", "options": ["A", "An", "The", "No article"], "correctIndex": 1},
-  {"question": "Identify the noun in: 'The dog barked loudly.'", "options": ["The", "Dog", "Barked", "Loudly"], "correctIndex": 1},
-  {"question": "What is the opposite of 'Increase'?", "options": ["Decrease", "Expand", "Grow", "Rise"], "correctIndex": 0},
-  {"question": "Choose the correct sentence:", "options": ["Neither of them are ready.", "Neither of them is ready.", "Neither of them were ready.", "Neither of them being ready."], "correctIndex": 1},
-  {"question": "'Break the ice' means:", "options": ["To literally break ice", "To start a conversation in a stiff situation", "To end a friendship", "To cause trouble"], "correctIndex": 1},
-  {"question": "Which word is a preposition?", "options": ["Run", "Quickly", "Under", "Happy"], "correctIndex": 2},
-  {"question": "Choose the correct passive voice of: 'She writes a letter.'", "options": ["A letter is written by her.", "A letter was written by her.", "A letter writes by her.", "A letter is writing by her."], "correctIndex": 0},
-  {"question": "What type of word is 'Quickly'?", "options": ["Noun", "Verb", "Adjective", "Adverb"], "correctIndex": 3}
+  {
+    "question": "Choose the correct synonym of 'Happy':",
+    "options": [
+      "Sad",
+      "Joyful",
+      "Angry",
+      "Tired"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct antonym of 'Ancient':",
+    "options": [
+      "Old",
+      "Modern",
+      "Historic",
+      "Aged"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the correct sentence:",
+    "options": [
+      "He go to school daily.",
+      "He goes to school daily.",
+      "He going to school daily.",
+      "He gone to school daily."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the plural of 'Child'?",
+    "options": [
+      "Childs",
+      "Children",
+      "Childes",
+      "Childrens"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correctly spelled word:",
+    "options": [
+      "Recieve",
+      "Receive",
+      "Receeve",
+      "Receve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'She sings beautifully' \u2013 identify the adverb:",
+    "options": [
+      "She",
+      "Sings",
+      "Beautifully",
+      "None"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the past tense of 'Go'?",
+    "options": [
+      "Goed",
+      "Gone",
+      "Went",
+      "Going"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct article: '___ apple a day keeps the doctor away.'",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the noun in: 'The dog barked loudly.'",
+    "options": [
+      "The",
+      "Dog",
+      "Barked",
+      "Loudly"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the opposite of 'Increase'?",
+    "options": [
+      "Decrease",
+      "Expand",
+      "Grow",
+      "Rise"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Neither of them are ready.",
+      "Neither of them is ready.",
+      "Neither of them were ready.",
+      "Neither of them being ready."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'Break the ice' means:",
+    "options": [
+      "To literally break ice",
+      "To start a conversation in a stiff situation",
+      "To end a friendship",
+      "To cause trouble"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which word is a preposition?",
+    "options": [
+      "Run",
+      "Quickly",
+      "Under",
+      "Happy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct passive voice of: 'She writes a letter.'",
+    "options": [
+      "A letter is written by her.",
+      "A letter was written by her.",
+      "A letter writes by her.",
+      "A letter is writing by her."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What type of word is 'Quickly'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Choose the correct synonym of 'Begin':",
+    "options": [
+      "End",
+      "Start",
+      "Stop",
+      "Finish"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct antonym of 'Difficult':",
+    "options": [
+      "Hard",
+      "Complex",
+      "Easy",
+      "Tough"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the plural of 'Mouse' (animal)?",
+    "options": [
+      "Mouses",
+      "Mice",
+      "Mouse",
+      "Mices"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the past tense of 'Write'?",
+    "options": [
+      "Writed",
+      "Wrote",
+      "Written",
+      "Writing"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct article: '___ university is a place of higher learning.'",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Identify the verb in: 'The children played in the park.'",
+    "options": [
+      "Children",
+      "Played",
+      "Park",
+      "The"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the opposite of 'Ancient'?",
+    "options": [
+      "Old",
+      "Modern",
+      "Historic",
+      "Traditional"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'Bite the bullet' means:",
+    "options": [
+      "To eat quickly",
+      "To face a difficult situation bravely",
+      "To bite something hard",
+      "To fire a gun"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which word is a conjunction?",
+    "options": [
+      "Quickly",
+      "And",
+      "Under",
+      "Happy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct passive voice of: 'The teacher explains the lesson.'",
+    "options": [
+      "The lesson is explained by the teacher.",
+      "The lesson was explained by the teacher.",
+      "The lesson explains by the teacher.",
+      "The lesson is explaining by the teacher."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What type of word is 'Beautiful'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct synonym of 'Enormous':",
+    "options": [
+      "Tiny",
+      "Huge",
+      "Small",
+      "Average"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct antonym of 'Generous':",
+    "options": [
+      "Kind",
+      "Stingy",
+      "Giving",
+      "Helpful"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the plural of 'Foot'?",
+    "options": [
+      "Foots",
+      "Feet",
+      "Footes",
+      "Feets"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the past participle of 'Eat'?",
+    "options": [
+      "Ate",
+      "Eaten",
+      "Eating",
+      "Eats"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the adjective in: 'She has a beautiful garden.'",
+    "options": [
+      "She",
+      "Has",
+      "Beautiful",
+      "Garden"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the opposite of 'Victory'?",
+    "options": [
+      "Win",
+      "Success",
+      "Defeat",
+      "Triumph"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "'Spill the beans' means:",
+    "options": [
+      "To make a mess",
+      "To reveal a secret",
+      "To cook food",
+      "To argue"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which word is an interjection?",
+    "options": [
+      "Run",
+      "Wow!",
+      "Slowly",
+      "House"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct passive voice of: 'They built the house in 2010.'",
+    "options": [
+      "The house was built by them in 2010.",
+      "The house is built by them in 2010.",
+      "The house builds by them in 2010.",
+      "The house has built by them in 2010."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What type of word is 'Slowly'?",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Choose the correct meaning of the prefix 'un-' in 'unhappy':",
+    "options": [
+      "Very",
+      "Not",
+      "Again",
+      "Before"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the comparative form of 'Good'?",
+    "options": [
+      "Gooder",
+      "Better",
+      "Best",
+      "More good"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the superlative form of 'Bad'?",
+    "options": [
+      "Worse",
+      "Baddest",
+      "Worst",
+      "More bad"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the pronoun in: 'She gave the book to him.'",
+    "options": [
+      "Gave",
+      "Book",
+      "She",
+      "To"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "'Under the weather' means:",
+    "options": [
+      "It is raining",
+      "Feeling unwell",
+      "Very cold",
+      "In a hurry"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct synonym of 'Rapid':",
+    "options": [
+      "Slow",
+      "Fast",
+      "Steady",
+      "Late"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which sentence uses correct punctuation?",
+    "options": [
+      "Its a beautiful day.",
+      "It's a beautiful day.",
+      "Its' a beautiful day.",
+      "Its a, beautiful day."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the plural of 'Tooth'?",
+    "options": [
+      "Tooths",
+      "Teeth",
+      "Toothes",
+      "Teeths"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which word means the same as 'Courageous'?",
+    "options": [
+      "Fearful",
+      "Brave",
+      "Timid",
+      "Weak"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the opposite of 'Arrive'?",
+    "options": [
+      "Come",
+      "Depart",
+      "Reach",
+      "Enter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "'Once in a blue moon' means:",
+    "options": [
+      "Every night",
+      "Very rarely",
+      "Under moonlight",
+      "Frequently"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the correct question tag: 'You are coming, ___?'",
+    "options": [
+      "isn't it",
+      "aren't you",
+      "don't you",
+      "won't you"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct synonym of 'Assist':",
+    "options": [
+      "Hinder",
+      "Help",
+      "Ignore",
+      "Refuse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct antonym of 'Permanent':",
+    "options": [
+      "Lasting",
+      "Temporary",
+      "Fixed",
+      "Stable"
+    ],
+    "correctIndex": 1
+  }
 ]

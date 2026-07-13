@@ -1,17 +1,502 @@
 [
-  {"question": "What is the atomic number of Hydrogen?", "options": ["0", "1", "2", "3"], "correctIndex": 1},
-  {"question": "Which gas is most abundant in Earth's atmosphere?", "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"], "correctIndex": 2},
-  {"question": "What is the pH value of pure water?", "options": ["5", "6", "7", "8"], "correctIndex": 2},
-  {"question": "Which element is known as the 'King of Chemicals'?", "options": ["Sodium Hydroxide", "Sulphuric Acid", "Hydrochloric Acid", "Nitric Acid"], "correctIndex": 1},
-  {"question": "What is the chemical symbol for Gold?", "options": ["Ag", "Au", "Gd", "Go"], "correctIndex": 1},
-  {"question": "Which particle is found in the nucleus of an atom along with protons?", "options": ["Electron", "Neutron", "Photon", "Positron"], "correctIndex": 1},
-  {"question": "What type of bond is formed by the sharing of electrons?", "options": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"], "correctIndex": 1},
-  {"question": "What is the process of converting a liquid to gas called?", "options": ["Condensation", "Evaporation", "Sublimation", "Deposition"], "correctIndex": 1},
-  {"question": "Which acid is present in the human stomach?", "options": ["Sulphuric acid", "Hydrochloric acid", "Nitric acid", "Acetic acid"], "correctIndex": 1},
-  {"question": "What is the chemical formula for methane?", "options": ["CH4", "C2H6", "CO2", "C2H2"], "correctIndex": 0},
-  {"question": "Which metal is liquid at room temperature?", "options": ["Iron", "Mercury", "Lead", "Zinc"], "correctIndex": 1},
-  {"question": "What is the common name for Sodium Chloride?", "options": ["Baking Soda", "Table Salt", "Chalk", "Vinegar"], "correctIndex": 1},
-  {"question": "Which gas is used to fill balloons because it's lighter than air?", "options": ["Oxygen", "Nitrogen", "Helium", "Carbon Dioxide"], "correctIndex": 2},
-  {"question": "What do we call substances that speed up chemical reactions?", "options": ["Inhibitors", "Catalysts", "Reactants", "Solvents"], "correctIndex": 1},
-  {"question": "What is the chemical formula of carbon dioxide?", "options": ["CO", "CO2", "C2O", "CO3"], "correctIndex": 1}
+  {
+    "question": "What is the atomic number of Hydrogen?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas is most abundant in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the pH value of pure water?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which element is known as the 'King of Chemicals'?",
+    "options": [
+      "Sodium Hydroxide",
+      "Sulphuric Acid",
+      "Hydrochloric Acid",
+      "Nitric Acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Gold?",
+    "options": [
+      "Ag",
+      "Au",
+      "Gd",
+      "Go"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which particle is found in the nucleus of an atom along with protons?",
+    "options": [
+      "Electron",
+      "Neutron",
+      "Photon",
+      "Positron"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What type of bond is formed by the sharing of electrons?",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of converting a liquid to gas called?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Sublimation",
+      "Deposition"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which acid is present in the human stomach?",
+    "options": [
+      "Sulphuric acid",
+      "Hydrochloric acid",
+      "Nitric acid",
+      "Acetic acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical formula for methane?",
+    "options": [
+      "CH4",
+      "C2H6",
+      "CO2",
+      "C2H2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": [
+      "Iron",
+      "Mercury",
+      "Lead",
+      "Zinc"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the common name for Sodium Chloride?",
+    "options": [
+      "Baking Soda",
+      "Table Salt",
+      "Chalk",
+      "Vinegar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas is used to fill balloons because it's lighter than air?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Helium",
+      "Carbon Dioxide"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What do we call substances that speed up chemical reactions?",
+    "options": [
+      "Inhibitors",
+      "Catalysts",
+      "Reactants",
+      "Solvents"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical formula of carbon dioxide?",
+    "options": [
+      "CO",
+      "CO2",
+      "C2O",
+      "CO3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Iron?",
+    "options": [
+      "Ir",
+      "Fe",
+      "In",
+      "I"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Potassium?",
+    "options": [
+      "Po",
+      "Pt",
+      "K",
+      "P"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the chemical symbol for Silver?",
+    "options": [
+      "Si",
+      "Sv",
+      "Ag",
+      "Al"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the atomic number of Oxygen?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the chemical formula for ammonia?",
+    "options": [
+      "NH3",
+      "NH4",
+      "N2H4",
+      "NH2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which element has the chemical symbol 'Na'?",
+    "options": [
+      "Nitrogen",
+      "Sodium",
+      "Neon",
+      "Nickel"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of a solid turning directly into a gas called?",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation",
+      "Deposition"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the pH value of a strong acid typically?",
+    "options": [
+      "Below 7",
+      "Exactly 7",
+      "Above 7",
+      "14"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the pH value of a strong base typically?",
+    "options": [
+      "Below 7",
+      "Exactly 7",
+      "Above 7",
+      "0"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which gas is commonly known as laughing gas?",
+    "options": [
+      "Carbon dioxide",
+      "Nitrous oxide",
+      "Methane",
+      "Sulfur dioxide"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical name for vinegar's main component?",
+    "options": [
+      "Citric acid",
+      "Acetic acid",
+      "Sulfuric acid",
+      "Lactic acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What type of reaction releases heat energy?",
+    "options": [
+      "Endothermic reaction",
+      "Exothermic reaction",
+      "Neutral reaction",
+      "Catalytic reaction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What type of reaction absorbs heat energy?",
+    "options": [
+      "Exothermic reaction",
+      "Endothermic reaction",
+      "Redox reaction",
+      "Combustion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the smallest unit of an element that retains its chemical properties?",
+    "options": [
+      "Molecule",
+      "Atom",
+      "Ion",
+      "Compound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a mixture of two or more metals called?",
+    "options": [
+      "Compound",
+      "Alloy",
+      "Solution",
+      "Isotope"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical formula for glucose?",
+    "options": [
+      "C6H12O6",
+      "C12H22O11",
+      "CH4O",
+      "C2H6O"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which particle orbits the nucleus of an atom?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Positron"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the process of separating mixtures based on boiling points called?",
+    "options": [
+      "Filtration",
+      "Distillation",
+      "Evaporation",
+      "Chromatography"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for atoms of the same element with different numbers of neutrons?",
+    "options": [
+      "Ions",
+      "Isotopes",
+      "Isomers",
+      "Allotropes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these is a noble gas?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Argon",
+      "Hydrogen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is rust chemically known as?",
+    "options": [
+      "Iron sulfate",
+      "Iron oxide",
+      "Iron carbide",
+      "Iron chloride"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Lead?",
+    "options": [
+      "Ld",
+      "Le",
+      "Pb",
+      "Pl"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which acid is found in citrus fruits like lemons?",
+    "options": [
+      "Acetic acid",
+      "Citric acid",
+      "Malic acid",
+      "Tartaric acid"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of adding oxygen to a substance called?",
+    "options": [
+      "Reduction",
+      "Oxidation",
+      "Neutralization",
+      "Hydrolysis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical formula for sulfuric acid?",
+    "options": [
+      "HCl",
+      "H2SO4",
+      "HNO3",
+      "H2CO3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which element is essential for building strong bones and teeth?",
+    "options": [
+      "Iron",
+      "Calcium",
+      "Potassium",
+      "Sodium"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for a substance that speeds up a chemical reaction without being consumed?",
+    "options": [
+      "Reactant",
+      "Catalyst",
+      "Solvent",
+      "Precipitate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Copper?",
+    "options": [
+      "Co",
+      "Cu",
+      "Cp",
+      "Cr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which gas turns limewater milky when passed through it?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen",
+      "Nitrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical name for common table sugar?",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Lactose"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the valency of Oxygen?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of bond involves the transfer of electrons between atoms?",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the chemical symbol for Tin?",
+    "options": [
+      "Ti",
+      "Tn",
+      "Sn",
+      "Ta"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which state of matter has a definite volume but no definite shape?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of a gas turning into a liquid called?",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation",
+      "Melting"
+    ],
+    "correctIndex": 1
+  }
 ]

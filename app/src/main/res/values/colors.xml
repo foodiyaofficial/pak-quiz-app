@@ -22,5 +22,8 @@
     <color name="card_english">#9C6B1F</color>
     <color name="card_math">#3B5D82</color>
     <color name="card_pakstudies">#146B4F</color>
+    <color name="card_worldknowledge">#1E5A7A</color>
+    <color name="card_nuclearphysics">#5A3E7A</color>
+    <color name="card_electronics">#2A6B6B</color>
     <color name="card_fulltest">#8C2D3F</color>
 </resources>

@@ -133,6 +133,30 @@ object QuestionBank {
             emoji = "\uD83C\uDDF5\uD83C\uDDF0"
         ),
         Category(
+            id = "worldknowledge",
+            title = "World Knowledge",
+            subtitle = "World Geography, History & Culture",
+            jsonFile = "questions_worldknowledge.json",
+            colorRes = R.color.card_worldknowledge,
+            emoji = "\uD83C\uDF10"
+        ),
+        Category(
+            id = "nuclearphysics",
+            title = "Nuclear Physics",
+            subtitle = "Radioactivity, Fission, Fusion & Atomic Structure",
+            jsonFile = "questions_nuclearphysics.json",
+            colorRes = R.color.card_nuclearphysics,
+            emoji = "\u2622\uFE0F"
+        ),
+        Category(
+            id = "electronics",
+            title = "Electronics",
+            subtitle = "Circuits, Semiconductors & Digital Logic",
+            jsonFile = "questions_electronics.json",
+            colorRes = R.color.card_electronics,
+            emoji = "\uD83D\uDD0C"
+        ),
+        Category(
             id = "math",
             title = "Mathematics",
             subtitle = "Arithmetic, Algebra & Reasoning",

@@ -1,17 +1,502 @@
 [
-  {"question": "What is the SI unit of force?", "options": ["Joule", "Newton", "Watt", "Pascal"], "correctIndex": 1},
-  {"question": "Who proposed the three laws of motion?", "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Niels Bohr"], "correctIndex": 1},
-  {"question": "What is the unit of electric current?", "options": ["Volt", "Ohm", "Ampere", "Watt"], "correctIndex": 2},
-  {"question": "What is the SI unit of energy?", "options": ["Newton", "Joule", "Watt", "Pascal"], "correctIndex": 1},
-  {"question": "Which type of lens is used to correct short-sightedness?", "options": ["Convex lens", "Concave lens", "Bifocal lens", "Cylindrical lens"], "correctIndex": 1},
-  {"question": "What is the formula for calculating speed?", "options": ["Distance x Time", "Distance / Time", "Time / Distance", "Mass x Acceleration"], "correctIndex": 1},
-  {"question": "Which scientist developed the theory of relativity?", "options": ["Isaac Newton", "Albert Einstein", "Max Planck", "Stephen Hawking"], "correctIndex": 1},
-  {"question": "What is the value of acceleration due to gravity on Earth (approx)?", "options": ["8.9 m/s\u00b2", "9.8 m/s\u00b2", "10.8 m/s\u00b2", "7.8 m/s\u00b2"], "correctIndex": 1},
-  {"question": "Which of these is a scalar quantity?", "options": ["Velocity", "Force", "Speed", "Displacement"], "correctIndex": 2},
-  {"question": "What device is used to measure atmospheric pressure?", "options": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"], "correctIndex": 1},
-  {"question": "What is the unit used to measure electrical resistance?", "options": ["Ampere", "Volt", "Ohm", "Watt"], "correctIndex": 2},
-  {"question": "Which law states that every action has an equal and opposite reaction?", "options": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Gravitation"], "correctIndex": 2},
-  {"question": "What type of energy is stored in a stretched rubber band?", "options": ["Kinetic energy", "Potential energy", "Thermal energy", "Chemical energy"], "correctIndex": 1},
-  {"question": "Which particle carries a negative charge?", "options": ["Proton", "Neutron", "Electron", "Photon"], "correctIndex": 2},
-  {"question": "What is the phenomenon of light bending when passing through different media called?", "options": ["Reflection", "Refraction", "Diffraction", "Dispersion"], "correctIndex": 1}
+  {
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who proposed the three laws of motion?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Niels Bohr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of electric current?",
+    "options": [
+      "Volt",
+      "Ohm",
+      "Ampere",
+      "Watt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the SI unit of energy?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which type of lens is used to correct short-sightedness?",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Bifocal lens",
+      "Cylindrical lens"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the formula for calculating speed?",
+    "options": [
+      "Distance x Time",
+      "Distance / Time",
+      "Time / Distance",
+      "Mass x Acceleration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which scientist developed the theory of relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Max Planck",
+      "Stephen Hawking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of acceleration due to gravity on Earth (approx)?",
+    "options": [
+      "8.9 m/s\u00b2",
+      "9.8 m/s\u00b2",
+      "10.8 m/s\u00b2",
+      "7.8 m/s\u00b2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these is a scalar quantity?",
+    "options": [
+      "Velocity",
+      "Force",
+      "Speed",
+      "Displacement"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What device is used to measure atmospheric pressure?",
+    "options": [
+      "Thermometer",
+      "Barometer",
+      "Hygrometer",
+      "Anemometer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit used to measure electrical resistance?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which law states that every action has an equal and opposite reaction?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Gravitation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What type of energy is stored in a stretched rubber band?",
+    "options": [
+      "Kinetic energy",
+      "Potential energy",
+      "Thermal energy",
+      "Chemical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which particle carries a negative charge?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Photon"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the phenomenon of light bending when passing through different media called?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Dispersion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the SI unit of power?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Volt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the SI unit of pressure?",
+    "options": [
+      "Newton",
+      "Pascal",
+      "Joule",
+      "Watt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which law states that objects in motion stay in motion unless acted upon by a force?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Conservation of Energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the formula for calculating force?",
+    "options": [
+      "Mass x Velocity",
+      "Mass x Acceleration",
+      "Mass / Acceleration",
+      "Mass + Acceleration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of frequency?",
+    "options": [
+      "Hertz",
+      "Watt",
+      "Joule",
+      "Newton"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which type of mirror is used in vehicle headlights?",
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Cylindrical mirror"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the bending of light as it passes from one medium to another?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Absorption"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the SI unit of electric charge?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Coulomb",
+      "Ohm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which type of current periodically reverses direction?",
+    "options": [
+      "Direct current (DC)",
+      "Alternating current (AC)",
+      "Static current",
+      "Induced current"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the resistance to change in motion?",
+    "options": [
+      "Momentum",
+      "Inertia",
+      "Velocity",
+      "Acceleration"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What device converts mechanical energy into electrical energy?",
+    "options": [
+      "Motor",
+      "Generator",
+      "Transformer",
+      "Battery"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit used to measure the amount of a substance?",
+    "options": [
+      "Kilogram",
+      "Mole",
+      "Liter",
+      "Newton"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following travels fastest?",
+    "options": [
+      "Sound",
+      "Light",
+      "Radio waves",
+      "Both light and radio waves travel at the same speed"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the law of conservation of energy?",
+    "options": [
+      "Energy can be created",
+      "Energy can be destroyed",
+      "Energy cannot be created or destroyed, only transformed",
+      "Energy always increases"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the study of motion without considering its causes?",
+    "options": [
+      "Dynamics",
+      "Kinematics",
+      "Statics",
+      "Mechanics"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which scientist discovered the law of universal gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Albert Einstein",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the SI unit of temperature?",
+    "options": [
+      "Celsius",
+      "Fahrenheit",
+      "Kelvin",
+      "Rankine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for a device that converts one form of energy to another?",
+    "options": [
+      "Transducer",
+      "Transformer",
+      "Resistor",
+      "Capacitor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which quantity is measured in Newton-meters?",
+    "options": [
+      "Force",
+      "Torque",
+      "Pressure",
+      "Energy density"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the phenomenon where light splits into its constituent colors?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Dispersion",
+      "Interference"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What type of lens converges light rays to a single point?",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Cylindrical lens",
+      "Plano lens"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of inductance?",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Tesla"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which particle has no electric charge?",
+    "options": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Positron"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the maximum displacement of a wave from its rest position?",
+    "options": [
+      "Wavelength",
+      "Frequency",
+      "Amplitude",
+      "Period"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the SI unit of magnetic flux density?",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "Gauss"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What happens to the resistance of a conductor as its temperature increases (generally)?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Stays the same",
+      "Becomes zero"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which principle explains why objects float or sink in a fluid?",
+    "options": [
+      "Pascal's Principle",
+      "Archimedes' Principle",
+      "Bernoulli's Principle",
+      "Newton's Third Law"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the distance between two successive crests of a wave?",
+    "options": [
+      "Amplitude",
+      "Frequency",
+      "Wavelength",
+      "Period"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the unit of electrical power?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Watt",
+      "Ohm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which type of energy is stored in a battery?",
+    "options": [
+      "Kinetic energy",
+      "Chemical energy",
+      "Thermal energy",
+      "Nuclear energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What causes a rainbow to form?",
+    "options": [
+      "Reflection of light",
+      "Refraction and dispersion of light in water droplets",
+      "Absorption of light",
+      "Diffraction of sound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the rate of change of velocity?",
+    "options": [
+      "Speed",
+      "Acceleration",
+      "Momentum",
+      "Displacement"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of these is a vector quantity?",
+    "options": [
+      "Mass",
+      "Speed",
+      "Force",
+      "Time"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the SI unit of momentum?",
+    "options": [
+      "Kg m/s",
+      "N/s",
+      "Joule",
+      "Watt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the process by which heat transfers through direct contact called?",
+    "options": [
+      "Radiation",
+      "Convection",
+      "Conduction",
+      "Insulation"
+    ],
+    "correctIndex": 2
+  }
 ]
