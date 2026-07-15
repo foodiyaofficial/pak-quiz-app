@@ -218,13 +218,12 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/categoryRecyclerView"
+            <LinearLayout
+                android:id="@+id/categoryGridContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:nestedScrollingEnabled="false"
-                android:clipToPadding="false" />
+                android:orientation="vertical"
+                android:padding="4dp" />
 
         </LinearLayout>
 
