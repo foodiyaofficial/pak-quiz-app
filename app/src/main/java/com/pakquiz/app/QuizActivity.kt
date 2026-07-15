@@ -34,7 +34,7 @@ class QuizActivity : AppCompatActivity() {
         categoryTitle = intent.getStringExtra("category_title") ?: "Quiz"
         categoryJson = intent.getStringExtra("category_json") ?: "questions_islamiat.json"
 
-        questions = QuestionBank.load(this, categoryJson).toMutableList()
+        questions = QuestionBank.load(this, categoryJson, categoryId).toMutableList()
         title = categoryTitle
 
         showQuestion()

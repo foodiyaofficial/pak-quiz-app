@@ -5,9 +5,11 @@ import org.json.JSONArray
 
 object QuestionBank {
 
-    private const val QUESTIONS_PER_QUIZ = 10
+    const val QUESTIONS_PER_QUIZ = 10
+    const val FULL_TEST_SIZE = 100
+    private const val FULL_TEST_KEY = "fulltest_all"
 
-    fun load(context: Context, fileName: String): List<Question> {
+    private fun parseJson(context: Context, fileName: String): List<Question> {
         val jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
         val array = JSONArray(jsonString)
         val list = mutableListOf<Question>()
@@ -26,45 +28,29 @@ object QuestionBank {
                 )
             )
         }
-        return list.shuffled().take(QUESTIONS_PER_QUIZ)
+        return list
     }
 
-    const val FULL_TEST_SIZE = 100
+    /**
+     * Loads a quiz-sized batch of questions for a single subject, applying the
+     * Smart Question Rotation System: questions already seen by this user for this
+     * subject are excluded until the entire pool has been shown once, at which point
+     * the history resets and a fresh rotation cycle begins automatically.
+     */
+    fun load(context: Context, fileName: String, subjectKey: String, count: Int = QUESTIONS_PER_QUIZ): List<Question> {
+        val allQuestions = parseJson(context, fileName)
+        val seenIds = SeenQuestionsStore.getSeenIds(context, subjectKey)
+        var unseen = allQuestions.filter { it.id !in seenIds }
 
-    fun loadFullTest(context: Context): List<Question> {
-        val combined = mutableListOf<Question>()
-        for (category in categories) {
-            val jsonString = context.assets.open(category.jsonFile).bufferedReader().use { it.readText() }
-            val array = JSONArray(jsonString)
-            for (i in 0 until array.length()) {
-                val obj = array.getJSONObject(i)
-                val optionsArray = obj.getJSONArray("options")
-                val options = mutableListOf<String>()
-                for (j in 0 until optionsArray.length()) {
-                    options.add(optionsArray.getString(j))
-                }
-                combined.add(
-                    Question(
-                        question = obj.getString("question"),
-                        options = options,
-                        correctIndex = obj.getInt("correctIndex")
-                    )
-                )
-            }
+        if (unseen.size < count) {
+            // Pool exhausted (or too small to fill this quiz) - reset and start a fresh cycle
+            SeenQuestionsStore.resetSeen(context, subjectKey)
+            unseen = allQuestions
         }
-        val shuffled = combined.shuffled()
-        return if (shuffled.size >= FULL_TEST_SIZE) {
-            shuffled.take(FULL_TEST_SIZE)
-        } else {
-            // Not enough unique questions yet to fill 100 without repeats - cycle through until we hit 100
-            val result = mutableListOf<Question>()
-            var i = 0
-            while (result.size < FULL_TEST_SIZE) {
-                result.add(shuffled[i % shuffled.size])
-                i++
-            }
-            result.shuffled()
-        }
+
+        val selected = unseen.shuffled().take(count)
+        SeenQuestionsStore.addSeenIds(context, subjectKey, selected.map { it.id })
+        return selected
     }
 
     val categories = listOf(
@@ -165,4 +151,41 @@ object QuestionBank {
             emoji = "\u2795"
         )
     )
+
+    /**
+     * Loads the 100-question Full Test pool, mixing every subject together and applying
+     * the same rotation system across the combined pool (separate rotation cycle from
+     * individual subject quizzes).
+     */
+    fun loadFullTest(context: Context): List<Question> {
+        val combined = mutableListOf<Question>()
+        for (category in categories) {
+            combined.addAll(parseJson(context, category.jsonFile))
+        }
+
+        val seenIds = SeenQuestionsStore.getSeenIds(context, FULL_TEST_KEY)
+        var unseen = combined.filter { it.id !in seenIds }
+
+        if (unseen.size < FULL_TEST_SIZE) {
+            SeenQuestionsStore.resetSeen(context, FULL_TEST_KEY)
+            unseen = combined
+        }
+
+        val selected = if (unseen.size >= FULL_TEST_SIZE) {
+            unseen.shuffled().take(FULL_TEST_SIZE)
+        } else {
+            // Combined pool itself is smaller than 100 - cycle through with repeats to fill
+            val result = mutableListOf<Question>()
+            val shuffledPool = unseen.shuffled()
+            var i = 0
+            while (result.size < FULL_TEST_SIZE) {
+                result.add(shuffledPool[i % shuffledPool.size])
+                i++
+            }
+            result.shuffled()
+        }
+
+        SeenQuestionsStore.addSeenIds(context, FULL_TEST_KEY, selected.map { it.id }.distinct())
+        return selected
+    }
 }

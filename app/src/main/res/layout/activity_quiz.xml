@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/primary"
+        android:background="@drawable/header_gradient"
         android:padding="18dp">
 
         <TextView
@@ -73,8 +73,11 @@
                         android:id="@+id/option0"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        android:textSize="16sp"
+                        android:minHeight="72dp"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="18dp"
+                        android:paddingVertical="20dp"
+                        android:textSize="17sp"
                         android:textColor="@color/text_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -91,8 +94,11 @@
                         android:id="@+id/option1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        android:textSize="16sp"
+                        android:minHeight="72dp"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="18dp"
+                        android:paddingVertical="20dp"
+                        android:textSize="17sp"
                         android:textColor="@color/text_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -109,8 +115,11 @@
                         android:id="@+id/option2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        android:textSize="16sp"
+                        android:minHeight="72dp"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="18dp"
+                        android:paddingVertical="20dp"
+                        android:textSize="17sp"
                         android:textColor="@color/text_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -127,8 +136,11 @@
                         android:id="@+id/option3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="16dp"
-                        android:textSize="16sp"
+                        android:minHeight="72dp"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="18dp"
+                        android:paddingVertical="20dp"
+                        android:textSize="17sp"
                         android:textColor="@color/text_dark" />
                 </com.google.android.material.card.MaterialCardView>
 
@@ -150,14 +162,14 @@
     <Button
         android:id="@+id/nextButton"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="72dp"
         android:layout_margin="16dp"
         android:text="@string/next"
         android:textColor="@color/white"
-        android:textSize="17sp"
+        android:textSize="19sp"
         android:textStyle="bold"
         android:backgroundTint="@color/primary"
-        app:cornerRadius="14dp"
+        app:cornerRadius="16dp"
         android:enabled="false" />
 
 </LinearLayout>
