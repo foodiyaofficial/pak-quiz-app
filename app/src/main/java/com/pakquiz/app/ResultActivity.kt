@@ -29,6 +29,8 @@ class ResultActivity : AppCompatActivity() {
         val newBest = if (score > previousBest) score else previousBest
         prefs.edit().putInt(bestKey, newBest).apply()
 
+        PerformanceStore.recordQuizCompletion(this, categoryId, categoryTitle, score, total)
+
         binding.scoreText.text = "$score / $total"
         binding.bestScoreText.text = "${getString(R.string.best_score)}: $newBest / $total"
 
