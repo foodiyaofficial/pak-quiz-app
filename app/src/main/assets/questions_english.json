@@ -498,5 +498,835 @@
       "Stable"
     ],
     "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Accomodation",
+      "Accommodation",
+      "Acommodation",
+      "Accommadation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of Benevolent:",
+    "options": [
+      "Cruel",
+      "Kind",
+      "Angry",
+      "Lazy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of Abundant:",
+    "options": [
+      "Scarce",
+      "Plenty",
+      "Limited",
+      "Empty"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of Obsolete:",
+    "options": [
+      "Ancient",
+      "Modern",
+      "New",
+      "Useful"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the synonym of Fragile:",
+    "options": [
+      "Strong",
+      "Delicate",
+      "Heavy",
+      "Hard"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of Commence:",
+    "options": [
+      "Finish",
+      "Begin",
+      "Delay",
+      "Stop"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of Expand:",
+    "options": [
+      "Increase",
+      "Stretch",
+      "Contract",
+      "Enlarge"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the antonym of Optimistic:",
+    "options": [
+      "Positive",
+      "Cheerful",
+      "Hopeful",
+      "Pessimistic"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Choose the antonym of Permanent:",
+    "options": [
+      "Lasting",
+      "Temporary",
+      "Eternal",
+      "Constant"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of Transparent:",
+    "options": [
+      "Clear",
+      "Opaque",
+      "Bright",
+      "Smooth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of Generous:",
+    "options": [
+      "Kind",
+      "Liberal",
+      "Stingy",
+      "Helpful"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct article: He bought _____ umbrella yesterday.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct article: _____ Earth revolves around the Sun.",
+    "options": [
+      "A",
+      "An",
+      "The",
+      "No article"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct preposition: She is interested _____ mathematics.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "for"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct preposition: He insisted _____ paying the bill.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct preposition: The meeting starts _____ 9:00 a.m.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the grammatically correct sentence:",
+    "options": [
+      "She don't like tea.",
+      "She doesn't likes tea.",
+      "She doesn't like tea.",
+      "She not like tea."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct form of the verb: If he _____ harder, he would have passed.",
+    "options": [
+      "studies",
+      "studied",
+      "had studied",
+      "has studied"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "One who cannot read or write is called:",
+    "options": [
+      "Literate",
+      "Scholar",
+      "Illiterate",
+      "Graduate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "One who loves mankind is called:",
+    "options": [
+      "Miser",
+      "Philanthropist",
+      "Pessimist",
+      "Traitor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "One who speaks many languages is called:",
+    "options": [
+      "Linguist",
+      "Polyglot",
+      "Orator",
+      "Narrator"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A person who looks at the bright side of things is called:",
+    "options": [
+      "Optimist",
+      "Pessimist",
+      "Realist",
+      "Critic"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A government by the people is called:",
+    "options": [
+      "Monarchy",
+      "Dictatorship",
+      "Democracy",
+      "Autocracy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "\"A blessing in disguise\" means:",
+    "options": [
+      "A visible danger",
+      "Something good that seemed bad initially",
+      "A false promise",
+      "A punishment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "\"Hit the nail on the head\" means:",
+    "options": [
+      "To make a mistake",
+      "To say exactly the right thing",
+      "To work slowly",
+      "To avoid a problem"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "\"Once in a blue moon\" means:",
+    "options": [
+      "Every day",
+      "Very rarely",
+      "At night",
+      "Suddenly"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "\"A piece of cake\" means:",
+    "options": [
+      "Very difficult",
+      "Very expensive",
+      "Very easy",
+      "Very confusing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "\"Break the ice\" means:",
+    "options": [
+      "To start a friendly conversation",
+      "To destroy something",
+      "To end a relationship",
+      "To become angry"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct meaning of \"Look after\":",
+    "options": [
+      "Search for",
+      "Take care of",
+      "Ignore",
+      "Follow"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct meaning of \"Give up\":",
+    "options": [
+      "Continue",
+      "Surrender or quit",
+      "Collect",
+      "Improve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct meaning of \"Call off\":",
+    "options": [
+      "Cancel",
+      "Announce",
+      "Repeat",
+      "Continue"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct meaning of \"Carry on\":",
+    "options": [
+      "Stop",
+      "Continue",
+      "Remove",
+      "Hide"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct meaning of \"Bring up\":",
+    "options": [
+      "Mention or raise a topic",
+      "Destroy",
+      "Delay",
+      "Forget"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct word: He gave me some useful _____.",
+    "options": [
+      "Advise",
+      "Advice",
+      "Advises",
+      "Advising"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: The principal gave me good _____.",
+    "options": [
+      "Advise",
+      "Advice",
+      "Advices",
+      "Advising"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: The medicine had no _____ effect.",
+    "options": [
+      "Affect",
+      "Effect",
+      "Effects",
+      "Affecting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: The weather can _____ our plans.",
+    "options": [
+      "Effect",
+      "Affect",
+      "Effects",
+      "Affective"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: He is taller _____ his brother.",
+    "options": [
+      "Then",
+      "Than",
+      "That",
+      "Those"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the error: \"She is one of the best player in the team.\"",
+    "options": [
+      "She",
+      "One of the best",
+      "Player",
+      "In the team"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the error: \"He don't know the answer.\"",
+    "options": [
+      "He",
+      "Don't",
+      "Know",
+      "Answer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the error: \"Neither of the two boys were present.\"",
+    "options": [
+      "Neither",
+      "Two boys",
+      "Were",
+      "Present"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the error: \"I have been living here since five years.\"",
+    "options": [
+      "Have been",
+      "Living",
+      "Since",
+      "Years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the improved sentence: \"He is senior than me.\"",
+    "options": [
+      "He is senior to me.",
+      "He is senior from me.",
+      "He is more senior than me.",
+      "He is senior over me."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the synonym of \"Magnificent\":",
+    "options": [
+      "Ordinary",
+      "Splendid",
+      "Weak",
+      "Small"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of \"Diligent\":",
+    "options": [
+      "Lazy",
+      "Careless",
+      "Hardworking",
+      "Foolish"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the synonym of \"Hostile\":",
+    "options": [
+      "Friendly",
+      "Unfriendly",
+      "Helpful",
+      "Honest"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of \"Concise\":",
+    "options": [
+      "Brief",
+      "Lengthy",
+      "Difficult",
+      "Confusing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the synonym of \"Reluctant\":",
+    "options": [
+      "Willing",
+      "Unwilling",
+      "Excited",
+      "Certain"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of \"Ancient\":",
+    "options": [
+      "Old",
+      "Historic",
+      "Modern",
+      "Past"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the antonym of \"Artificial\":",
+    "options": [
+      "Fake",
+      "Natural",
+      "False",
+      "Synthetic"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of \"Victory\":",
+    "options": [
+      "Success",
+      "Defeat",
+      "Achievement",
+      "Progress"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of \"Scarce\":",
+    "options": [
+      "Rare",
+      "Limited",
+      "Abundant",
+      "Small"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the antonym of \"Complex\":",
+    "options": [
+      "Simple",
+      "Difficult",
+      "Hard",
+      "Complicated"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into passive voice: \"Ali writes a letter.\"",
+    "options": [
+      "A letter was written by Ali.",
+      "A letter is written by Ali.",
+      "A letter has written by Ali.",
+      "A letter had been written by Ali."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Change into passive voice: \"They completed the work.\"",
+    "options": [
+      "The work is completed by them.",
+      "The work was completed by them.",
+      "The work has completed by them.",
+      "The work had complete by them."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Change into passive voice: \"She will prepare dinner.\"",
+    "options": [
+      "Dinner will be prepared by her.",
+      "Dinner is prepared by her.",
+      "Dinner was prepared by her.",
+      "Dinner has been prepared by her."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into active voice: \"The book was read by Ahmed.\"",
+    "options": [
+      "Ahmed reads the book.",
+      "Ahmed read the book.",
+      "Ahmed has read the book.",
+      "Ahmed reading the book."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Change into passive voice: \"Open the door.\"",
+    "options": [
+      "Let the door be opened.",
+      "The door is open.",
+      "The door opened.",
+      "Door was opened."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into indirect speech: He said, \"I am happy.\"",
+    "options": [
+      "He said that he was happy.",
+      "He says that he is happy.",
+      "He said that I am happy.",
+      "He said he will happy."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into indirect speech: Ali said, \"I have finished my work.\"",
+    "options": [
+      "Ali said that he had finished his work.",
+      "Ali said that he finishes his work.",
+      "Ali says that he finished his work.",
+      "Ali said that I had finished my work."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into indirect speech: He said, \"I will come tomorrow.\"",
+    "options": [
+      "He said that he would come the next day.",
+      "He said that he will come tomorrow.",
+      "He says he would come tomorrow.",
+      "He said that I would come tomorrow."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into direct speech: He said that he was tired.",
+    "options": [
+      "He said, \"I am tired.\"",
+      "He said, \"He is tired.\"",
+      "He says, \"I was tired.\"",
+      "He said, \"You are tired.\""
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Change into indirect speech: The teacher said, \"Work hard.\"",
+    "options": [
+      "The teacher advised the students to work hard.",
+      "The teacher said that work hard.",
+      "The teacher told work hard.",
+      "The teacher says worked hard."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct option: She _____ to school every day.",
+    "options": [
+      "Go",
+      "Goes",
+      "Going",
+      "Gone"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct option: They _____ football when it started raining.",
+    "options": [
+      "Play",
+      "Played",
+      "Were playing",
+      "Have played"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct option: I _____ my homework already.",
+    "options": [
+      "Finish",
+      "Finished",
+      "Have finished",
+      "Finishing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct option: By next year, he _____ his degree.",
+    "options": [
+      "Completes",
+      "Completed",
+      "Will have completed",
+      "Has completed"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct option: If I _____ rich, I would help the poor.",
+    "options": [
+      "Am",
+      "Was",
+      "Were",
+      "Be"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Book : Read :: Food : ?",
+    "options": [
+      "Cook",
+      "Eat",
+      "Buy",
+      "Sell"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Doctor : Hospital :: Teacher : ?",
+    "options": [
+      "Market",
+      "School",
+      "Office",
+      "Bank"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Bird : Fly :: Fish : ?",
+    "options": [
+      "Walk",
+      "Swim",
+      "Run",
+      "Jump"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Eye : See :: Ear : ?",
+    "options": [
+      "Touch",
+      "Hear",
+      "Smell",
+      "Taste"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pen : Write :: Knife : ?",
+    "options": [
+      "Cut",
+      "Draw",
+      "Read",
+      "Speak"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the synonym of \"Abandon\":",
+    "options": [
+      "Leave",
+      "Collect",
+      "Accept",
+      "Protect"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the synonym of \"Rapid\":",
+    "options": [
+      "Slow",
+      "Quick",
+      "Weak",
+      "Late"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the synonym of \"Accurate\":",
+    "options": [
+      "Correct",
+      "Wrong",
+      "Rough",
+      "False"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the antonym of \"Accept\":",
+    "options": [
+      "Receive",
+      "Reject",
+      "Allow",
+      "Agree"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the antonym of \"Increase\":",
+    "options": [
+      "Grow",
+      "Expand",
+      "Reduce",
+      "Rise"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct word: The police arrested the _____.",
+    "options": [
+      "Principle",
+      "Principal",
+      "Criminal",
+      "Principalize"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct word: The school _____ addressed the students.",
+    "options": [
+      "Principle",
+      "Principal",
+      "Principel",
+      "Principall"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: Honesty is an important _____.",
+    "options": [
+      "Principal",
+      "Principle",
+      "Principel",
+      "Principall"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct word: I have _____ my mistake.",
+    "options": [
+      "Admitted",
+      "Confessed",
+      "Acknowledged",
+      "All of these"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Choose the correct option: A person who knows everything is called:",
+    "options": [
+      "Optimist",
+      "Omnipotent",
+      "Omniscient",
+      "Anonymous"
+    ],
+    "correctIndex": 2
   }
 ]

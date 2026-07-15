@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Find the next number in the series: 2, 4, 6, 8, ?",
+    "options": [
+      "9",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing number: 5, 10, 15, 20, ?",
+    "options": [
+      "22",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number: 3, 6, 12, 24, ?",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "50"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the next number: 1, 4, 9, 16, ?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "36"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing number: 100, 90, 80, 70, ?",
+    "options": [
+      "50",
+      "60",
+      "65",
+      "55"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the series: A, C, E, G, ?",
+    "options": [
+      "H",
+      "I",
+      "J",
+      "K"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the series: B, D, F, H, ?",
+    "options": [
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing letter: Z, X, V, T, ?",
+    "options": [
+      "R",
+      "S",
+      "Q",
+      "P"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Apple",
+      "Mango",
+      "Banana",
+      "Carrot"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Dog",
+      "Cat",
+      "Cow",
+      "Rose"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Book is related to Reading as Food is related to:",
+    "options": [
+      "Cooking",
+      "Eating",
+      "Buying",
+      "Selling"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Doctor is related to Hospital as Teacher is related to:",
+    "options": [
+      "School",
+      "Market",
+      "Bank",
+      "Factory"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Bird is related to Fly as Fish is related to:",
+    "options": [
+      "Run",
+      "Swim",
+      "Jump",
+      "Walk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Hand is related to Glove as Foot is related to:",
+    "options": [
+      "Shirt",
+      "Shoe",
+      "Cap",
+      "Belt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If CAT is coded as DBU, then DOG is coded as:",
+    "options": [
+      "EPH",
+      "FQI",
+      "COG",
+      "DPH"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If PEN is coded as QFO, then BOOK is coded as:",
+    "options": [
+      "CPPL",
+      "CPNL",
+      "DPPM",
+      "BNNJ"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If A = 1, B = 2, C = 3, then the value of CAB is:",
+    "options": [
+      "123",
+      "312",
+      "321",
+      "213"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If SUN is written as TVO, then MOON is written as:",
+    "options": [
+      "NPPO",
+      "NPPM",
+      "LNNM",
+      "OPPN"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Ali is taller than Ahmed. Ahmed is taller than Bilal. Who is shortest?",
+    "options": [
+      "Ali",
+      "Ahmed",
+      "Bilal",
+      "Cannot say"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A man walks 5 km north, then turns right and walks 5 km. He is moving towards:",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If you face east and turn left, you will face:",
+    "options": [
+      "North",
+      "South",
+      "West",
+      "East"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Ahmed is the brother of Sara. Sara is the daughter of Ali. Ali is Ahmed's:",
+    "options": [
+      "Brother",
+      "Father",
+      "Uncle",
+      "Cousin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A is the mother of B. B is the father of C. A is C's:",
+    "options": [
+      "Mother",
+      "Grandmother",
+      "Sister",
+      "Aunt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "All cats are animals. Some animals are black. Which statement is definitely true?",
+    "options": [
+      "All animals are cats",
+      "Some cats are black",
+      "Cats are animals",
+      "No cats are black"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If yesterday was Monday, what day will be tomorrow?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the next number in the series: 4, 8, 16, 32, ?",
+    "options": [
+      "48",
+      "56",
+      "64",
+      "72"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the next number: 10, 20, 40, 80, ?",
+    "options": [
+      "100",
+      "120",
+      "160",
+      "200"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the missing number: 7, 14, 21, 28, ?",
+    "options": [
+      "32",
+      "35",
+      "36",
+      "40"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number: 81, 27, 9, 3, ?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "6"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the missing number: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "35",
+      "37",
+      "39",
+      "42"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the alphabet series: C, F, I, L, ?",
+    "options": [
+      "M",
+      "N",
+      "O",
+      "P"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Complete the alphabet series: Y, W, U, S, ?",
+    "options": [
+      "R",
+      "Q",
+      "P",
+      "O"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Square",
+      "Triangle",
+      "Circle",
+      "Cube"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "January",
+      "March",
+      "May",
+      "June"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Gold",
+      "Silver",
+      "Copper",
+      "Plastic"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Eye is related to See as Ear is related to:",
+    "options": [
+      "Touch",
+      "Hear",
+      "Smell",
+      "Speak"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Puppy is related to Dog as Kitten is related to:",
+    "options": [
+      "Lion",
+      "Cat",
+      "Cow",
+      "Horse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Finger is related to Hand as Toe is related to:",
+    "options": [
+      "Leg",
+      "Foot",
+      "Arm",
+      "Head"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If BAT = 23, CAT = 24, then RAT = ? (Based on A=1, B=2, C=3...)",
+    "options": [
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If PEN is coded as 16514, then INK is coded as: (A=1, B=2, C=3...)",
+    "options": [
+      "9511",
+      "91411",
+      "9811",
+      "101411"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If \"MANGO\" is written as \"OCPIQ\", then \"APPLE\" will be written as:",
+    "options": [
+      "CRRNG",
+      "CRRNG",
+      "BQQMF",
+      "DTTPI"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If SOUTH is written as HTUOS, then NORTH will be written as:",
+    "options": [
+      "HTRON",
+      "HTRNO",
+      "NROTH",
+      "HTORN"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A person walks 10 meters east, then turns left and walks 10 meters. He is now facing:",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A man walks south, turns left, then walks east. In which direction is he moving after the second turn?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Hamza is older than Bilal. Bilal is older than Usman. Who is the youngest?",
+    "options": [
+      "Hamza",
+      "Bilal",
+      "Usman",
+      "Cannot determine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Sara is the sister of Ahmed. Ahmed is the son of Ali. Sara is Ali's:",
+    "options": [
+      "Daughter",
+      "Wife",
+      "Mother",
+      "Aunt"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A man says, \"She is the daughter of my mother's only son.\" Who is the girl?",
+    "options": [
+      "His sister",
+      "His daughter",
+      "His mother",
+      "His wife"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If all roses are flowers and all flowers need water, then:",
+    "options": [
+      "Roses need water",
+      "All water is roses",
+      "Flowers are roses",
+      "No roses need water"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Statement: Some books are pens. All pens are blue. Conclusion:",
+    "options": [
+      "Some books are blue",
+      "All books are blue",
+      "No books are blue",
+      "All blue things are books"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If today is Friday, what day will it be after 10 days?",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number in the series: 5, 11, 23, 47, ?",
+    "options": [
+      "71",
+      "95",
+      "96",
+      "100"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing number: 1, 8, 27, 64, ?",
+    "options": [
+      "100",
+      "125",
+      "144",
+      "216"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number: 13, 18, 23, 28, ?",
+    "options": [
+      "31",
+      "32",
+      "33",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the missing number: 121, 144, 169, 196, ?",
+    "options": [
+      "200",
+      "225",
+      "256",
+      "289"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the missing letter: A, D, G, J, ?",
+    "options": [
+      "K",
+      "L",
+      "M",
+      "N"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the missing letter: Z, V, R, N, ?",
+    "options": [
+      "J",
+      "K",
+      "L",
+      "M"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "9"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "January",
+      "February",
+      "April",
+      "December"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Car",
+      "Bus",
+      "Train",
+      "Bicycle"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Bird is related to Nest as Lion is related to:",
+    "options": [
+      "Den",
+      "Cage",
+      "Forest",
+      "Cave"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Water is related to Thirst as Food is related to:",
+    "options": [
+      "Hunger",
+      "Sleep",
+      "Work",
+      "Health"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Pen is related to Write as Knife is related to:",
+    "options": [
+      "Cut",
+      "Throw",
+      "Hold",
+      "Draw"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If COMPUTER is coded as RFUVQNPC, then MOBILE is coded as:",
+    "options": [
+      "FMNCPJ",
+      "FMCPJM",
+      "NPCJMF",
+      "MOCILE"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If TABLE is coded as UBCMF, then CHAIR is coded as:",
+    "options": [
+      "DIBJS",
+      "DHCIR",
+      "BGHZQ",
+      "EJCMT"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If FRIEND is written as GSJFOE, then SCHOOL is written as:",
+    "options": [
+      "TDIPPM",
+      "TDHPPM",
+      "SBGNNL",
+      "UDJQQN"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A person is facing north. He turns right, then right again. Which direction is he facing?",
+    "options": [
+      "East",
+      "West",
+      "South",
+      "North"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A person walks 4 km west, then 4 km south. In which direction is he from the starting point?",
+    "options": [
+      "North-east",
+      "South-west",
+      "North-west",
+      "South-east"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Ali is standing facing the sun in the morning. His shadow will fall towards:",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If Monday is coded as 1, Tuesday as 2, Wednesday as 3, then Friday is coded as:",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Five people A, B, C, D, and E are standing in a line. A is before B, B is before C, and C is before D. Who comes last among these four?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "If all squares are rectangles and all rectangles are shapes, then:",
+    "options": [
+      "All shapes are squares",
+      "Squares are shapes",
+      "No rectangle is a shape",
+      "All shapes are rectangles"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Statement: All cats are animals. Some animals are wild. Which conclusion is correct?",
+    "options": [
+      "All cats are wild",
+      "Some cats are wild",
+      "Cats are animals",
+      "No animals are cats"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If 3 + 4 = 25, 5 + 6 = 61, then 7 + 8 = ? (Logic: a\u00b2 + b\u00b2)",
+    "options": [
+      "100",
+      "113",
+      "120",
+      "125"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the pattern: AZ, BY, CX, DW, ?",
+    "options": [
+      "EV",
+      "FU",
+      "EW",
+      "DU"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the next number in the series: 6, 12, 24, 48, ?",
+    "options": [
+      "72",
+      "84",
+      "96",
+      "108"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the missing number: 9, 18, 36, 72, ?",
+    "options": [
+      "108",
+      "124",
+      "144",
+      "152"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the next number: 50, 45, 40, 35, ?",
+    "options": [
+      "25",
+      "30",
+      "32",
+      "28"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing number: 3, 9, 27, 81, ?",
+    "options": [
+      "162",
+      "243",
+      "324",
+      "729"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the next number: 11, 22, 33, 44, ?",
+    "options": [
+      "50",
+      "54",
+      "55",
+      "66"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Complete the alphabet series: B, E, H, K, ?",
+    "options": [
+      "L",
+      "M",
+      "N",
+      "O"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Complete the alphabet series: M, K, I, G, ?",
+    "options": [
+      "E",
+      "F",
+      "D",
+      "C"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "16",
+      "25",
+      "36",
+      "48"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Sparrow",
+      "Eagle",
+      "Crow",
+      "Bat"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Find the odd one out:",
+    "options": [
+      "Gold",
+      "Iron",
+      "Copper",
+      "Wood"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Complete the analogy: Book : Library :: Car : ?",
+    "options": [
+      "Road",
+      "Garage",
+      "Factory",
+      "Driver"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the analogy: Teacher : School :: Doctor : ?",
+    "options": [
+      "Office",
+      "Hospital",
+      "Market",
+      "Bank"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Complete the analogy: Fish : Water :: Bird : ?",
+    "options": [
+      "Land",
+      "Air",
+      "Tree",
+      "Nest"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If APPLE is coded as BQQMF, then BALL is coded as:",
+    "options": [
+      "CBMM",
+      "CBNN",
+      "DBMM",
+      "BAMM"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If HOUSE is coded as IPVTF, then MOUSE is coded as:",
+    "options": [
+      "NPVTG",
+      "NPVTF",
+      "MPVTF",
+      "LNTSE"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If SOUTH is written as TPVUI, then NORTH is written as:",
+    "options": [
+      "OPSUI",
+      "OPSVH",
+      "OPSTI",
+      "NPSUI"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A man is facing west. He turns left. Which direction is he facing now?",
+    "options": [
+      "North",
+      "South",
+      "East",
+      "West"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A person travels 3 km north, then 3 km east. His final direction from the starting point is:",
+    "options": [
+      "North-west",
+      "South-east",
+      "North-east",
+      "South-west"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Ahmed is the brother of Fatima. Fatima is the mother of Ali. Ahmed is Ali's:",
+    "options": [
+      "Father",
+      "Uncle",
+      "Brother",
+      "Grandfather"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pointing to a man, Ali says, \"He is the son of my grandfather's only son.\" The man is Ali's:",
+    "options": [
+      "Father",
+      "Brother",
+      "Uncle",
+      "Cousin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Statement: All engineers are educated. Some educated people are rich. Conclusion:",
+    "options": [
+      "All engineers are rich",
+      "Some engineers are rich",
+      "Engineers are educated",
+      "No engineer is educated"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If today is Wednesday, what day will it be after 15 days?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A clock shows 3:00. The angle between the hour and minute hands is:",
+    "options": [
+      "45\u00b0",
+      "90\u00b0",
+      "120\u00b0",
+      "180\u00b0"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If 5 workers complete a job in 10 days, how many days will 10 workers take (same efficiency)?",
+    "options": [
+      "2 days",
+      "5 days",
+      "10 days",
+      "20 days"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the missing number: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "49"
+    ],
+    "correctIndex": 2
+  }
+]

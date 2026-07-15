@@ -498,5 +498,985 @@
       "National Assembly Secretariat"
     ],
     "correctIndex": 0
+  },
+  {
+    "question": "The Constitution of the Islamic Republic of Pakistan came into force on:",
+    "options": [
+      "14 August 1973",
+      "23 March 1956",
+      "14 August 1947",
+      "25 December 1972"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The Constitution of Pakistan was unanimously passed by the National Assembly on:",
+    "options": [
+      "14 August 1973",
+      "10 April 1973",
+      "23 March 1973",
+      "1 July 1973"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "According to the Constitution, Pakistan shall be known as:",
+    "options": [
+      "Republic of Pakistan",
+      "Islamic State of Pakistan",
+      "Islamic Republic of Pakistan",
+      "Federal Republic of Pakistan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "According to Article 1, Pakistan is:",
+    "options": [
+      "A Unitary State",
+      "A Confederation",
+      "A Federal Republic",
+      "A Presidential Republic"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Objectives Resolution was made a substantive part of the Constitution through:",
+    "options": [
+      "Article 2",
+      "Article 2A",
+      "Article 3",
+      "Article 4"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "According to the Constitution, the State religion of Pakistan is:",
+    "options": [
+      "Christianity",
+      "Islam",
+      "No State Religion",
+      "Judaism"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article declares Islam as the State religion?",
+    "options": [
+      "Article 1",
+      "Article 2",
+      "Article 2A",
+      "Article 3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Sovereignty over the entire Universe belongs to:",
+    "options": [
+      "The Parliament",
+      "The People of Pakistan",
+      "Allah Almighty",
+      "The President"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Fundamental Rights in the Constitution begin from:",
+    "options": [
+      "Article 6",
+      "Article 8",
+      "Article 10",
+      "Article 12"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Laws inconsistent with Fundamental Rights shall be:",
+    "options": [
+      "Valid for five years",
+      "Effective only in provinces",
+      "Void to the extent of inconsistency",
+      "Approved by Parliament"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article deals with the security of person?",
+    "options": [
+      "Article 8",
+      "Article 9",
+      "Article 10",
+      "Article 11"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article prohibits slavery and forced labour?",
+    "options": [
+      "Article 10",
+      "Article 11",
+      "Article 12",
+      "Article 13"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protection against retrospective punishment is provided under:",
+    "options": [
+      "Article 11",
+      "Article 12",
+      "Article 13",
+      "Article 14"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protection against double punishment and self-incrimination is provided under:",
+    "options": [
+      "Article 12",
+      "Article 13",
+      "Article 14",
+      "Article 15"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The dignity of man and privacy of home are guaranteed under:",
+    "options": [
+      "Article 13",
+      "Article 14",
+      "Article 15",
+      "Article 16"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of movement is guaranteed under:",
+    "options": [
+      "Article 14",
+      "Article 15",
+      "Article 16",
+      "Article 17"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of assembly is guaranteed under:",
+    "options": [
+      "Article 15",
+      "Article 16",
+      "Article 17",
+      "Article 18"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of association is guaranteed under:",
+    "options": [
+      "Article 16",
+      "Article 17",
+      "Article 18",
+      "Article 19"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of trade, business or profession is guaranteed under:",
+    "options": [
+      "Article 17",
+      "Article 18",
+      "Article 19",
+      "Article 20"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of speech and expression is guaranteed under:",
+    "options": [
+      "Article 18",
+      "Article 19",
+      "Article 20",
+      "Article 21"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom to profess, practice and propagate religion is guaranteed under:",
+    "options": [
+      "Article 19",
+      "Article 20",
+      "Article 21",
+      "Article 22"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "No person shall be compelled to pay any special tax for the propagation of a religion other than his own under:",
+    "options": [
+      "Article 20",
+      "Article 21",
+      "Article 22",
+      "Article 23"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Safeguards regarding educational institutions in respect of religion are provided under:",
+    "options": [
+      "Article 20",
+      "Article 21",
+      "Article 22",
+      "Article 23"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The right to acquire, hold and dispose of property is guaranteed under:",
+    "options": [
+      "Article 22",
+      "Article 23",
+      "Article 24",
+      "Article 25"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protection of property rights is provided under:",
+    "options": [
+      "Article 23",
+      "Article 24",
+      "Article 25",
+      "Article 26"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Equality of citizens before law is guaranteed under:",
+    "options": [
+      "Article 24",
+      "Article 25",
+      "Article 26",
+      "Article 27"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article specifically prohibits discrimination on the basis of sex?",
+    "options": [
+      "Article 24",
+      "Article 25",
+      "Article 25(2)",
+      "Article 27"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The right to free and compulsory education for children is provided under:",
+    "options": [
+      "Article 25",
+      "Article 25A",
+      "Article 26",
+      "Article 27"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article guarantees non-discrimination in access to public places?",
+    "options": [
+      "Article 25",
+      "Article 26",
+      "Article 27",
+      "Article 28"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Safeguards against discrimination in services are provided under:",
+    "options": [
+      "Article 26",
+      "Article 27",
+      "Article 28",
+      "Article 29"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article allows citizens to preserve and promote their distinct language, script, and culture?",
+    "options": [
+      "Article 26",
+      "Article 27",
+      "Article 28",
+      "Article 29"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Principles of Policy begin from:",
+    "options": [
+      "Article 28",
+      "Article 29",
+      "Article 30",
+      "Article 31"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article promotes the Islamic way of life?",
+    "options": [
+      "Article 29",
+      "Article 30",
+      "Article 31",
+      "Article 32"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article encourages the promotion of local government institutions?",
+    "options": [
+      "Article 31",
+      "Article 32",
+      "Article 33",
+      "Article 34"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article discourages parochial, racial, tribal, sectarian, and provincial prejudices?",
+    "options": [
+      "Article 32",
+      "Article 33",
+      "Article 34",
+      "Article 35"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Full participation of women in national life is provided under:",
+    "options": [
+      "Article 33",
+      "Article 34",
+      "Article 35",
+      "Article 36"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protection of marriage, family, mother, and child is ensured under:",
+    "options": [
+      "Article 34",
+      "Article 35",
+      "Article 36",
+      "Article 37"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protection of minorities is provided under:",
+    "options": [
+      "Article 35",
+      "Article 36",
+      "Article 37",
+      "Article 38"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Promotion of social justice and eradication of social evils is covered under:",
+    "options": [
+      "Article 36",
+      "Article 37",
+      "Article 38",
+      "Article 39"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Promotion of social and economic well-being of the people is provided under:",
+    "options": [
+      "Article 37",
+      "Article 38",
+      "Article 39",
+      "Article 40"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article directs the State to enable Muslims to order their lives according to Islam?",
+    "options": [
+      "Article 29",
+      "Article 30",
+      "Article 31",
+      "Article 32"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article deals with the responsibility of the State regarding the Principles of Policy?",
+    "options": [
+      "Article 29",
+      "Article 30",
+      "Article 31",
+      "Article 38"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Article establishes the Majlis-e-Shoora (Parliament)?",
+    "options": [
+      "Article 48",
+      "Article 49",
+      "Article 50",
+      "Article 51"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Parliament of Pakistan consists of:",
+    "options": [
+      "President and National Assembly only",
+      "Senate and National Assembly only",
+      "President, Senate, and National Assembly",
+      "President and Senate only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which House of Parliament cannot be dissolved?",
+    "options": [
+      "National Assembly",
+      "Senate",
+      "Both Houses",
+      "Joint Sitting"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The composition of the National Assembly is provided under:",
+    "options": [
+      "Article 50",
+      "Article 51",
+      "Article 52",
+      "Article 53"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The normal constitutional term of the National Assembly is:",
+    "options": [
+      "Four years",
+      "Five years",
+      "Six years",
+      "Seven years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article provides for the Speaker and Deputy Speaker of the National Assembly?",
+    "options": [
+      "Article 51",
+      "Article 52",
+      "Article 53",
+      "Article 54"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article deals with the summoning and prorogation of Parliament?",
+    "options": [
+      "Article 52",
+      "Article 53",
+      "Article 54",
+      "Article 55"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The quorum required to constitute a sitting of either House of Parliament is:",
+    "options": [
+      "One-fourth of the total membership",
+      "One-third of the total membership",
+      "Half of the total membership",
+      "Two-thirds of the total membership"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The Senate of Pakistan is constituted under:",
+    "options": [
+      "Article 58",
+      "Article 59",
+      "Article 60",
+      "Article 61"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The constitutional term of a Senator is:",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "7 years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Chairman and Deputy Chairman of the Senate are provided under:",
+    "options": [
+      "Article 59",
+      "Article 60",
+      "Article 61",
+      "Article 62"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article prescribes the qualifications for membership of Parliament?",
+    "options": [
+      "Article 61",
+      "Article 62",
+      "Article 63",
+      "Article 64"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article deals with disqualifications for membership of Parliament?",
+    "options": [
+      "Article 62",
+      "Article 63",
+      "Article 64",
+      "Article 65"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A member of Parliament vacates his seat under:",
+    "options": [
+      "Article 63",
+      "Article 64",
+      "Article 65",
+      "Article 66"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Before taking his seat, every member of Parliament shall make:",
+    "options": [
+      "A declaration",
+      "An oath",
+      "An affidavit",
+      "A written undertaking"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Oath of members of Parliament is provided under:",
+    "options": [
+      "Article 64",
+      "Article 65",
+      "Article 66",
+      "Article 67"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Freedom of speech in Parliament is guaranteed under:",
+    "options": [
+      "Article 65",
+      "Article 66",
+      "Article 67",
+      "Article 68"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article restricts discussion regarding the conduct of judges in Parliament?",
+    "options": [
+      "Article 66",
+      "Article 67",
+      "Article 68",
+      "Article 69"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Courts are prohibited from questioning parliamentary proceedings under:",
+    "options": [
+      "Article 67",
+      "Article 68",
+      "Article 69",
+      "Article 70"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The procedure for introduction and passing of Bills in Parliament is mainly provided under:",
+    "options": [
+      "Article 69",
+      "Article 70",
+      "Article 71",
+      "Article 72"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A Money Bill can originate only in:",
+    "options": [
+      "Senate",
+      "National Assembly",
+      "Joint Sitting",
+      "Either House"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which House has the final authority regarding whether a Bill is a Money Bill?",
+    "options": [
+      "Senate",
+      "Election Commission",
+      "Speaker of the National Assembly",
+      "President"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Annual Budget is constitutionally known as:",
+    "options": [
+      "Annual Development Plan",
+      "Annual Financial Statement",
+      "Federal Budget Statement",
+      "Consolidated Revenue Statement"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which constitutional office is part of Parliament?",
+    "options": [
+      "Prime Minister",
+      "Chief Justice of Pakistan",
+      "President",
+      "Chairman Senate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "According to the Constitution, the President of Pakistan shall be:",
+    "options": [
+      "A Muslim",
+      "A citizen of Pakistan",
+      "Not less than 45 years of age",
+      "All of the above"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which Article prescribes the qualifications for election as President?",
+    "options": [
+      "Article 40",
+      "Article 41",
+      "Article 42",
+      "Article 43"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The President of Pakistan takes oath under:",
+    "options": [
+      "Article 41",
+      "Article 42",
+      "Article 43",
+      "Article 44"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The term of office of the President is:",
+    "options": [
+      "Four years",
+      "Five years",
+      "Six years",
+      "Seven years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The President cannot:",
+    "options": [
+      "Address Parliament",
+      "Grant pardons",
+      "Hold any office of profit in the service of Pakistan",
+      "Promulgate ordinances"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article deals with the conditions of the President's office?",
+    "options": [
+      "Article 42",
+      "Article 43",
+      "Article 44",
+      "Article 45"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The President's power to grant pardon, reprieve, and remission is provided under:",
+    "options": [
+      "Article 44",
+      "Article 45",
+      "Article 46",
+      "Article 47"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Removal (impeachment) of the President is provided under:",
+    "options": [
+      "Article 45",
+      "Article 46",
+      "Article 47",
+      "Article 48"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The executive authority of the Federation shall be exercised in the name of:",
+    "options": [
+      "Prime Minister",
+      "Parliament",
+      "President",
+      "Chief Justice"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article requires the President to act on the advice of the Prime Minister or Cabinet, except where the Constitution provides otherwise?",
+    "options": [
+      "Article 47",
+      "Article 48",
+      "Article 49",
+      "Article 50"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Prime Minister of Pakistan is elected by:",
+    "options": [
+      "Senate",
+      "Electoral College",
+      "National Assembly",
+      "Joint Sitting of Parliament"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The office of Prime Minister is provided under:",
+    "options": [
+      "Article 90",
+      "Article 91",
+      "Article 92",
+      "Article 93"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Federal Ministers are appointed by the:",
+    "options": [
+      "President on the advice of the Prime Minister",
+      "National Assembly",
+      "Senate",
+      "Chief Justice of Pakistan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The Cabinet is collectively responsible to the:",
+    "options": [
+      "President",
+      "Senate",
+      "National Assembly",
+      "Supreme Court"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Article establishes the Council of Common Interests (CCI)?",
+    "options": [
+      "Article 152",
+      "Article 153",
+      "Article 154",
+      "Article 155"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Council of Common Interests is chaired by the:",
+    "options": [
+      "President",
+      "Chairman Senate",
+      "Prime Minister",
+      "Speaker National Assembly"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The National Finance Commission (NFC) is constituted under:",
+    "options": [
+      "Article 159",
+      "Article 160",
+      "Article 161",
+      "Article 162"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Chief Election Commissioner is appointed by the:",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Chief Justice of Pakistan",
+      "Chairman Senate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which constitutional body conducts elections in Pakistan?",
+    "options": [
+      "National Accountability Bureau",
+      "Federal Public Service Commission",
+      "Election Commission of Pakistan",
+      "Council of Common Interests"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Election Commission of Pakistan is established under:",
+    "options": [
+      "Article 212",
+      "Article 213",
+      "Article 214",
+      "Article 215"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Chief Justice of Pakistan is appointed by the:",
+    "options": [
+      "Prime Minister",
+      "President",
+      "Senate",
+      "Judicial Commission"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The apex court of the ordinary judicial hierarchy in Pakistan (historically, and for non-constitutional/appellate matters) is the:",
+    "options": [
+      "Federal Shariat Court",
+      "High Court",
+      "Supreme Court",
+      "Constitutional Court"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Supreme Court is established under:",
+    "options": [
+      "Article 174",
+      "Article 175",
+      "Article 176",
+      "Article 177"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Judges of the Supreme Court are appointed under:",
+    "options": [
+      "Article 176",
+      "Article 177",
+      "Article 178",
+      "Article 179"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Every Judge of the Supreme Court takes oath under:",
+    "options": [
+      "Third Schedule",
+      "Fourth Schedule",
+      "Fifth Schedule",
+      "Sixth Schedule"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "High Courts are established under:",
+    "options": [
+      "Article 191",
+      "Article 192",
+      "Article 193",
+      "Article 192 read with Chapter 3 of Part VII"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A Constitutional Amendment Bill must be passed by:",
+    "options": [
+      "Simple majority",
+      "One-third majority",
+      "Two-thirds majority of the total membership of each House",
+      "Three-fourths majority"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Constitutional amendments are dealt with under:",
+    "options": [
+      "Article 237",
+      "Article 238",
+      "Article 239",
+      "Both Articles 238 and 239"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "A Proclamation of Emergency due to war, external aggression or armed rebellion is provided under:",
+    "options": [
+      "Article 231",
+      "Article 232",
+      "Article 233",
+      "Article 234"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "During an Emergency, certain Fundamental Rights may be suspended under:",
+    "options": [
+      "Article 232",
+      "Article 233",
+      "Article 234",
+      "Article 235"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Article defines \"High Treason\"?",
+    "options": [
+      "Article 5",
+      "Article 6",
+      "Article 7",
+      "Article 8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Constitution of Pakistan presently consists of:",
+    "options": [
+      "12 Parts and 280 Articles",
+      "12 Parts and 280 Articles with 7 Schedules",
+      "13 Parts and 280 Articles with 7 Schedules",
+      "14 Parts and 290 Articles"
+    ],
+    "correctIndex": 1
   }
 ]

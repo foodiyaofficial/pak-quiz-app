@@ -498,5 +498,835 @@
       "Oceanography"
     ],
     "correctIndex": 1
+  },
+  {
+    "question": "The capital city of Pakistan is:",
+    "options": [
+      "Lahore",
+      "Karachi",
+      "Islamabad",
+      "Peshawar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The current currency of Pakistan is:",
+    "options": [
+      "Dollar",
+      "Rupee",
+      "Riyal",
+      "Taka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Pakistan became a member of the United Nations in:",
+    "options": [
+      "1945",
+      "1947",
+      "1950",
+      "1955"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the United Nations is located in:",
+    "options": [
+      "Geneva",
+      "Paris",
+      "New York",
+      "London"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Secretary-General of the United Nations is:",
+    "options": [
+      "Ant\u00f3nio Guterres",
+      "Ban Ki-moon",
+      "Kofi Annan",
+      "Tedros Adhanom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of the International Monetary Fund (IMF) is in:",
+    "options": [
+      "Washington, D.C.",
+      "New York",
+      "London",
+      "Geneva"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The World Bank headquarters is located in:",
+    "options": [
+      "Paris",
+      "Washington, D.C.",
+      "Rome",
+      "Tokyo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "WHO stands for:",
+    "options": [
+      "World Health Organization",
+      "World Human Organization",
+      "World Housing Organization",
+      "World Help Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of WHO is located in:",
+    "options": [
+      "Geneva",
+      "New York",
+      "Vienna",
+      "Paris"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "NATO stands for:",
+    "options": [
+      "North Atlantic Treaty Organization",
+      "National Atlantic Trade Organization",
+      "New American Treaty Organization",
+      "Northern Asian Treaty Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of NATO is located in:",
+    "options": [
+      "Brussels",
+      "London",
+      "Berlin",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The largest continent in the world is:",
+    "options": [
+      "Africa",
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The largest ocean in the world is:",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The highest mountain in the world is:",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Nanga Parbat",
+      "Kilimanjaro"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The largest democracy in the world is:",
+    "options": [
+      "USA",
+      "India",
+      "Brazil",
+      "Indonesia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the European Union is mainly located in:",
+    "options": [
+      "Brussels",
+      "Madrid",
+      "Rome",
+      "Lisbon"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The official language of the United Nations includes:",
+    "options": [
+      "Urdu only",
+      "Arabic",
+      "Hindi only",
+      "German only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Organization of Islamic Cooperation (OIC) headquarters is located in:",
+    "options": [
+      "Riyadh",
+      "Jeddah",
+      "Doha",
+      "Istanbul"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "SAARC was established in:",
+    "options": [
+      "1975",
+      "1985",
+      "1995",
+      "2005"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of SAARC is located in:",
+    "options": [
+      "Islamabad",
+      "Kathmandu",
+      "Dhaka",
+      "Colombo"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Paris Agreement is related to:",
+    "options": [
+      "Trade",
+      "Climate change",
+      "Nuclear weapons",
+      "Education"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The largest planet in our solar system is:",
+    "options": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The first country to send a human to the Moon was:",
+    "options": [
+      "Russia",
+      "China",
+      "USA",
+      "Japan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The currency of Japan is:",
+    "options": [
+      "Yuan",
+      "Yen",
+      "Won",
+      "Dollar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The currency of China is:",
+    "options": [
+      "Yen",
+      "Yuan",
+      "Ruble",
+      "Euro"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the Asian Development Bank (ADB) is located in:",
+    "options": [
+      "Tokyo",
+      "Manila",
+      "Beijing",
+      "Seoul"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the International Atomic Energy Agency (IAEA) is located in:",
+    "options": [
+      "Vienna",
+      "Geneva",
+      "New York",
+      "Paris"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of UNESCO is located in:",
+    "options": [
+      "Paris",
+      "Rome",
+      "London",
+      "Berlin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of UNICEF is located in:",
+    "options": [
+      "New York",
+      "Geneva",
+      "Washington, D.C.",
+      "Tokyo"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of the World Trade Organization (WTO) is located in:",
+    "options": [
+      "Geneva",
+      "Brussels",
+      "Vienna",
+      "Madrid"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The current President of the United States (2026) is:",
+    "options": [
+      "Joe Biden",
+      "Donald Trump",
+      "Barack Obama",
+      "George W. Bush"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The capital of Saudi Arabia is:",
+    "options": [
+      "Jeddah",
+      "Riyadh",
+      "Makkah",
+      "Madinah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The capital of Turkey is:",
+    "options": [
+      "Istanbul",
+      "Ankara",
+      "Izmir",
+      "Bursa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The capital of China is:",
+    "options": [
+      "Shanghai",
+      "Beijing",
+      "Hong Kong",
+      "Guangzhou"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The capital of Russia is:",
+    "options": [
+      "Moscow",
+      "St. Petersburg",
+      "Kyiv",
+      "Warsaw"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The currency of the United Kingdom is:",
+    "options": [
+      "Euro",
+      "Pound Sterling",
+      "Dollar",
+      "Franc"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The currency of Saudi Arabia is:",
+    "options": [
+      "Dirham",
+      "Riyal",
+      "Dinar",
+      "Taka"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The currency of Turkey is:",
+    "options": [
+      "Lira",
+      "Euro",
+      "Ruble",
+      "Dinar"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The currency of Russia is:",
+    "options": [
+      "Ruble",
+      "Yen",
+      "Yuan",
+      "Peso"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The Nobel Peace Prize is awarded in:",
+    "options": [
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The Nobel Prize was established by:",
+    "options": [
+      "Albert Einstein",
+      "Alfred Nobel",
+      "Isaac Newton",
+      "Marie Curie"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the International Court of Justice (ICJ) is located in:",
+    "options": [
+      "The Hague",
+      "Geneva",
+      "New York",
+      "Vienna"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of Interpol is located in:",
+    "options": [
+      "Lyon, France",
+      "Paris, France",
+      "London, UK",
+      "Rome, Italy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The largest country in the world by area is:",
+    "options": [
+      "Canada",
+      "China",
+      "Russia",
+      "USA"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The smallest country in the world is:",
+    "options": [
+      "Maldives",
+      "Vatican City",
+      "Monaco",
+      "Singapore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The most populous country in the world is currently:",
+    "options": [
+      "China",
+      "India",
+      "USA",
+      "Indonesia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the Organization of Petroleum Exporting Countries (OPEC) is located in:",
+    "options": [
+      "Vienna",
+      "Riyadh",
+      "Doha",
+      "Abu Dhabi"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The currency of the European Union used by many member states is:",
+    "options": [
+      "Euro",
+      "Pound",
+      "Dollar",
+      "Franc"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The G20 is mainly a group related to:",
+    "options": [
+      "Military cooperation",
+      "Global economic cooperation",
+      "Sports events",
+      "Space research"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the International Labour Organization (ILO) is located in:",
+    "options": [
+      "Geneva",
+      "Paris",
+      "Rome",
+      "Berlin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The China-Pakistan Economic Corridor (CPEC) is a project under:",
+    "options": [
+      "ASEAN",
+      "Belt and Road Initiative (BRI)",
+      "SAARC",
+      "European Union"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main seaport developed under CPEC is:",
+    "options": [
+      "Karachi Port",
+      "Port Qasim",
+      "Gwadar Port",
+      "Bin Qasim Port"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Gwadar Port is located in which province of Pakistan?",
+    "options": [
+      "Sindh",
+      "Punjab",
+      "Khyber Pakhtunkhwa",
+      "Balochistan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "The national language of Pakistan is:",
+    "options": [
+      "English",
+      "Punjabi",
+      "Urdu",
+      "Sindhi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The largest province of Pakistan by area is:",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Balochistan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The largest province of Pakistan by population is:",
+    "options": [
+      "Punjab",
+      "Sindh",
+      "Balochistan",
+      "Khyber Pakhtunkhwa"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The highest mountain peak of Pakistan is:",
+    "options": [
+      "Nanga Parbat",
+      "K2",
+      "Tirich Mir",
+      "Rakaposhi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The national flower of Pakistan is:",
+    "options": [
+      "Rose",
+      "Jasmine",
+      "Tulip",
+      "Sunflower"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The national animal of Pakistan is:",
+    "options": [
+      "Lion",
+      "Markhor",
+      "Snow Leopard",
+      "Deer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The national bird of Pakistan is:",
+    "options": [
+      "Eagle",
+      "Chukar",
+      "Peacock",
+      "Dove"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The State Bank of Pakistan was established in:",
+    "options": [
+      "1947",
+      "1948",
+      "1956",
+      "1960"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The currency issued by the State Bank of Pakistan is:",
+    "options": [
+      "Dollar",
+      "Rupee",
+      "Pound",
+      "Riyal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the State Bank of Pakistan is located in:",
+    "options": [
+      "Islamabad",
+      "Lahore",
+      "Karachi",
+      "Peshawar"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The largest dam of Pakistan is:",
+    "options": [
+      "Tarbela Dam",
+      "Mangla Dam",
+      "Warsak Dam",
+      "Hub Dam"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The Indus River originates from:",
+    "options": [
+      "Himalayas",
+      "Tibetan Plateau",
+      "Karakoram Range",
+      "Hindu Kush"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The United Nations Sustainable Development Goals (SDGs) were adopted in:",
+    "options": [
+      "2000",
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The total number of Sustainable Development Goals (SDGs) is:",
+    "options": [
+      "10",
+      "12",
+      "17",
+      "20"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Paris Climate Agreement was adopted in:",
+    "options": [
+      "2005",
+      "2010",
+      "2015",
+      "2020"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "COP conferences are mainly related to:",
+    "options": [
+      "Trade",
+      "Climate change",
+      "Sports",
+      "Education"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The International Space Station (ISS) is located in:",
+    "options": [
+      "Earth's orbit",
+      "Moon orbit",
+      "Mars orbit",
+      "Solar orbit"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "NASA is the space agency of:",
+    "options": [
+      "Russia",
+      "China",
+      "United States",
+      "Japan"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "ISRO is the space agency of:",
+    "options": [
+      "India",
+      "Iran",
+      "Indonesia",
+      "Italy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The James Webb Space Telescope was launched by:",
+    "options": [
+      "NASA and partners",
+      "Pakistan Space Agency",
+      "China only",
+      "Russia only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Artificial Intelligence (AI) refers to:",
+    "options": [
+      "Human physical strength",
+      "Machines performing intelligent tasks",
+      "A type of chemical reaction",
+      "Weather prediction only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The global organization responsible for international public health is:",
+    "options": [
+      "IMF",
+      "WHO",
+      "WTO",
+      "NATO"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The headquarters of the United Nations Security Council is located in:",
+    "options": [
+      "Geneva",
+      "New York",
+      "Paris",
+      "Vienna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The number of permanent members of the UN Security Council is:",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The permanent members of the UN Security Council have:",
+    "options": [
+      "Voting rights only",
+      "Veto power",
+      "No authority",
+      "Financial power only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The five permanent members of the UN Security Council include:",
+    "options": [
+      "Pakistan, India, China, USA, UK",
+      "USA, UK, France, Russia, China",
+      "Germany, Japan, India, USA, China",
+      "Canada, USA, UK, France, Russia"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The International Criminal Court (ICC) headquarters is located in:",
+    "options": [
+      "The Hague",
+      "Geneva",
+      "New York",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of the Asian Infrastructure Investment Bank (AIIB) is located in:",
+    "options": [
+      "Beijing",
+      "Tokyo",
+      "Islamabad",
+      "Seoul"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "BRICS originally included:",
+    "options": [
+      "Brazil, Russia, India, China, South Africa",
+      "Britain, Russia, Iran, China, Saudi Arabia",
+      "Brazil, Japan, India, Canada, South Africa",
+      "Bangladesh, Russia, India, China, Sri Lanka"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The headquarters of the African Union (AU) is located in:",
+    "options": [
+      "Cairo",
+      "Addis Ababa",
+      "Nairobi",
+      "Johannesburg"
+    ],
+    "correctIndex": 1
   }
 ]

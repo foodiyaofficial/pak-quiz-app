@@ -1,52 +1,1502 @@
 [
-  {"question": "What is the basic unit of electrical resistance?", "options": ["Volt", "Ampere", "Ohm", "Watt"], "correctIndex": 2},
-  {"question": "What is the basic unit of electric current?", "options": ["Volt", "Ampere", "Ohm", "Coulomb"], "correctIndex": 1},
-  {"question": "What is the basic unit of voltage (electric potential difference)?", "options": ["Ampere", "Volt", "Ohm", "Watt"], "correctIndex": 1},
-  {"question": "What does Ohm's Law state?", "options": ["V = IR", "V = I/R", "V = I + R", "V = I - R"], "correctIndex": 0},
-  {"question": "Which component stores electrical energy in an electric field?", "options": ["Resistor", "Capacitor", "Inductor", "Diode"], "correctIndex": 1},
-  {"question": "Which component stores electrical energy in a magnetic field?", "options": ["Resistor", "Capacitor", "Inductor", "Transistor"], "correctIndex": 2},
-  {"question": "What is the function of a diode in a circuit?", "options": ["Amplify signals", "Allow current to flow in one direction only", "Store energy", "Resist current equally in both directions"], "correctIndex": 1},
-  {"question": "What does LED stand for?", "options": ["Light Emitting Diode", "Low Energy Device", "Linear Electronic Display", "Light Energy Diode"], "correctIndex": 0},
-  {"question": "What is the main function of a transistor?", "options": ["Store charge", "Amplify or switch electronic signals", "Convert AC to DC only", "Measure voltage"], "correctIndex": 1},
-  {"question": "What does 'AC' stand for in electrical terms?", "options": ["Alternating Current", "Active Current", "Analog Circuit", "Ampere Current"], "correctIndex": 0},
-  {"question": "What does 'DC' stand for in electrical terms?", "options": ["Dynamic Current", "Direct Current", "Diode Current", "Dual Current"], "correctIndex": 1},
-  {"question": "What is the SI unit of electrical power?", "options": ["Volt", "Ampere", "Watt", "Ohm"], "correctIndex": 2},
-  {"question": "Which device converts AC to DC?", "options": ["Inverter", "Rectifier", "Transformer", "Amplifier"], "correctIndex": 1},
-  {"question": "Which device converts DC to AC?", "options": ["Rectifier", "Inverter", "Transformer", "Regulator"], "correctIndex": 1},
-  {"question": "What is a transformer used for?", "options": ["Converting AC voltage levels up or down", "Storing charge", "Amplifying digital signals", "Converting AC to DC"], "correctIndex": 0},
-  {"question": "In a series circuit, how does current behave?", "options": ["It varies at each point", "It remains the same at every point", "It doubles at each component", "It becomes zero"], "correctIndex": 1},
-  {"question": "In a parallel circuit, what stays the same across each branch?", "options": ["Current", "Voltage", "Resistance", "Power"], "correctIndex": 1},
-  {"question": "What is the formula for electrical power?", "options": ["P = VI", "P = V/I", "P = V + I", "P = V - I"], "correctIndex": 0},
-  {"question": "What does IC stand for in electronics?", "options": ["Integrated Circuit", "Internal Current", "Insulated Conductor", "Induced Charge"], "correctIndex": 0},
-  {"question": "What is a semiconductor?", "options": ["A material that always conducts electricity", "A material that never conducts electricity", "A material with conductivity between conductors and insulators", "A type of insulator only"], "correctIndex": 2},
-  {"question": "Which element is most commonly used as a semiconductor material?", "options": ["Copper", "Silicon", "Iron", "Aluminum"], "correctIndex": 1},
-  {"question": "What is the process of adding impurities to a semiconductor to change its properties called?", "options": ["Doping", "Etching", "Plating", "Fusing"], "correctIndex": 0},
-  {"question": "What type of semiconductor has extra free electrons?", "options": ["P-type", "N-type", "Intrinsic", "Neutral"], "correctIndex": 1},
-  {"question": "What type of semiconductor has 'holes' as majority charge carriers?", "options": ["N-type", "P-type", "Intrinsic", "Neutral"], "correctIndex": 1},
-  {"question": "What is formed when P-type and N-type semiconductors are joined together?", "options": ["Transistor", "P-N junction (diode)", "Capacitor", "Resistor network"], "correctIndex": 1},
-  {"question": "How many terminals does a basic bipolar junction transistor (BJT) have?", "options": ["2", "3", "4", "5"], "correctIndex": 1},
-  {"question": "What are the three terminals of a BJT called?", "options": ["Source, Gate, Drain", "Base, Collector, Emitter", "Anode, Cathode, Gate", "Input, Output, Ground"], "correctIndex": 1},
-  {"question": "What logic gate produces a HIGH output only when all inputs are HIGH?", "options": ["OR gate", "AND gate", "NOT gate", "XOR gate"], "correctIndex": 1},
-  {"question": "What logic gate produces a HIGH output when at least one input is HIGH?", "options": ["AND gate", "OR gate", "NAND gate", "NOT gate"], "correctIndex": 1},
-  {"question": "What does a NOT gate do?", "options": ["Combines two signals", "Inverts the input signal", "Amplifies the signal", "Stores the signal"], "correctIndex": 1},
-  {"question": "What number system is primarily used in digital electronics?", "options": ["Decimal", "Binary", "Octal", "Hexadecimal only"], "correctIndex": 1},
-  {"question": "How many digits are used in the binary number system?", "options": ["2", "8", "10", "16"], "correctIndex": 0},
-  {"question": "What does 'PCB' stand for in electronics?", "options": ["Printed Circuit Board", "Power Control Board", "Programmable Circuit Base", "Parallel Circuit Bus"], "correctIndex": 0},
-  {"question": "What is the function of a resistor in a circuit?", "options": ["Store energy", "Limit the flow of current", "Amplify signals", "Convert AC to DC"], "correctIndex": 1},
-  {"question": "What is the unit of capacitance?", "options": ["Henry", "Farad", "Ohm", "Tesla"], "correctIndex": 1},
-  {"question": "What is the unit of inductance?", "options": ["Farad", "Henry", "Ohm", "Weber"], "correctIndex": 1},
-  {"question": "What does a multimeter typically measure?", "options": ["Only voltage", "Only current", "Voltage, current, and resistance", "Only temperature"], "correctIndex": 2},
-  {"question": "What is the term for an electronic circuit that repeats a signal at regular time intervals, often used for timing?", "options": ["Amplifier circuit", "Oscillator circuit", "Rectifier circuit", "Filter circuit"], "correctIndex": 1},
-  {"question": "What is a microcontroller?", "options": ["A large mainframe computer", "A compact integrated circuit with a processor, memory, and I/O for embedded control", "A type of resistor", "A power supply unit"], "correctIndex": 1},
-  {"question": "What does 'LED' commonly emit when forward biased?", "options": ["Sound", "Light", "Magnetic field", "Heat only"], "correctIndex": 1},
-  {"question": "What is the purpose of a fuse in an electrical circuit?", "options": ["Amplify current", "Protect the circuit by breaking when current is too high", "Store energy", "Convert AC to DC"], "correctIndex": 1},
-  {"question": "What does 'MOSFET' stand for?", "options": ["Metal Oxide Semiconductor Field Effect Transistor", "Multiple Output Signal Field Effect Terminal", "Main Output System For Electronic Transfer", "Metal Output Semiconductor Fast Electron Transistor"], "correctIndex": 0},
-  {"question": "In digital electronics, what does a '1' typically represent in binary logic?", "options": ["Low voltage / OFF state", "High voltage / ON state", "No signal", "Ground"], "correctIndex": 1},
-  {"question": "What is the function of a voltage regulator?", "options": ["Increase current indefinitely", "Maintain a constant output voltage despite input variations", "Convert digital signals to analog", "Store large amounts of charge"], "correctIndex": 1},
-  {"question": "What does 'RAM' stand for in electronics/computing?", "options": ["Random Access Memory", "Read Access Memory", "Rapid Analog Module", "Resistive Amplifier Module"], "correctIndex": 0},
-  {"question": "What does 'ROM' stand for?", "options": ["Read Only Memory", "Random Output Memory", "Rapid Operating Memory", "Resistive Output Module"], "correctIndex": 0},
-  {"question": "Which component is commonly used to filter out noise or smooth voltage in power supplies?", "options": ["Resistor", "Capacitor", "Switch", "Fuse"], "correctIndex": 1},
-  {"question": "What is the typical function of an operational amplifier (op-amp)?", "options": ["Store digital data", "Amplify voltage differences between two inputs", "Convert light to electricity", "Generate radio waves only"], "correctIndex": 1},
-  {"question": "What is the term for the smallest unit of digital information, represented as 0 or 1?", "options": ["Byte", "Bit", "Nibble", "Word"], "correctIndex": 1},
-  {"question": "How many bits typically make up one byte?", "options": ["4", "8", "16", "32"], "correctIndex": 1}
+  {
+    "question": "What is the basic unit of electrical resistance?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the basic unit of electric current?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Coulomb"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the basic unit of voltage (electric potential difference)?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does Ohm's Law state?",
+    "options": [
+      "V = IR",
+      "V = I/R",
+      "V = I + R",
+      "V = I - R"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which component stores electrical energy in an electric field?",
+    "options": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Diode"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which component stores electrical energy in a magnetic field?",
+    "options": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Transistor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the function of a diode in a circuit?",
+    "options": [
+      "Amplify signals",
+      "Allow current to flow in one direction only",
+      "Store energy",
+      "Resist current equally in both directions"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does LED stand for?",
+    "options": [
+      "Light Emitting Diode",
+      "Low Energy Device",
+      "Linear Electronic Display",
+      "Light Energy Diode"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the main function of a transistor?",
+    "options": [
+      "Store charge",
+      "Amplify or switch electronic signals",
+      "Convert AC to DC only",
+      "Measure voltage"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 'AC' stand for in electrical terms?",
+    "options": [
+      "Alternating Current",
+      "Active Current",
+      "Analog Circuit",
+      "Ampere Current"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does 'DC' stand for in electrical terms?",
+    "options": [
+      "Dynamic Current",
+      "Direct Current",
+      "Diode Current",
+      "Dual Current"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the SI unit of electrical power?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Watt",
+      "Ohm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which device converts AC to DC?",
+    "options": [
+      "Inverter",
+      "Rectifier",
+      "Transformer",
+      "Amplifier"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which device converts DC to AC?",
+    "options": [
+      "Rectifier",
+      "Inverter",
+      "Transformer",
+      "Regulator"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a transformer used for?",
+    "options": [
+      "Converting AC voltage levels up or down",
+      "Storing charge",
+      "Amplifying digital signals",
+      "Converting AC to DC"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In a series circuit, how does current behave?",
+    "options": [
+      "It varies at each point",
+      "It remains the same at every point",
+      "It doubles at each component",
+      "It becomes zero"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In a parallel circuit, what stays the same across each branch?",
+    "options": [
+      "Current",
+      "Voltage",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the formula for electrical power?",
+    "options": [
+      "P = VI",
+      "P = V/I",
+      "P = V + I",
+      "P = V - I"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does IC stand for in electronics?",
+    "options": [
+      "Integrated Circuit",
+      "Internal Current",
+      "Insulated Conductor",
+      "Induced Charge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is a semiconductor?",
+    "options": [
+      "A material that always conducts electricity",
+      "A material that never conducts electricity",
+      "A material with conductivity between conductors and insulators",
+      "A type of insulator only"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which element is most commonly used as a semiconductor material?",
+    "options": [
+      "Copper",
+      "Silicon",
+      "Iron",
+      "Aluminum"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the process of adding impurities to a semiconductor to change its properties called?",
+    "options": [
+      "Doping",
+      "Etching",
+      "Plating",
+      "Fusing"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What type of semiconductor has extra free electrons?",
+    "options": [
+      "P-type",
+      "N-type",
+      "Intrinsic",
+      "Neutral"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What type of semiconductor has 'holes' as majority charge carriers?",
+    "options": [
+      "N-type",
+      "P-type",
+      "Intrinsic",
+      "Neutral"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is formed when P-type and N-type semiconductors are joined together?",
+    "options": [
+      "Transistor",
+      "P-N junction (diode)",
+      "Capacitor",
+      "Resistor network"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many terminals does a basic bipolar junction transistor (BJT) have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What are the three terminals of a BJT called?",
+    "options": [
+      "Source, Gate, Drain",
+      "Base, Collector, Emitter",
+      "Anode, Cathode, Gate",
+      "Input, Output, Ground"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What logic gate produces a HIGH output only when all inputs are HIGH?",
+    "options": [
+      "OR gate",
+      "AND gate",
+      "NOT gate",
+      "XOR gate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What logic gate produces a HIGH output when at least one input is HIGH?",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NAND gate",
+      "NOT gate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does a NOT gate do?",
+    "options": [
+      "Combines two signals",
+      "Inverts the input signal",
+      "Amplifies the signal",
+      "Stores the signal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What number system is primarily used in digital electronics?",
+    "options": [
+      "Decimal",
+      "Binary",
+      "Octal",
+      "Hexadecimal only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many digits are used in the binary number system?",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does 'PCB' stand for in electronics?",
+    "options": [
+      "Printed Circuit Board",
+      "Power Control Board",
+      "Programmable Circuit Base",
+      "Parallel Circuit Bus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the function of a resistor in a circuit?",
+    "options": [
+      "Store energy",
+      "Limit the flow of current",
+      "Amplify signals",
+      "Convert AC to DC"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of capacitance?",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Tesla"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the unit of inductance?",
+    "options": [
+      "Farad",
+      "Henry",
+      "Ohm",
+      "Weber"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does a multimeter typically measure?",
+    "options": [
+      "Only voltage",
+      "Only current",
+      "Voltage, current, and resistance",
+      "Only temperature"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for an electronic circuit that repeats a signal at regular time intervals, often used for timing?",
+    "options": [
+      "Amplifier circuit",
+      "Oscillator circuit",
+      "Rectifier circuit",
+      "Filter circuit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is a microcontroller?",
+    "options": [
+      "A large mainframe computer",
+      "A compact integrated circuit with a processor, memory, and I/O for embedded control",
+      "A type of resistor",
+      "A power supply unit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 'LED' commonly emit when forward biased?",
+    "options": [
+      "Sound",
+      "Light",
+      "Magnetic field",
+      "Heat only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the purpose of a fuse in an electrical circuit?",
+    "options": [
+      "Amplify current",
+      "Protect the circuit by breaking when current is too high",
+      "Store energy",
+      "Convert AC to DC"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 'MOSFET' stand for?",
+    "options": [
+      "Metal Oxide Semiconductor Field Effect Transistor",
+      "Multiple Output Signal Field Effect Terminal",
+      "Main Output System For Electronic Transfer",
+      "Metal Output Semiconductor Fast Electron Transistor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In digital electronics, what does a '1' typically represent in binary logic?",
+    "options": [
+      "Low voltage / OFF state",
+      "High voltage / ON state",
+      "No signal",
+      "Ground"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the function of a voltage regulator?",
+    "options": [
+      "Increase current indefinitely",
+      "Maintain a constant output voltage despite input variations",
+      "Convert digital signals to analog",
+      "Store large amounts of charge"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does 'RAM' stand for in electronics/computing?",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Rapid Analog Module",
+      "Resistive Amplifier Module"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does 'ROM' stand for?",
+    "options": [
+      "Read Only Memory",
+      "Random Output Memory",
+      "Rapid Operating Memory",
+      "Resistive Output Module"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which component is commonly used to filter out noise or smooth voltage in power supplies?",
+    "options": [
+      "Resistor",
+      "Capacitor",
+      "Switch",
+      "Fuse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the typical function of an operational amplifier (op-amp)?",
+    "options": [
+      "Store digital data",
+      "Amplify voltage differences between two inputs",
+      "Convert light to electricity",
+      "Generate radio waves only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the smallest unit of digital information, represented as 0 or 1?",
+    "options": [
+      "Byte",
+      "Bit",
+      "Nibble",
+      "Word"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many bits typically make up one byte?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The unit of electric current is:",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The unit of electrical voltage is:",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt",
+      "Joule"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The unit of resistance is:",
+    "options": [
+      "Watt",
+      "Ohm",
+      "Henry",
+      "Farad"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Ohm's law states that:",
+    "options": [
+      "V = IR",
+      "P = VI",
+      "Q = CV",
+      "E = mc\u00b2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If voltage is increased while resistance remains constant, current will:",
+    "options": [
+      "Decrease",
+      "Increase",
+      "Become zero",
+      "Remain unchanged"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Electrical power is measured in:",
+    "options": [
+      "Watt",
+      "Volt",
+      "Ampere",
+      "Ohm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The formula for electrical power is:",
+    "options": [
+      "P = VI",
+      "V = IR",
+      "R = V/I",
+      "I = Q/t"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device used to limit current in a circuit is:",
+    "options": [
+      "Capacitor",
+      "Resistor",
+      "Inductor",
+      "Transformer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A resistor is used to oppose:",
+    "options": [
+      "Voltage",
+      "Current flow",
+      "Power",
+      "Frequency"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The unit of capacitance is:",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Tesla"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A capacitor stores energy in the form of:",
+    "options": [
+      "Magnetic field",
+      "Electric field",
+      "Heat",
+      "Sound"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "An inductor stores energy in the form of:",
+    "options": [
+      "Electric field",
+      "Magnetic field",
+      "Light",
+      "Heat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The unit of inductance is:",
+    "options": [
+      "Farad",
+      "Henry",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A transformer works on the principle of:",
+    "options": [
+      "Electrostatic force",
+      "Mutual induction",
+      "Resistance",
+      "Chemical reaction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A transformer works with:",
+    "options": [
+      "DC only",
+      "AC only",
+      "Both AC and DC equally",
+      "Static charge only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A step-up transformer:",
+    "options": [
+      "Decreases voltage",
+      "Increases voltage",
+      "Converts AC to DC",
+      "Stores charge"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A step-down transformer:",
+    "options": [
+      "Increases voltage",
+      "Decreases voltage",
+      "Produces frequency",
+      "Converts mechanical energy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A semiconductor has conductivity between:",
+    "options": [
+      "Conductor and insulator",
+      "Metal and liquid",
+      "Gas and vacuum",
+      "Heat and light"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The most commonly used semiconductor material is:",
+    "options": [
+      "Copper",
+      "Silicon",
+      "Aluminum",
+      "Iron"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Another important semiconductor material is:",
+    "options": [
+      "Germanium",
+      "Gold",
+      "Silver",
+      "Carbon steel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A diode allows current to flow mainly in:",
+    "options": [
+      "One direction",
+      "Both directions equally",
+      "No direction",
+      "Random directions"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A PN junction is the basic structure of:",
+    "options": [
+      "Resistor",
+      "Diode",
+      "Capacitor",
+      "Transformer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "LED stands for:",
+    "options": [
+      "Light Emitting Diode",
+      "Low Energy Device",
+      "Light Electrical Detector",
+      "Linear Emission Device"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A rectifier converts:",
+    "options": [
+      "DC into AC",
+      "AC into DC",
+      "Heat into electricity",
+      "Sound into electricity"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The purpose of a rectifier circuit is:",
+    "options": [
+      "Amplification",
+      "Conversion of AC to DC",
+      "Voltage measurement",
+      "Frequency generation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A transistor is mainly used for:",
+    "options": [
+      "Amplification and switching",
+      "Energy storage only",
+      "Producing light only",
+      "Measuring temperature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A bipolar junction transistor (BJT) has:",
+    "options": [
+      "Two terminals",
+      "Three terminals",
+      "Four terminals",
+      "Five terminals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The three terminals of a BJT are:",
+    "options": [
+      "Gate, Source, Drain",
+      "Anode, Cathode, Gate",
+      "Emitter, Base, Collector",
+      "Input, Output, Ground"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The two main types of BJT are:",
+    "options": [
+      "PNP and NPN",
+      "AC and DC",
+      "Analog and Digital",
+      "Input and Output"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In a transistor, the terminal that controls current flow is:",
+    "options": [
+      "Collector",
+      "Emitter",
+      "Base",
+      "Ground"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A transistor used as an amplifier operates mainly in:",
+    "options": [
+      "Cut-off region only",
+      "Active region",
+      "Breakdown region",
+      "Reverse region"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A transistor used as a switch operates in:",
+    "options": [
+      "Active and breakdown regions",
+      "Cut-off and saturation regions",
+      "Reverse region only",
+      "Thermal region"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "FET stands for:",
+    "options": [
+      "Field Effect Transistor",
+      "Frequency Electronic Transformer",
+      "Field Energy Terminal",
+      "Fast Electronic Technology"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "MOSFET stands for:",
+    "options": [
+      "Metal Oxide Semiconductor Field Effect Transistor",
+      "Magnetic Output Semiconductor Field Transformer",
+      "Metal Operating System Field Terminal",
+      "Multiple Output Switching Field Effect Technology"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A FET is a:",
+    "options": [
+      "Voltage-controlled device",
+      "Current-controlled device only",
+      "Mechanical device",
+      "Light-controlled device"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A Zener diode is mainly used for:",
+    "options": [
+      "Voltage regulation",
+      "Amplification",
+      "Frequency generation",
+      "Data storage"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A photodiode converts:",
+    "options": [
+      "Electrical energy into heat",
+      "Light energy into electrical signal",
+      "Sound into light",
+      "AC into DC"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A diode used for producing light is:",
+    "options": [
+      "Zener diode",
+      "LED",
+      "Rectifier diode",
+      "Photodiode"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Forward biasing a diode means:",
+    "options": [
+      "Connecting P-side to positive and N-side to negative",
+      "Connecting P-side to negative and N-side to positive",
+      "Removing all voltage",
+      "Short circuiting the diode"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Reverse biasing a diode:",
+    "options": [
+      "Allows large current flow",
+      "Blocks current flow (ideally)",
+      "Produces light always",
+      "Increases capacitance only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "An amplifier increases:",
+    "options": [
+      "Signal strength",
+      "Resistance only",
+      "Temperature",
+      "Frequency only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The gain of an amplifier is the ratio of:",
+    "options": [
+      "Output signal to input signal",
+      "Input signal to output signal",
+      "Voltage to resistance",
+      "Power to current"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An ideal amplifier should have:",
+    "options": [
+      "Zero gain",
+      "High gain",
+      "No output",
+      "High distortion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "An oscillator produces:",
+    "options": [
+      "Continuous electrical signals",
+      "Only DC voltage",
+      "Mechanical movement",
+      "Chemical energy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Digital electronics uses:",
+    "options": [
+      "Continuous signals",
+      "Discrete signals",
+      "Mechanical signals",
+      "Chemical signals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The basic building blocks of digital circuits are:",
+    "options": [
+      "Logic gates",
+      "Resistors",
+      "Transformers",
+      "Motors"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "AND gate gives output 1 when:",
+    "options": [
+      "All inputs are 1",
+      "All inputs are 0",
+      "Any input is 0",
+      "Inputs are different"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "OR gate gives output 1 when:",
+    "options": [
+      "All inputs are 0",
+      "Any input is 1",
+      "No input exists",
+      "Both inputs are negative"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "NOT gate is also called:",
+    "options": [
+      "Inverter",
+      "Amplifier",
+      "Oscillator",
+      "Rectifier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Binary number system uses:",
+    "options": [
+      "0 and 1",
+      "0 to 9",
+      "A to F",
+      "Roman numerals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A Boolean variable can have:",
+    "options": [
+      "Only two values",
+      "Ten values",
+      "Infinite values",
+      "Three values"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The two values used in Boolean algebra are:",
+    "options": [
+      "0 and 1",
+      "1 and 2",
+      "A and B",
+      "True and False only in decimal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The output of an AND gate is represented by:",
+    "options": [
+      "A + B",
+      "A.B",
+      "A \u2212 B",
+      "A/B"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The output of an OR gate is represented by:",
+    "options": [
+      "A + B",
+      "A.B",
+      "A \u00d7 B",
+      "A/B"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The complement operation in Boolean algebra is represented by:",
+    "options": [
+      "Bar over variable",
+      "Multiplication sign only",
+      "Division sign",
+      "Addition only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A universal gate is:",
+    "options": [
+      "AND gate",
+      "OR gate",
+      "NAND gate",
+      "XOR gate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Another universal gate is:",
+    "options": [
+      "NOR gate",
+      "AND gate",
+      "XOR gate",
+      "XNOR gate"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A NAND gate is a combination of:",
+    "options": [
+      "AND + NOT",
+      "OR + NOT",
+      "XOR + NOT",
+      "AND + OR"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A NOR gate is a combination of:",
+    "options": [
+      "AND + NOT",
+      "OR + NOT",
+      "XOR + AND",
+      "NAND + AND"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A flip-flop is a:",
+    "options": [
+      "Memory storage element",
+      "Power supply",
+      "Sensor",
+      "Transformer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A flip-flop stores:",
+    "options": [
+      "One bit of data",
+      "One byte only",
+      "One kilobyte",
+      "Unlimited data"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The basic types of flip-flops include:",
+    "options": [
+      "SR, JK, D, T",
+      "AC, DC, RF",
+      "CPU, RAM, ROM",
+      "LAN, WAN, MAN"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A register is made up of:",
+    "options": [
+      "Flip-flops",
+      "Resistors only",
+      "Capacitors only",
+      "Diodes only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A counter is a digital circuit used to:",
+    "options": [
+      "Count pulses",
+      "Store electricity",
+      "Amplify signals",
+      "Convert AC to DC"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A microprocessor is:",
+    "options": [
+      "A CPU on a single chip",
+      "A type of battery",
+      "A memory device only",
+      "An input device"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The first microprocessor was:",
+    "options": [
+      "Intel 4004",
+      "Intel Pentium",
+      "Motorola 68000",
+      "Zilog Z80"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A microcontroller contains:",
+    "options": [
+      "CPU, memory, and input/output on one chip",
+      "Only CPU",
+      "Only RAM",
+      "Only storage"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A microcontroller is commonly used in:",
+    "options": [
+      "Embedded systems",
+      "Large transformers",
+      "Electric motors only",
+      "Batteries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The main processing unit of a computer is:",
+    "options": [
+      "CPU",
+      "Keyboard",
+      "Monitor",
+      "Printer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A communication system transfers information from:",
+    "options": [
+      "Sender to receiver",
+      "Battery to resistor",
+      "Motor to generator",
+      "Sensor to switch only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A signal that varies continuously with time is:",
+    "options": [
+      "Analog signal",
+      "Digital signal",
+      "Binary signal",
+      "Logic signal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A signal having discrete values is:",
+    "options": [
+      "Analog signal",
+      "Digital signal",
+      "Audio signal only",
+      "Mechanical signal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Modulation is used to:",
+    "options": [
+      "Transfer information efficiently over long distances",
+      "Increase resistance",
+      "Store data permanently",
+      "Produce electricity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "AM stands for:",
+    "options": [
+      "Amplitude Modulation",
+      "Automatic Memory",
+      "Audio Machine",
+      "Analog Measurement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "FM stands for:",
+    "options": [
+      "Frequency Modulation",
+      "Fast Memory",
+      "Frequency Machine",
+      "Field Measurement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device that converts physical quantity into an electrical signal is called:",
+    "options": [
+      "Sensor",
+      "Resistor",
+      "Capacitor",
+      "Transformer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A temperature measuring sensor commonly used in electronics is:",
+    "options": [
+      "Thermistor",
+      "Diode only",
+      "Capacitor",
+      "Relay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A thermistor changes its:",
+    "options": [
+      "Resistance with temperature",
+      "Voltage with light only",
+      "Capacitance with sound",
+      "Frequency with pressure only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device used to detect light is:",
+    "options": [
+      "Photodiode",
+      "Transformer",
+      "Inductor",
+      "Relay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An LDR is a device whose resistance changes with:",
+    "options": [
+      "Light intensity",
+      "Temperature only",
+      "Pressure only",
+      "Magnetic field only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A multimeter is used to measure:",
+    "options": [
+      "Voltage, current, and resistance",
+      "Temperature only",
+      "Frequency only",
+      "Power only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An oscilloscope is used to observe:",
+    "options": [
+      "Electrical waveforms",
+      "Resistance only",
+      "Temperature",
+      "Mechanical movement"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The unit of frequency is:",
+    "options": [
+      "Hertz",
+      "Watt",
+      "Volt",
+      "Ohm"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Frequency means:",
+    "options": [
+      "Number of cycles per second",
+      "Amount of current",
+      "Resistance value",
+      "Power consumption"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The instrument used to measure frequency is:",
+    "options": [
+      "Frequency meter",
+      "Ammeter",
+      "Voltmeter",
+      "Ohmmeter"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device used to convert AC into DC is:",
+    "options": [
+      "Rectifier",
+      "Inverter",
+      "Oscillator",
+      "Amplifier"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device used to convert DC into AC is:",
+    "options": [
+      "Rectifier",
+      "Inverter",
+      "Transformer",
+      "Diode"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "SCR stands for:",
+    "options": [
+      "Silicon Controlled Rectifier",
+      "Semiconductor Current Resistor",
+      "Signal Control Relay",
+      "Silicon Current Regulator"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An SCR has:",
+    "options": [
+      "Three terminals",
+      "Two terminals",
+      "Four terminals",
+      "Five terminals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The terminals of an SCR are:",
+    "options": [
+      "Anode, Cathode, Gate",
+      "Base, Collector, Emitter",
+      "Source, Drain, Gate",
+      "Input, Output, Ground"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A device used for controlling high power electronically is:",
+    "options": [
+      "Thyristor",
+      "Resistor",
+      "Capacitor",
+      "Fuse"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The frequency range of radio waves is generally used for:",
+    "options": [
+      "Wireless communication",
+      "Chemical reactions",
+      "Mechanical movement",
+      "Heat generation only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A satellite communication system uses:",
+    "options": [
+      "Electromagnetic waves",
+      "Water waves",
+      "Sound waves only",
+      "Mechanical waves"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Optical fiber transmits information using:",
+    "options": [
+      "Light signals",
+      "Sound signals",
+      "Magnetic signals",
+      "Heat signals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The main advantage of optical fiber is:",
+    "options": [
+      "High bandwidth and low signal loss",
+      "Very high resistance",
+      "Low speed",
+      "Requires large current"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "RAM is a:",
+    "options": [
+      "Volatile memory",
+      "Permanent memory",
+      "Optical device",
+      "Input device"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "ROM is:",
+    "options": [
+      "Non-volatile memory",
+      "Temporary memory",
+      "Processing unit",
+      "Output device"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A fuse is used for:",
+    "options": [
+      "Protection against excessive current",
+      "Increasing voltage",
+      "Storing energy",
+      "Amplifying signals"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A relay is an electrically operated:",
+    "options": [
+      "Switch",
+      "Capacitor",
+      "Diode",
+      "Transistor"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The main purpose of a power supply in an electronic circuit is:",
+    "options": [
+      "Provide required electrical energy",
+      "Increase mechanical force",
+      "Store programs",
+      "Generate sound only"
+    ],
+    "correctIndex": 0
+  }
 ]

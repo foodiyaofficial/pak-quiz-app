@@ -498,5 +498,1005 @@
       "Herbivores"
     ],
     "correctIndex": 2
+  },
+  {
+    "question": "The scientific study of living organisms is called:",
+    "options": [
+      "Chemistry",
+      "Biology",
+      "Physics",
+      "Geology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The study of plants is called:",
+    "options": [
+      "Zoology",
+      "Botany",
+      "Genetics",
+      "Ecology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The study of animals is called:",
+    "options": [
+      "Botany",
+      "Zoology",
+      "Anatomy",
+      "Physiology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The study of inheritance and variation is called:",
+    "options": [
+      "Ecology",
+      "Genetics",
+      "Histology",
+      "Taxonomy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The father of genetics is:",
+    "options": [
+      "Charles Darwin",
+      "Gregor Mendel",
+      "Aristotle",
+      "Robert Hooke"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The father of modern taxonomy is:",
+    "options": [
+      "Linnaeus",
+      "Watson",
+      "Darwin",
+      "Pasteur"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The scientific name of humans is:",
+    "options": [
+      "Homo sapiens",
+      "Homo erectus",
+      "Pan troglodytes",
+      "Australopithecus"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The smallest level of biological organization is:",
+    "options": [
+      "Organ",
+      "Tissue",
+      "Cell",
+      "Organ system"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A group of similar cells performing a specific function is called:",
+    "options": [
+      "Tissue",
+      "Organ",
+      "Organ system",
+      "Organism"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The branch of biology dealing with tissues is:",
+    "options": [
+      "Cytology",
+      "Histology",
+      "Physiology",
+      "Ecology"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who discovered the cell?",
+    "options": [
+      "Robert Hooke",
+      "Leeuwenhoek",
+      "Darwin",
+      "Mendel"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The cell theory was proposed by:",
+    "options": [
+      "Watson and Crick",
+      "Schleiden and Schwann",
+      "Darwin and Wallace",
+      "Mendel and Morgan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The control center of the cell is:",
+    "options": [
+      "Cytoplasm",
+      "Nucleus",
+      "Ribosome",
+      "Mitochondria"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The powerhouse of the cell is:",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondria",
+      "Lysosome",
+      "Nucleus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Protein synthesis occurs on:",
+    "options": [
+      "Ribosomes",
+      "Vacuoles",
+      "Lysosomes",
+      "Centrioles"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The cell membrane is:",
+    "options": [
+      "Completely impermeable",
+      "Selectively permeable",
+      "Made only of proteins",
+      "Found only in plants"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Plant cells differ from animal cells because plants have:",
+    "options": [
+      "Ribosomes only",
+      "Cell wall and chloroplasts",
+      "Nucleus only",
+      "Mitochondria only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main component of plant cell wall is:",
+    "options": [
+      "Glycogen",
+      "Cellulose",
+      "Chitin",
+      "Protein"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The organelle responsible for photosynthesis is:",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Ribosome",
+      "Nucleus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Lysosomes are known as:",
+    "options": [
+      "Powerhouses",
+      "Suicide bags of the cell",
+      "Protein factories",
+      "Control centers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The basic unit of proteins is:",
+    "options": [
+      "Fatty acid",
+      "Amino acid",
+      "Glucose",
+      "Nucleotide"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The basic unit of carbohydrates is:",
+    "options": [
+      "Amino acid",
+      "Fatty acid",
+      "Monosaccharide",
+      "Nucleotide"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "DNA stands for:",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Dynamic Nuclear Acid",
+      "Double Nitrogen Acid",
+      "Deoxygenated Nuclear Atom"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Enzymes are:",
+    "options": [
+      "Hormones",
+      "Biological catalysts",
+      "Vitamins",
+      "Minerals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Most enzymes are:",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Lipids",
+      "Minerals"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The molecule that carries genetic (hereditary) information in a cell is:",
+    "options": [
+      "Protein",
+      "Lipid",
+      "Carbohydrate",
+      "DNA"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "DNA is mainly located in the:",
+    "options": [
+      "Ribosome",
+      "Nucleus",
+      "Golgi apparatus",
+      "Vacuole"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The structure of DNA was proposed by:",
+    "options": [
+      "Darwin and Wallace",
+      "Watson and Crick",
+      "Mendel and Morgan",
+      "Hooke and Leeuwenhoek"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The shape of DNA molecule is:",
+    "options": [
+      "Single helix",
+      "Double helix",
+      "Triple helix",
+      "Circular only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "RNA contains which sugar?",
+    "options": [
+      "Deoxyribose",
+      "Ribose",
+      "Glucose",
+      "Fructose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The nitrogenous base present in RNA but absent in DNA is:",
+    "options": [
+      "Adenine",
+      "Thymine",
+      "Uracil",
+      "Guanine"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A gene is a segment of:",
+    "options": [
+      "Protein",
+      "DNA",
+      "Lipid",
+      "Carbohydrate"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Chromosomes are composed of:",
+    "options": [
+      "DNA and proteins",
+      "RNA only",
+      "Lipids only",
+      "Carbohydrates only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The process by which DNA makes an identical copy is:",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Mutation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The process of formation of RNA from DNA is:",
+    "options": [
+      "Translation",
+      "Transcription",
+      "Replication",
+      "Fertilization"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Cell division responsible for growth and repair is:",
+    "options": [
+      "Meiosis",
+      "Mitosis",
+      "Fertilization",
+      "Mutation"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Meiosis produces:",
+    "options": [
+      "Two diploid cells",
+      "Four haploid cells",
+      "One diploid cell",
+      "Eight cells"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The number of chromosomes in human body cells is:",
+    "options": [
+      "23",
+      "46",
+      "44",
+      "48"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Human gametes contain:",
+    "options": [
+      "46 chromosomes",
+      "23 chromosomes",
+      "44 chromosomes",
+      "92 chromosomes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Crossing over occurs during:",
+    "options": [
+      "Prophase I of meiosis",
+      "Metaphase of mitosis",
+      "Telophase",
+      "Cytokinesis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The five-kingdom classification was proposed by:",
+    "options": [
+      "Linnaeus",
+      "Robert Whittaker",
+      "Darwin",
+      "Aristotle"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Bacteria belong to kingdom:",
+    "options": [
+      "Plantae",
+      "Animalia",
+      "Monera",
+      "Fungi"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Viruses are considered:",
+    "options": [
+      "Fully living organisms",
+      "Non-cellular infectious agents",
+      "Plants",
+      "Bacteria"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The study of viruses is called:",
+    "options": [
+      "Virology",
+      "Bacteriology",
+      "Mycology",
+      "Zoology"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Bacteria commonly reproduce by:",
+    "options": [
+      "Binary fission",
+      "Mitosis",
+      "Meiosis",
+      "Budding only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Photosynthesis occurs mainly in:",
+    "options": [
+      "Roots",
+      "Leaves",
+      "Flowers",
+      "Fruits"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The green pigment involved in photosynthesis is:",
+    "options": [
+      "Hemoglobin",
+      "Chlorophyll",
+      "Melanin",
+      "Keratin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Plants absorb water mainly through:",
+    "options": [
+      "Leaves",
+      "Roots",
+      "Flowers",
+      "Stem surface"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The tissue responsible for transport of water in plants is:",
+    "options": [
+      "Phloem",
+      "Xylem",
+      "Epidermis",
+      "Cortex"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The tissue responsible for transport of food in plants is:",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Digestion of food begins in the:",
+    "options": [
+      "Stomach",
+      "Mouth",
+      "Small intestine",
+      "Large intestine"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The enzyme in saliva that begins starch digestion is:",
+    "options": [
+      "Amylase",
+      "Pepsin",
+      "Lipase",
+      "Trypsin"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The enzyme pepsin mainly digests:",
+    "options": [
+      "Proteins",
+      "Fats",
+      "Carbohydrates",
+      "Vitamins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Bile, which helps digest fats, is produced by the:",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Gallbladder",
+      "Stomach"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Bile is stored in the:",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Gallbladder",
+      "Stomach"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Most digestive enzymes for fats, proteins, and carbohydrates are produced by the:",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Gallbladder",
+      "Kidney"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main site of nutrient absorption in the digestive system is the:",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Large intestine",
+      "Esophagus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The large intestine mainly absorbs:",
+    "options": [
+      "Water",
+      "Glucose",
+      "Amino acids",
+      "Vitamins"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Gas exchange in the lungs occurs in the:",
+    "options": [
+      "Bronchi",
+      "Alveoli",
+      "Trachea",
+      "Larynx"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Oxygen is mainly transported in the blood by:",
+    "options": [
+      "White blood cells",
+      "Hemoglobin",
+      "Platelets",
+      "Plasma"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The muscular organ that pumps blood throughout the body is the:",
+    "options": [
+      "Liver",
+      "Heart",
+      "Kidney",
+      "Lungs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The human heart has how many chambers?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Blood vessels that carry blood away from the heart are called:",
+    "options": [
+      "Veins",
+      "Arteries",
+      "Capillaries",
+      "Venules"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Blood vessels that carry blood back to the heart are called:",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Capillaries",
+      "Arterioles"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The blood cells mainly responsible for clotting are:",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma proteins"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Nitrogenous waste (urea) is mainly removed from the body by the:",
+    "options": [
+      "Liver",
+      "Kidney",
+      "Lungs",
+      "Skin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The functional unit of the kidney is the:",
+    "options": [
+      "Neuron",
+      "Nephron",
+      "Alveolus",
+      "Villus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main function of the skeletal system is to provide:",
+    "options": [
+      "Digestion",
+      "Support and protection",
+      "Respiration",
+      "Excretion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A joint like the elbow, which allows movement in only one plane, is called a:",
+    "options": [
+      "Ball-and-socket joint",
+      "Hinge joint",
+      "Pivot joint",
+      "Gliding joint"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Muscles are attached to bones by:",
+    "options": [
+      "Ligaments",
+      "Tendons",
+      "Cartilage",
+      "Nerves"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The basic functional unit of the nervous system is the:",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Axon terminal",
+      "Synapse"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The part of the brain mainly responsible for coordinating balance and muscular movement is the:",
+    "options": [
+      "Cerebrum",
+      "Cerebellum",
+      "Medulla oblongata",
+      "Hypothalamus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Insulin is a hormone that regulates the level of:",
+    "options": [
+      "Calcium",
+      "Blood glucose",
+      "Oxygen",
+      "Protein"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Thyroxine hormone is produced by:",
+    "options": [
+      "Thyroid gland",
+      "Pituitary gland",
+      "Pancreas",
+      "Adrenal gland"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The body's ability to resist disease is called:",
+    "options": [
+      "Digestion",
+      "Immunity",
+      "Respiration",
+      "Excretion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Endocrine glands release their hormones directly into the:",
+    "options": [
+      "Ducts",
+      "Blood",
+      "Lymph nodes only",
+      "Nerves"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The gland often called the \"master gland\" because it controls other endocrine glands is the:",
+    "options": [
+      "Thyroid",
+      "Pituitary",
+      "Adrenal",
+      "Pancreas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Adrenaline is released mainly in response to:",
+    "options": [
+      "Sleep",
+      "Stress or fear",
+      "Digestion",
+      "Growth"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The hormone responsible for the \"fight or flight\" response is:",
+    "options": [
+      "Insulin",
+      "Adrenaline",
+      "Thyroxine",
+      "Estrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The male reproductive organ that produces sperm is the:",
+    "options": [
+      "Ovary",
+      "Testis",
+      "Prostate",
+      "Epididymis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The female reproductive organ that produces eggs is the:",
+    "options": [
+      "Uterus",
+      "Ovary",
+      "Vagina",
+      "Cervix"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fertilization of the human egg normally occurs in the:",
+    "options": [
+      "Uterus",
+      "Ovary",
+      "Fallopian tube",
+      "Vagina"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The developing embryo implants and grows in the:",
+    "options": [
+      "Cervix",
+      "Uterus",
+      "Ovary",
+      "Fallopian tube"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The main hormone associated with the male reproductive system is:",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Testosterone",
+      "Oxytocin"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The study of interactions between organisms and their environment is called:",
+    "options": [
+      "Genetics",
+      "Ecology",
+      "Physiology",
+      "Anatomy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A community of organisms interacting with each other and their physical environment is called a/an:",
+    "options": [
+      "Population",
+      "Ecosystem",
+      "Biome",
+      "Habitat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Organisms that make their own food, such as green plants, are called:",
+    "options": [
+      "Consumers",
+      "Producers",
+      "Decomposers",
+      "Predators"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Organisms that break down dead organic matter are called:",
+    "options": [
+      "Producers",
+      "Consumers",
+      "Decomposers",
+      "Predators"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The flow of energy through an ecosystem is generally:",
+    "options": [
+      "Cyclical",
+      "One-directional",
+      "Random",
+      "Reversible"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A sequence showing which organism eats which in an ecosystem is called a:",
+    "options": [
+      "Food web",
+      "Food chain",
+      "Nutrient cycle",
+      "Carbon cycle"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Plants absorb which gas from the atmosphere for photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The gradual process by which organisms change over successive generations is called:",
+    "options": [
+      "Adaptation",
+      "Evolution",
+      "Mutation",
+      "Selection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The theory of evolution by natural selection was proposed by:",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Carl Linnaeus",
+      "Jean-Baptiste Lamarck"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A heritable change in the DNA sequence of an organism is called a:",
+    "options": [
+      "Mutation",
+      "Adaptation",
+      "Selection",
+      "Variation only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The variety of living organisms found in a given area is called:",
+    "options": [
+      "Ecology",
+      "Biodiversity",
+      "Population",
+      "Habitat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A species that no longer exists anywhere on Earth is described as:",
+    "options": [
+      "Endangered",
+      "Extinct",
+      "Threatened",
+      "Invasive"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A species at high risk of extinction in the near future is described as:",
+    "options": [
+      "Extinct",
+      "Endangered",
+      "Dominant",
+      "Invasive"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The loss of water vapor from the surface of plant leaves is called:",
+    "options": [
+      "Transpiration",
+      "Photosynthesis",
+      "Absorption",
+      "Respiration"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The normal number of chromosomes in a human somatic cell is:",
+    "options": [
+      "23",
+      "46",
+      "44",
+      "92"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The basic unit of heredity is:",
+    "options": [
+      "Chromosome",
+      "Gene",
+      "Cell",
+      "Protein"
+    ],
+    "correctIndex": 1
   }
 ]

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "What is the brain of a computer?",
+    "options": [
+      "Monitor",
+      "CPU",
+      "Keyboard",
+      "Printer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "CPU stands for:",
+    "options": [
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Program Utility",
+      "Control Processing User"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which part of the computer performs calculations and logical operations?",
+    "options": [
+      "RAM",
+      "ALU",
+      "Hard Disk",
+      "Monitor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "ALU stands for:",
+    "options": [
+      "Arithmetic Logic Unit",
+      "Advanced Logic Unit",
+      "Automatic Link Unit",
+      "Arithmetic Level Utility"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following is an input device?",
+    "options": [
+      "Printer",
+      "Monitor",
+      "Keyboard",
+      "Speaker"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is an output device?",
+    "options": [
+      "Mouse",
+      "Scanner",
+      "Keyboard",
+      "Printer"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "The smallest unit of data in a computer is:",
+    "options": [
+      "Byte",
+      "Bit",
+      "Kilobyte",
+      "Word"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "8 bits are equal to:",
+    "options": [
+      "1 Byte",
+      "1 KB",
+      "1 MB",
+      "1 GB"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "1024 bytes are equal to:",
+    "options": [
+      "1 Bit",
+      "1 Kilobyte",
+      "1 Megabyte",
+      "1 Gigabyte"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which memory is temporary and volatile?",
+    "options": [
+      "ROM",
+      "RAM",
+      "Hard Disk",
+      "CD-ROM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "RAM stands for:",
+    "options": [
+      "Random Access Memory",
+      "Read Access Memory",
+      "Rapid Application Memory",
+      "Random Application Module"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which memory retains data even when power is turned off?",
+    "options": [
+      "RAM",
+      "Cache",
+      "ROM",
+      "Register"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "ROM stands for:",
+    "options": [
+      "Read Only Memory",
+      "Random Only Memory",
+      "Read Open Memory",
+      "Rapid Output Memory"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which is the fastest memory in a computer?",
+    "options": [
+      "Hard Disk",
+      "RAM",
+      "Cache Memory",
+      "DVD"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which device is used for permanent storage?",
+    "options": [
+      "RAM",
+      "Register",
+      "Hard Disk",
+      "Cache"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which of the following is system software?",
+    "options": [
+      "MS Word",
+      "Windows",
+      "Photoshop",
+      "PowerPoint"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "An operating system acts as an interface between:",
+    "options": [
+      "User and hardware",
+      "Keyboard and mouse",
+      "Printer and monitor",
+      "Internet and software only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which one is NOT an operating system?",
+    "options": [
+      "Linux",
+      "Windows",
+      "Android",
+      "MS Excel"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Windows was developed by:",
+    "options": [
+      "Apple",
+      "Microsoft",
+      "Google",
+      "IBM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Linux is an example of:",
+    "options": [
+      "Application software",
+      "Operating system",
+      "Antivirus",
+      "Programming language"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The binary number system uses:",
+    "options": [
+      "0 and 1",
+      "1 and 2",
+      "0 to 9",
+      "A to F"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Decimal number system has base:",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Binary number system has base:",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Hexadecimal number system has base:",
+    "options": [
+      "2",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "Which of the following represents a hexadecimal digit?",
+    "options": [
+      "G",
+      "H",
+      "F",
+      "Z"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A set of instructions given to a computer to perform a task is called:",
+    "options": [
+      "Hardware",
+      "Program",
+      "Memory",
+      "Device"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A language used to write computer programs is called:",
+    "options": [
+      "Machine",
+      "Programming language",
+      "Operating system",
+      "Database"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is a high-level programming language?",
+    "options": [
+      "Machine Language",
+      "Assembly Language",
+      "Python",
+      "Binary Code"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "C language was developed by:",
+    "options": [
+      "Dennis Ritchie",
+      "Bill Gates",
+      "James Gosling",
+      "Tim Berners-Lee"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "C language was developed at:",
+    "options": [
+      "Microsoft",
+      "Bell Laboratories",
+      "Google",
+      "IBM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A compiler converts:",
+    "options": [
+      "Machine language into English",
+      "High-level language into machine language",
+      "Hardware into software",
+      "Data into files"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which translator converts a program line by line?",
+    "options": [
+      "Compiler",
+      "Interpreter",
+      "Assembler",
+      "Linker"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A flowchart is a graphical representation of:",
+    "options": [
+      "Hardware",
+      "Algorithm",
+      "Database",
+      "Memory"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which symbol represents a decision in a flowchart?",
+    "options": [
+      "Rectangle",
+      "Circle",
+      "Diamond",
+      "Arrow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which symbol represents a process in a flowchart?",
+    "options": [
+      "Rectangle",
+      "Diamond",
+      "Oval",
+      "Triangle"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An algorithm is:",
+    "options": [
+      "A computer virus",
+      "A step-by-step procedure to solve a problem",
+      "A storage device",
+      "A programming error"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which data structure follows First In First Out (FIFO)?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Tree",
+      "Graph"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which data structure follows Last In First Out (LIFO)?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Array",
+      "Database"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A collection of related data is called:",
+    "options": [
+      "Program",
+      "Database",
+      "Algorithm",
+      "Folder"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "DBMS stands for:",
+    "options": [
+      "Database Management System",
+      "Data Backup Management System",
+      "Digital Base Memory System",
+      "Database Machine Service"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which of the following is a DBMS software?",
+    "options": [
+      "MS Word",
+      "MySQL",
+      "Paint",
+      "Calculator"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A row in a database table is called:",
+    "options": [
+      "Field",
+      "Record",
+      "Column",
+      "Attribute"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A column in a database table is called:",
+    "options": [
+      "Record",
+      "Field",
+      "Row",
+      "Tuple only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A primary key is used to:",
+    "options": [
+      "Delete all records",
+      "Uniquely identify a record",
+      "Increase internet speed",
+      "Format a hard disk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "SQL stands for:",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Logic",
+      "Standard Question Language",
+      "System Query Link"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A computer network covering a small area is called:",
+    "options": [
+      "WAN",
+      "MAN",
+      "LAN",
+      "PAN"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "LAN stands for:",
+    "options": [
+      "Large Area Network",
+      "Local Area Network",
+      "Long Access Network",
+      "Linked Area Network"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A network covering a large geographical area is:",
+    "options": [
+      "LAN",
+      "PAN",
+      "WAN",
+      "CAN"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The Internet is:",
+    "options": [
+      "A single computer",
+      "A network of networks",
+      "A programming language",
+      "An operating system"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "WWW stands for:",
+    "options": [
+      "World Wide Web",
+      "World Web Window",
+      "Wide World Wire",
+      "Web World Work"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which component of CPU controls all operations of the computer?",
+    "options": [
+      "ALU",
+      "Control Unit",
+      "RAM",
+      "Hard Disk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "CPU consists of:",
+    "options": [
+      "RAM and ROM",
+      "ALU and Control Unit",
+      "Monitor and Keyboard",
+      "Hard Disk and CD-ROM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Registers are located inside the:",
+    "options": [
+      "Monitor",
+      "CPU",
+      "Keyboard",
+      "Hard Disk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which memory is closest to the CPU?",
+    "options": [
+      "Hard Disk",
+      "RAM",
+      "Cache Memory",
+      "Optical Disk"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The main circuit board of a computer is called:",
+    "options": [
+      "Motherboard",
+      "Processor",
+      "Adapter",
+      "Scanner"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "BIOS is stored in:",
+    "options": [
+      "RAM",
+      "ROM",
+      "Cache",
+      "Hard Disk"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "BIOS stands for:",
+    "options": [
+      "Basic Input Output System",
+      "Binary Input Operating System",
+      "Basic Internet Operating Service",
+      "Backup Input Output Setup"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which operating system is open-source?",
+    "options": [
+      "Windows",
+      "Linux",
+      "MS-DOS",
+      "iOS"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Multitasking means:",
+    "options": [
+      "Using multiple computers",
+      "Running multiple programs at the same time",
+      "Increasing storage capacity",
+      "Connecting multiple printers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "The process of starting a computer is called:",
+    "options": [
+      "Formatting",
+      "Booting",
+      "Scanning",
+      "Debugging"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A computer virus is:",
+    "options": [
+      "A hardware device",
+      "A malicious program",
+      "An operating system",
+      "A storage unit"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A program designed to detect and remove viruses is:",
+    "options": [
+      "Compiler",
+      "Antivirus",
+      "Browser",
+      "Driver"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A firewall is used for:",
+    "options": [
+      "Increasing monitor brightness",
+      "Protecting a network from unauthorized access",
+      "Creating documents",
+      "Increasing RAM"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Phishing is an attempt to:",
+    "options": [
+      "Improve computer speed",
+      "Steal sensitive information through fake messages/websites",
+      "Repair hardware",
+      "Install operating systems"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Malware means:",
+    "options": [
+      "Malicious software",
+      "Manual software",
+      "Managed hardware",
+      "Main software"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "An IP address is used to:",
+    "options": [
+      "Identify a device on a network",
+      "Increase storage",
+      "Print documents",
+      "Create programs"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "IPv4 address consists of:",
+    "options": [
+      "16 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "IPv6 address consists of:",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "256 bits"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "HTTP stands for:",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transfer Text Program",
+      "Hyperlink Transfer Process",
+      "Home Text Transfer Protocol"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "HTTPS provides:",
+    "options": [
+      "Faster typing",
+      "Secure communication over the web",
+      "More storage",
+      "Better graphics"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "FTP is used for:",
+    "options": [
+      "File transfer",
+      "Video editing",
+      "Database creation",
+      "Virus removal"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A software development process includes:",
+    "options": [
+      "Analysis, design, coding, testing",
+      "Printing, scanning, typing",
+      "Gaming, browsing, downloading",
+      "Installing hardware only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "SDLC stands for:",
+    "options": [
+      "Software Development Life Cycle",
+      "System Data Link Control",
+      "Software Digital Logic Code",
+      "System Development Language"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Debugging means:",
+    "options": [
+      "Finding and removing errors in a program",
+      "Creating a virus",
+      "Increasing internet speed",
+      "Deleting files"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A bug in programming is:",
+    "options": [
+      "A hardware device",
+      "An error or defect in a program",
+      "A type of memory",
+      "A network cable"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which symbol is used to end a statement in C/C++?",
+    "options": [
+      ":",
+      ";",
+      ",",
+      "."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is a valid C++ data type?",
+    "options": [
+      "Integer",
+      "RealNumber",
+      "int",
+      "Number"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The extension of a C++ source file is usually:",
+    "options": [
+      ".txt",
+      ".cpp",
+      ".exe",
+      ".doc"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which keyword is used to declare a constant in C++?",
+    "options": [
+      "fixed",
+      "constant",
+      "const",
+      "defineonly"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which operator is used for assignment in C/C++?",
+    "options": [
+      "==",
+      "=",
+      "+=",
+      "!="
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which operator is used to compare equality in C/C++?",
+    "options": [
+      "=",
+      "==",
+      "<=",
+      "%"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which loop executes at least once even if the condition is false?",
+    "options": [
+      "For loop",
+      "While loop",
+      "Do-while loop",
+      "Nested loop"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which statement is used to make a decision in programming?",
+    "options": [
+      "if",
+      "print",
+      "input",
+      "include"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which statement is used to exit from a loop?",
+    "options": [
+      "continue",
+      "break",
+      "stop",
+      "exitloop"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "An array stores:",
+    "options": [
+      "Multiple values of the same data type",
+      "Only one value",
+      "Programs only",
+      "Images only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The first index of an array in C/C++ is:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "10"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A function is:",
+    "options": [
+      "A reusable block of code",
+      "A type of hardware",
+      "A storage device",
+      "An operating system"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which data structure uses nodes connected by links?",
+    "options": [
+      "Array",
+      "Linked List",
+      "Stack only",
+      "Variable"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A tree data structure is:",
+    "options": [
+      "A linear structure only",
+      "A non-linear data structure",
+      "A programming language",
+      "A database software"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Binary search requires data to be:",
+    "options": [
+      "Random",
+      "Sorted",
+      "Deleted",
+      "Encrypted"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which database language is used to retrieve data?",
+    "options": [
+      "SQL",
+      "HTML",
+      "CSS",
+      "BIOS"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which SQL command is used to retrieve data from a table?",
+    "options": [
+      "INSERT",
+      "DELETE",
+      "SELECT",
+      "DROP"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which SQL command is used to add new records?",
+    "options": [
+      "ADD",
+      "INSERT",
+      "UPDATE",
+      "CREATE"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which SQL command is used to remove records?",
+    "options": [
+      "DELETE",
+      "SELECT",
+      "PRINT",
+      "OPEN"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "A backup is created to:",
+    "options": [
+      "Protect data from loss",
+      "Increase CPU speed",
+      "Replace RAM",
+      "Create viruses"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Cloud computing means:",
+    "options": [
+      "Using computing services over the internet",
+      "Using only local storage",
+      "Repairing hardware",
+      "Creating clouds"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Google Chrome is a:",
+    "options": [
+      "Operating system",
+      "Web browser",
+      "Database",
+      "Programming language"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "URL stands for:",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Record Link",
+      "User Resource Language",
+      "Uniform Read Level"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Two-factor authentication improves:",
+    "options": [
+      "Computer speed",
+      "Security of accounts",
+      "Storage capacity",
+      "Screen quality"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "AI stands for:",
+    "options": [
+      "Automated Internet",
+      "Artificial Intelligence",
+      "Advanced Information",
+      "Artificial Internet"
+    ],
+    "correctIndex": 1
+  }
+]

@@ -143,6 +143,22 @@ object QuestionBank {
             emoji = "\uD83D\uDD0C"
         ),
         Category(
+            id = "computerscience",
+            title = "Computer Science & IT",
+            subtitle = "Computers, Programming & Technology Basics",
+            jsonFile = "questions_computerscience.json",
+            colorRes = R.color.card_computerscience,
+            emoji = "\uD83D\uDCBB"
+        ),
+        Category(
+            id = "logicalreasoning",
+            title = "Logical Reasoning & IQ",
+            subtitle = "Patterns, Series & Analytical Thinking",
+            jsonFile = "questions_logicalreasoning.json",
+            colorRes = R.color.card_logicalreasoning,
+            emoji = "\uD83E\uDDE9"
+        ),
+        Category(
             id = "math",
             title = "Mathematics",
             subtitle = "Arithmetic, Algebra & Reasoning",
