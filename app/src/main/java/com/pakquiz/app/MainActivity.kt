@@ -65,7 +65,9 @@ class MainActivity : AppCompatActivity() {
             )
 
             for (col in 0 until 2) {
-                val tileWrapper = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+                val tileWrapper = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.MATCH_PARENT, 1f)
+                val marginPx = (8 * resources.displayMetrics.density).toInt()
+                tileWrapper.setMargins(marginPx, marginPx, marginPx, marginPx)
                 if (i < categories.size) {
                     val category = categories[i]
                     val tile = inflater.inflate(R.layout.item_category, row, false)
