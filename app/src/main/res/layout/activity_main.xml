@@ -229,21 +229,13 @@
 
     </ScrollView>
 
-    <!-- AdMob Banner Placeholder: swap this FrameLayout for a real AdView once you have your AdMob Ad Unit ID -->
+    <!-- AdMob Banner container - real AdView is added here at runtime in MainActivity.kt -->
     <FrameLayout
         android:id="@+id/bannerAdContainer"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
+        android:minHeight="56dp"
         android:background="#E0E0E0"
-        android:gravity="center">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="AdMob Banner Ad Placeholder (320x50)"
-            android:textColor="#757575"
-            android:textSize="12sp" />
-
-    </FrameLayout>
+        android:gravity="center" />
 
 </LinearLayout>

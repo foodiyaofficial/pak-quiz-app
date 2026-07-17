@@ -173,7 +173,7 @@ object QuestionBank {
      * the same rotation system across the combined pool (separate rotation cycle from
      * individual subject quizzes).
      */
-    fun loadFullTest(context: Context): List<Question> {
+    fun loadFullTest(context: Context, size: Int = FULL_TEST_SIZE): List<Question> {
         val combined = mutableListOf<Question>()
         for (category in categories) {
             combined.addAll(parseJson(context, category.jsonFile))
@@ -182,19 +182,19 @@ object QuestionBank {
         val seenIds = SeenQuestionsStore.getSeenIds(context, FULL_TEST_KEY)
         var unseen = combined.filter { it.id !in seenIds }
 
-        if (unseen.size < FULL_TEST_SIZE) {
+        if (unseen.size < size) {
             SeenQuestionsStore.resetSeen(context, FULL_TEST_KEY)
             unseen = combined
         }
 
-        val selected = if (unseen.size >= FULL_TEST_SIZE) {
-            unseen.shuffled().take(FULL_TEST_SIZE)
+        val selected = if (unseen.size >= size) {
+            unseen.shuffled().take(size)
         } else {
-            // Combined pool itself is smaller than 100 - cycle through with repeats to fill
+            // Combined pool itself is smaller than requested - cycle through with repeats to fill
             val result = mutableListOf<Question>()
             val shuffledPool = unseen.shuffled()
             var i = 0
-            while (result.size < FULL_TEST_SIZE) {
+            while (result.size < size) {
                 result.add(shuffledPool[i % shuffledPool.size])
                 i++
             }

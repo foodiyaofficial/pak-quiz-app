@@ -28,7 +28,8 @@ class FullTestActivity : AppCompatActivity() {
         optionCards = listOf(binding.optionCard0, binding.optionCard1, binding.optionCard2, binding.optionCard3)
         optionTexts = listOf(binding.option0, binding.option1, binding.option2, binding.option3)
 
-        questions = QuestionBank.loadFullTest(this).toMutableList()
+        val questionCount = intent.getIntExtra("question_count", QuestionBank.FULL_TEST_SIZE)
+        questions = QuestionBank.loadFullTest(this, questionCount).toMutableList()
 
         showQuestion()
 

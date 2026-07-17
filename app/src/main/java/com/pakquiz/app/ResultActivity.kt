@@ -14,6 +14,8 @@ class ResultActivity : AppCompatActivity() {
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        AdConfig.loadBannerInto(this, binding.bannerAdContainer)
+
         val score = intent.getIntExtra("score", 0)
         val total = intent.getIntExtra("total", 0)
         val categoryId = intent.getStringExtra("category_id") ?: "islamiat"

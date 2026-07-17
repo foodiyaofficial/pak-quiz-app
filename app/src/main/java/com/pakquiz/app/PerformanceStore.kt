@@ -102,4 +102,36 @@ object PerformanceStore {
 
     fun getBestScore(context: Context, categoryId: String): Int =
         context.getSharedPreferences("pakquiz_scores", Context.MODE_PRIVATE).getInt("best_$categoryId", 0)
+
+    /**
+     * True when the user's streak is about to be lost (they missed 2+ days) and they
+     * haven't already been offered - or used - a Streak Freeze today.
+     */
+    fun isStreakAtRisk(context: Context): Boolean {
+        val p = prefs(context)
+        val storedStreak = p.getInt("current_streak", 0)
+        if (storedStreak <= 0) return false
+
+        val lastPlayedDate = p.getString("last_played_date", null) ?: return false
+        val today = todayKey()
+        if (lastPlayedDate == today) return false
+        if (isYesterday(lastPlayedDate)) return false // still within the normal grace window
+
+        val promptedDate = p.getString("last_streak_prompt_date", null)
+        return promptedDate != today
+    }
+
+    fun markStreakPromptShownToday(context: Context) {
+        prefs(context).edit().putString("last_streak_prompt_date", todayKey()).apply()
+    }
+
+    /** Call after a rewarded ad completes successfully to keep the streak alive. */
+    fun useStreakFreeze(context: Context) {
+        val yesterday = SimpleDateFormat("yyyy-MM-dd", Locale.US)
+            .format(Date(System.currentTimeMillis() - 24L * 60 * 60 * 1000))
+        prefs(context).edit()
+            .putString("last_played_date", yesterday)
+            .putString("last_streak_prompt_date", todayKey())
+            .apply()
+    }
 }

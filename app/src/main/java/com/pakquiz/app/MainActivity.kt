@@ -18,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        AdConfig.initializeSdk(this)
+        AdConfig.loadBannerInto(this, binding.bannerAdContainer)
+
         buildCategoryGrid()
 
         binding.aboutButton.setOnClickListener {
@@ -25,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.fullTestInclude.root.setOnClickListener {
-            startActivity(Intent(this, FullTestActivity::class.java))
+            offerFullTestBoost()
         }
 
         binding.resumeButton.setOnClickListener {
@@ -38,9 +41,6 @@ class MainActivity : AppCompatActivity() {
             openCategory(category)
         }
 
-        // TODO (AdMob): once you have a real Ad Unit ID, replace bannerAdContainer's placeholder
-        // TextView with a com.google.android.gms.ads.AdView and call adView.loadAd(AdRequest.Builder().build())
-        // See README section "Adding real AdMob ads" for the exact steps.
     }
 
     /**
@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                     tile.findViewById<TextView>(R.id.categorySubtitle).text = category.subtitle
                     tile.findViewById<LinearLayout>(R.id.cardBackground)
                         .setBackgroundColor(ContextCompat.getColor(this, category.colorRes))
-                    tile.setOnClickListener { openCategory(category) }
+                    tile.setOnClickListener { offerExtendedPractice(category) }
 
                     row.addView(tile)
                     i++
@@ -94,17 +94,99 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun openCategory(category: Category) {
+    private fun openCategory(category: Category, questionCount: Int = QuestionBank.QUESTIONS_PER_QUIZ) {
         val intent = Intent(this, QuizActivity::class.java)
         intent.putExtra("category_id", category.id)
         intent.putExtra("category_json", category.jsonFile)
         intent.putExtra("category_title", category.title)
+        intent.putExtra("question_count", questionCount)
         startActivity(intent)
+    }
+
+    private fun offerExtendedPractice(category: Category) {
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Boost Your Practice")
+            .setMessage("Watch a short ad to unlock 25 questions for ${category.title} instead of the standard 10.")
+            .setPositiveButton("Watch Ad \u2013 25 Questions") { _, _ ->
+                AdConfig.loadAndShowRewarded(
+                    this,
+                    onRewardEarned = { openCategory(category, 25) },
+                    onUnavailable = {
+                        android.widget.Toast.makeText(
+                            this,
+                            "No ad available right now - starting with 10 questions",
+                            android.widget.Toast.LENGTH_SHORT
+                        ).show()
+                        openCategory(category)
+                    }
+                )
+            }
+            .setNegativeButton("Skip \u2013 10 Questions") { _, _ -> openCategory(category) }
+            .setCancelable(false)
+            .show()
+    }
+
+    private fun offerFullTestBoost() {
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Boost Your Full Test")
+            .setMessage("Watch a short ad to unlock 200 mixed questions instead of the standard 100.")
+            .setPositiveButton("Watch Ad \u2013 200 Questions") { _, _ ->
+                AdConfig.loadAndShowRewarded(
+                    this,
+                    onRewardEarned = { startFullTest(200) },
+                    onUnavailable = {
+                        android.widget.Toast.makeText(
+                            this,
+                            "No ad available right now - starting with 100 questions",
+                            android.widget.Toast.LENGTH_SHORT
+                        ).show()
+                        startFullTest()
+                    }
+                )
+            }
+            .setNegativeButton("Skip \u2013 100 Questions") { _, _ -> startFullTest() }
+            .setCancelable(false)
+            .show()
+    }
+
+    private fun startFullTest(questionCount: Int = QuestionBank.FULL_TEST_SIZE) {
+        val intent = Intent(this, FullTestActivity::class.java)
+        intent.putExtra("question_count", questionCount)
+        startActivity(intent)
+    }
+
+    private fun maybeOfferStreakFreeze() {
+        if (!PerformanceStore.isStreakAtRisk(this)) return
+        PerformanceStore.markStreakPromptShownToday(this)
+
+        androidx.appcompat.app.AlertDialog.Builder(this)
+            .setTitle("Don't Lose Your Streak! \uD83D\uDD25")
+            .setMessage("You missed a day, but you can watch a short ad to keep your streak alive.")
+            .setPositiveButton("Watch Ad") { _, _ ->
+                AdConfig.loadAndShowRewarded(
+                    this,
+                    onRewardEarned = {
+                        PerformanceStore.useStreakFreeze(this)
+                        refreshDashboard()
+                        android.widget.Toast.makeText(this, "Streak saved!", android.widget.Toast.LENGTH_SHORT).show()
+                    },
+                    onUnavailable = {
+                        android.widget.Toast.makeText(
+                            this,
+                            "No ad available right now - please try again later",
+                            android.widget.Toast.LENGTH_SHORT
+                        ).show()
+                    }
+                )
+            }
+            .setNegativeButton("No Thanks", null)
+            .show()
     }
 
     override fun onResume() {
         super.onResume()
         refreshDashboard()
+        maybeOfferStreakFreeze()
     }
 
     private fun refreshDashboard() {

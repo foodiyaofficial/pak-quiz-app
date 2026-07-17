@@ -7,9 +7,10 @@
     android:gravity="center"
     android:padding="24dp">
 
-    <!-- AdMob Interstitial Ad Placeholder: this whole screen simulates where a full-screen
-         interstitial ad would appear (loaded and shown via InterstitialAd.show(activity)
-         from the Google Mobile Ads SDK). See README "Adding real AdMob ads" section. -->
+    <!-- This screen briefly appears while a real AdMob interstitial loads. If the ad loads
+         successfully it takes over the full screen automatically. If it fails to load
+         (offline, no fill, etc), this screen's Continue button is the safe fallback so
+         the user is never stuck. -->
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="AdMob Interstitial Ad Placeholder"
+        android:text="Loading..."
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -33,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="A real ad will appear here once AdMob is connected"
+        android:text="If nothing appears in a few seconds, tap Continue below"
         android:textColor="#AAAAAA"
         android:textSize="13sp"
         android:gravity="center" />
