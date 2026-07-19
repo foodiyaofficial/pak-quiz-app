@@ -103,11 +103,30 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    private fun showRewardDialog(title: String, onWatchAd: () -> Unit, onSkip: () -> Unit) {
+        val dialog = android.app.Dialog(this)
+        dialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE)
+        val view = LayoutInflater.from(this).inflate(R.layout.dialog_reward_choice, null)
+        dialog.setContentView(view)
+        dialog.setCancelable(false)
+        dialog.window?.setBackgroundDrawable(android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT))
+
+        view.findViewById<TextView>(R.id.dialogTitle).text = title
+        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.watchAdButton).setOnClickListener {
+            dialog.dismiss()
+            onWatchAd()
+        }
+        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.skipButton).setOnClickListener {
+            dialog.dismiss()
+            onSkip()
+        }
+        dialog.show()
+    }
+
     private fun offerExtendedPractice(category: Category) {
-        androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Boost Your Practice")
-            .setMessage("Watch a short ad to unlock 25 questions for ${category.title} instead of the standard 10.")
-            .setPositiveButton("Watch Ad \u2013 25 Questions") { _, _ ->
+        showRewardDialog(
+            title = "Unlock 25 Questions for ${category.title}?",
+            onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
                     onRewardEarned = { openCategory(category, 25) },
@@ -120,17 +139,15 @@ class MainActivity : AppCompatActivity() {
                         openCategory(category)
                     }
                 )
-            }
-            .setNegativeButton("Skip \u2013 10 Questions") { _, _ -> openCategory(category) }
-            .setCancelable(false)
-            .show()
+            },
+            onSkip = { openCategory(category) }
+        )
     }
 
     private fun offerFullTestBoost() {
-        androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Boost Your Full Test")
-            .setMessage("Watch a short ad to unlock 200 mixed questions instead of the standard 100.")
-            .setPositiveButton("Watch Ad \u2013 200 Questions") { _, _ ->
+        showRewardDialog(
+            title = "Unlock 200 Questions for Full Test?",
+            onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
                     onRewardEarned = { startFullTest(200) },
@@ -143,10 +160,9 @@ class MainActivity : AppCompatActivity() {
                         startFullTest()
                     }
                 )
-            }
-            .setNegativeButton("Skip \u2013 100 Questions") { _, _ -> startFullTest() }
-            .setCancelable(false)
-            .show()
+            },
+            onSkip = { startFullTest() }
+        )
     }
 
     private fun startFullTest(questionCount: Int = QuestionBank.FULL_TEST_SIZE) {
@@ -159,10 +175,9 @@ class MainActivity : AppCompatActivity() {
         if (!PerformanceStore.isStreakAtRisk(this)) return
         PerformanceStore.markStreakPromptShownToday(this)
 
-        androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("Don't Lose Your Streak! \uD83D\uDD25")
-            .setMessage("You missed a day, but you can watch a short ad to keep your streak alive.")
-            .setPositiveButton("Watch Ad") { _, _ ->
+        showRewardDialog(
+            title = "Save Your Streak?",
+            onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
                     onRewardEarned = {
@@ -178,9 +193,9 @@ class MainActivity : AppCompatActivity() {
                         ).show()
                     }
                 )
-            }
-            .setNegativeButton("No Thanks", null)
-            .show()
+            },
+            onSkip = { }
+        )
     }
 
     override fun onResume() {
