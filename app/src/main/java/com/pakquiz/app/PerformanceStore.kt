@@ -134,4 +134,22 @@ object PerformanceStore {
             .putString("last_streak_prompt_date", todayKey())
             .apply()
     }
+
+    /**
+     * Call once each time the app is opened (MainActivity.onCreate). Returns true every
+     * 2nd open, so the rating dialog can be shown - but never again once the user has
+     * already rated or permanently dismissed it.
+     */
+    fun shouldShowRatingPrompt(context: Context): Boolean {
+        val p = prefs(context)
+        if (p.getBoolean("rating_handled", false)) return false
+
+        val opens = p.getInt("app_open_count", 0) + 1
+        p.edit().putInt("app_open_count", opens).apply()
+        return opens % 2 == 0
+    }
+
+    fun markRatingHandled(context: Context) {
+        prefs(context).edit().putBoolean("rating_handled", true).apply()
+    }
 }

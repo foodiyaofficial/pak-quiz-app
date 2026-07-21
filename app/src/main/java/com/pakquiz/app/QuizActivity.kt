@@ -56,6 +56,7 @@ class QuizActivity : AppCompatActivity() {
         binding.progressBar.progress = ((currentIndex.toFloat() / questions.size) * 100).toInt()
         binding.questionText.text = q.question
         binding.answerFeedback.visibility = android.view.View.INVISIBLE
+        binding.reportButton.visibility = android.view.View.GONE
         binding.nextButton.isEnabled = false
         binding.nextButton.text = if (currentIndex == questions.size - 1) getString(R.string.finish) else getString(R.string.next)
 
@@ -100,12 +101,35 @@ class QuizActivity : AppCompatActivity() {
         if (isCorrect) {
             binding.answerFeedback.text = "\u2713 Correct!"
             binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.correct))
+            binding.reportButton.visibility = android.view.View.GONE
         } else {
             binding.answerFeedback.text = getString(R.string.correct_answer_prefix) + q.options[q.correctIndex]
             binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.wrong))
+            binding.reportButton.visibility = android.view.View.VISIBLE
+            binding.reportButton.setOnClickListener { reportQuestion(q) }
         }
 
         binding.nextButton.isEnabled = true
+    }
+
+    private fun reportQuestion(question: Question) {
+        val body = buildString {
+            append("Subject: $categoryTitle\n\n")
+            append("Question: ${question.question}\n\n")
+            append("Options:\n")
+            question.options.forEachIndexed { i, opt -> append("${i + 1}. $opt\n") }
+            append("\nApp marks correct answer as: ${question.options[question.correctIndex]}\n\n")
+            append("What's wrong with this question: ")
+        }
+        val intent = Intent(Intent.ACTION_SENDTO)
+        intent.data = android.net.Uri.parse("mailto:")
+        intent.putExtra(Intent.EXTRA_SUBJECT, "PakQuiz - Wrong Answer Report")
+        intent.putExtra(Intent.EXTRA_TEXT, body)
+        try {
+            startActivity(intent)
+        } catch (e: android.content.ActivityNotFoundException) {
+            android.widget.Toast.makeText(this, "No email app found on this device", android.widget.Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun advance() {

@@ -397,13 +397,13 @@
       "9811",
       "101411"
     ],
-    "correctIndex": 0
+    "correctIndex": 1
   },
   {
     "question": "If \"MANGO\" is written as \"OCPIQ\", then \"APPLE\" will be written as:",
     "options": [
       "CRRNG",
-      "CRRNG",
+      "CRRMF",
       "BQQMF",
       "DTTPI"
     ],
@@ -626,16 +626,6 @@
       "Throw",
       "Hold",
       "Draw"
-    ],
-    "correctIndex": 0
-  },
-  {
-    "question": "If COMPUTER is coded as RFUVQNPC, then MOBILE is coded as:",
-    "options": [
-      "FMNCPJ",
-      "FMCPJM",
-      "NPCJMF",
-      "MOCILE"
     ],
     "correctIndex": 0
   },

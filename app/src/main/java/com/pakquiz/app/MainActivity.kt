@@ -1,6 +1,7 @@
 package com.pakquiz.app
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.LinearLayout
@@ -41,6 +42,9 @@ class MainActivity : AppCompatActivity() {
             openCategory(category)
         }
 
+        if (PerformanceStore.shouldShowRatingPrompt(this)) {
+            showRatingDialog()
+        }
     }
 
     /**
@@ -77,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                     tile.findViewById<TextView>(R.id.categoryTitle).text = category.title
                     tile.findViewById<TextView>(R.id.categorySubtitle).text = category.subtitle
                     tile.findViewById<LinearLayout>(R.id.cardBackground)
-                        .setBackgroundColor(ContextCompat.getColor(this, category.colorRes))
+                        .background = buildTileGradient(ContextCompat.getColor(this, category.colorRes))
                     tile.setOnClickListener { offerExtendedPractice(category) }
 
                     row.addView(tile)
@@ -94,6 +98,30 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Builds a diagonal gradient background (lighter top-left to darker bottom-right)
+     * from a single base color, entirely in code - no image assets required. This gives
+     * each subject tile a richer, less flat look.
+     */
+    private fun buildTileGradient(baseColor: Int): android.graphics.drawable.GradientDrawable {
+        val lighter = shadeColor(baseColor, 1.35f)
+        val darker = shadeColor(baseColor, 0.7f)
+        val drawable = android.graphics.drawable.GradientDrawable(
+            android.graphics.drawable.GradientDrawable.Orientation.TL_BR,
+            intArrayOf(lighter, baseColor, darker)
+        )
+        drawable.cornerRadius = 20 * resources.displayMetrics.density
+        return drawable
+    }
+
+    /** factor > 1 lightens the color, factor < 1 darkens it (HSV value channel). */
+    private fun shadeColor(color: Int, factor: Float): Int {
+        val hsv = FloatArray(3)
+        android.graphics.Color.colorToHSV(color, hsv)
+        hsv[2] = (hsv[2] * factor).coerceIn(0f, 1f)
+        return android.graphics.Color.HSVToColor(hsv)
+    }
+
     private fun openCategory(category: Category, questionCount: Int = QuestionBank.QUESTIONS_PER_QUIZ) {
         val intent = Intent(this, QuizActivity::class.java)
         intent.putExtra("category_id", category.id)
@@ -103,7 +131,18 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    private fun showRewardDialog(title: String, onWatchAd: () -> Unit, onSkip: () -> Unit) {
+    /**
+     * Shows the Watch Ad / Skip choice dialog. Both button labels include the exact
+     * number of questions each path unlocks, so the choice is fully clear without
+     * needing extra description text.
+     */
+    private fun showRewardDialog(
+        title: String,
+        watchLabel: String,
+        skipLabel: String,
+        onWatchAd: () -> Unit,
+        onSkip: () -> Unit
+    ) {
         val dialog = android.app.Dialog(this)
         dialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE)
         val view = LayoutInflater.from(this).inflate(R.layout.dialog_reward_choice, null)
@@ -112,11 +151,16 @@ class MainActivity : AppCompatActivity() {
         dialog.window?.setBackgroundDrawable(android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT))
 
         view.findViewById<TextView>(R.id.dialogTitle).text = title
-        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.watchAdButton).setOnClickListener {
+        val watchBtn = view.findViewById<com.google.android.material.button.MaterialButton>(R.id.watchAdButton)
+        val skipBtn = view.findViewById<com.google.android.material.button.MaterialButton>(R.id.skipButton)
+        watchBtn.text = watchLabel
+        skipBtn.text = skipLabel
+
+        watchBtn.setOnClickListener {
             dialog.dismiss()
             onWatchAd()
         }
-        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.skipButton).setOnClickListener {
+        skipBtn.setOnClickListener {
             dialog.dismiss()
             onSkip()
         }
@@ -125,7 +169,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun offerExtendedPractice(category: Category) {
         showRewardDialog(
-            title = "Unlock 25 Questions for ${category.title}?",
+            title = category.title,
+            watchLabel = "WATCH AD \u2013 Unlock 25 Questions",
+            skipLabel = "SKIP \u2013 Continue with 10 Questions",
             onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
@@ -146,7 +192,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun offerFullTestBoost() {
         showRewardDialog(
-            title = "Unlock 200 Questions for Full Test?",
+            title = "Full Test Challenge",
+            watchLabel = "WATCH AD \u2013 Unlock 200 Questions",
+            skipLabel = "SKIP \u2013 Continue with 100 Questions",
             onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
@@ -177,6 +225,8 @@ class MainActivity : AppCompatActivity() {
 
         showRewardDialog(
             title = "Save Your Streak?",
+            watchLabel = "WATCH AD \u2013 Keep My Streak",
+            skipLabel = "SKIP \u2013 Let It Reset",
             onWatchAd = {
                 AdConfig.loadAndShowRewarded(
                     this,
@@ -196,6 +246,38 @@ class MainActivity : AppCompatActivity() {
             },
             onSkip = { }
         )
+    }
+
+    private fun showRatingDialog() {
+        val dialog = android.app.Dialog(this)
+        dialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE)
+        val view = LayoutInflater.from(this).inflate(R.layout.dialog_rating, null)
+        dialog.setContentView(view)
+        dialog.setCancelable(true)
+        dialog.window?.setBackgroundDrawable(android.graphics.drawable.ColorDrawable(android.graphics.Color.TRANSPARENT))
+
+        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.rateNowButton).setOnClickListener {
+            PerformanceStore.markRatingHandled(this)
+            dialog.dismiss()
+            openPlayStoreListing()
+        }
+        view.findViewById<com.google.android.material.button.MaterialButton>(R.id.laterButton).setOnClickListener {
+            // Don't mark as handled - this lets the prompt show again after more app opens
+            dialog.dismiss()
+        }
+        view.findViewById<TextView>(R.id.dontAskAgainText).setOnClickListener {
+            PerformanceStore.markRatingHandled(this)
+            dialog.dismiss()
+        }
+        dialog.show()
+    }
+
+    private fun openPlayStoreListing() {
+        try {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$packageName")))
+        } catch (e: android.content.ActivityNotFoundException) {
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$packageName")))
+        }
     }
 
     override fun onResume() {
