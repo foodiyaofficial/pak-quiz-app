@@ -8,11 +8,25 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.google.android.play.core.appupdate.AppUpdateManager
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory
+import com.google.android.play.core.appupdate.AppUpdateOptions
+import com.google.android.play.core.install.InstallStateUpdatedListener
+import com.google.android.play.core.install.model.AppUpdateType
+import com.google.android.play.core.install.model.InstallStatus
+import com.google.android.play.core.install.model.UpdateAvailability
 import com.pakquiz.app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var appUpdateManager: AppUpdateManager
+
+    private val installStateListener = InstallStateUpdatedListener { state ->
+        if (state.installStatus() == InstallStatus.DOWNLOADED) {
+            promptCompleteUpdate()
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,6 +35,9 @@ class MainActivity : AppCompatActivity() {
 
         AdConfig.initializeSdk(this)
         AdConfig.loadBannerInto(this, binding.bannerAdContainer)
+
+        appUpdateManager = AppUpdateManagerFactory.create(this)
+        checkForAppUpdate()
 
         buildCategoryGrid()
 
@@ -284,6 +301,57 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         refreshDashboard()
         maybeOfferStreakFreeze()
+
+        appUpdateManager.registerListener(installStateListener)
+        // If a flexible update finished downloading while the app was in the background,
+        // catch it here so the "restart to install" prompt isn't missed.
+        appUpdateManager.appUpdateInfo.addOnSuccessListener { info ->
+            if (info.installStatus() == InstallStatus.DOWNLOADED) {
+                promptCompleteUpdate()
+            }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        appUpdateManager.unregisterListener(installStateListener)
+    }
+
+    /**
+     * Checks Play Store for a newer version. Only does anything meaningful when the app
+     * was installed from Google Play - safely does nothing when sideloaded (e.g. your
+     * debug APK from GitHub Actions), so this is safe to leave active during testing.
+     * Uses the FLEXIBLE flow: downloads quietly in the background, then prompts the user
+     * to restart and install once ready - never blocks or interrupts studying.
+     */
+    private fun checkForAppUpdate() {
+        appUpdateManager.appUpdateInfo.addOnSuccessListener { info ->
+            if (info.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE &&
+                info.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE)
+            ) {
+                appUpdateManager.startUpdateFlowForResult(
+                    info,
+                    this,
+                    AppUpdateOptions.newBuilder(AppUpdateType.FLEXIBLE).build(),
+                    UPDATE_REQUEST_CODE
+                )
+            }
+        }
+    }
+
+    private fun promptCompleteUpdate() {
+        val root = binding.root
+        com.google.android.material.snackbar.Snackbar.make(
+            root,
+            "An update has been downloaded",
+            com.google.android.material.snackbar.Snackbar.LENGTH_INDEFINITE
+        ).setAction("RESTART") {
+            appUpdateManager.completeUpdate()
+        }.show()
+    }
+
+    companion object {
+        private const val UPDATE_REQUEST_CODE = 9001
     }
 
     private fun refreshDashboard() {
