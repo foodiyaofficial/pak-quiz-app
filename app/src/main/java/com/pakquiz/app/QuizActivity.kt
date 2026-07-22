@@ -122,7 +122,7 @@ class QuizActivity : AppCompatActivity() {
             append("What's wrong with this question: ")
         }
         val intent = Intent(Intent.ACTION_SENDTO)
-        intent.data = android.net.Uri.parse("mailto:")
+        intent.data = android.net.Uri.parse("mailto:askthebhai@gmail.com")
         intent.putExtra(Intent.EXTRA_SUBJECT, "PakQuiz - Wrong Answer Report")
         intent.putExtra(Intent.EXTRA_TEXT, body)
         try {
