@@ -181,7 +181,9 @@ class MainActivity : AppCompatActivity() {
             dialog.dismiss()
             onSkip()
         }
+
         dialog.show()
+        sizeDialogWindow(dialog)
     }
 
     private fun offerExtendedPractice(category: Category) {
@@ -287,6 +289,14 @@ class MainActivity : AppCompatActivity() {
             dialog.dismiss()
         }
         dialog.show()
+        sizeDialogWindow(dialog)
+    }
+
+    private fun sizeDialogWindow(dialog: android.app.Dialog) {
+        dialog.window?.setLayout(
+            (resources.displayMetrics.widthPixels * 0.88).toInt(),
+            android.view.ViewGroup.LayoutParams.WRAP_CONTENT
+        )
     }
 
     private fun openPlayStoreListing() {

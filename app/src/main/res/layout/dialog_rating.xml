@@ -1,78 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:cardCornerRadius="20dp"
-    app:cardElevation="8dp"
-    app:cardBackgroundColor="@color/surface">
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/dialog_solid_bg">
 
-    <LinearLayout
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\u2B50"
+        android:textSize="32sp" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="24dp"
-        android:gravity="center">
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Enjoying PakQuiz?"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="\u2B50"
-            android:textSize="32sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="A quick rating helps other students find this app"
+        android:textColor="@color/text_muted"
+        android:textSize="12sp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:gravity="center"
-            android:text="Enjoying PakQuiz?"
-            android:textColor="@color/text_dark"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rateNowButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="18dp"
+        android:text="RATE NOW"
+        android:textColor="@color/primary_dark"
+        android:textStyle="bold"
+        android:backgroundTint="@color/accent"
+        app:cornerRadius="14dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:gravity="center"
-            android:text="A quick rating helps other students find this app"
-            android:textColor="@color/text_muted"
-            android:textSize="12sp" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/laterButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:text="MAYBE LATER"
+        android:textColor="@color/text_dark"
+        android:textStyle="bold"
+        app:strokeColor="@color/text_muted"
+        app:strokeWidth="1dp"
+        app:cornerRadius="14dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/rateNowButton"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_marginTop="18dp"
-            android:text="RATE NOW"
-            android:textColor="@color/primary_dark"
-            android:textStyle="bold"
-            android:backgroundTint="@color/accent"
-            app:cornerRadius="14dp" />
+    <TextView
+        android:id="@+id/dontAskAgainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:padding="4dp"
+        android:text="Don't ask again"
+        android:textColor="@color/text_muted"
+        android:textSize="12sp" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/laterButton"
-            android:layout_width="match_parent"
-            android:layout_height="56dp"
-            android:layout_marginTop="12dp"
-            android:text="MAYBE LATER"
-            android:textColor="@color/text_dark"
-            android:textStyle="bold"
-            app:strokeColor="@color/text_muted"
-            app:strokeWidth="1dp"
-            app:cornerRadius="14dp"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
-
-        <TextView
-            android:id="@+id/dontAskAgainText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="14dp"
-            android:padding="4dp"
-            android:text="Don't ask again"
-            android:textColor="@color/text_muted"
-            android:textSize="12sp" />
-
-    </LinearLayout>
-
-</com.google.android.material.card.MaterialCardView>
+</LinearLayout>
