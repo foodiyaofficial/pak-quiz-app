@@ -1,0 +1,502 @@
+[
+  {
+    "question": "Who developed the theory of general relativity?",
+    "options": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Niels Bohr",
+      "Max Planck"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the father of modern physics for his laws of motion and gravitation?",
+    "options": [
+      "Galileo Galilei",
+      "Isaac Newton",
+      "Albert Einstein",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who discovered penicillin?",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Robert Koch",
+      "Edward Jenner"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the father of the theory of evolution?",
+    "options": [
+      "Gregor Mendel",
+      "Charles Darwin",
+      "Louis Pasteur",
+      "Carl Linnaeus"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who invented the light bulb (commercially practical version)?",
+    "options": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Benjamin Franklin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is credited with inventing the World Wide Web?",
+    "options": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Tim Berners-Lee",
+      "Mark Zuckerberg"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the first woman to win a Nobel Prize?",
+    "options": [
+      "Mother Teresa",
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Jane Addams"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Marie Curie won Nobel Prizes in which two fields?",
+    "options": [
+      "Physics and Chemistry",
+      "Physics and Medicine",
+      "Chemistry and Medicine",
+      "Physics and Literature"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      "Charles Dickens",
+      "William Shakespeare",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the national poet of Pakistan, often called the 'Poet of the East'?",
+    "options": [
+      "Faiz Ahmed Faiz",
+      "Allama Iqbal",
+      "Mirza Ghalib",
+      "Ahmed Faraz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the founder of Pakistan and its first Governor-General?",
+    "options": [
+      "Liaquat Ali Khan",
+      "Muhammad Ali Jinnah",
+      "Allama Iqbal",
+      "Sir Syed Ahmed Khan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who founded the Aligarh Movement to promote modern education among Muslims in South Asia?",
+    "options": [
+      "Allama Iqbal",
+      "Sir Syed Ahmed Khan",
+      "Muhammad Ali Jinnah",
+      "Maulana Mohammad Ali Jauhar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani scientist won the Nobel Prize in Physics in 1979?",
+    "options": [
+      "Dr. Abdul Qadeer Khan",
+      "Dr. Abdus Salam",
+      "Dr. Atta-ur-Rahman",
+      "Dr. Salimuzzaman Siddiqui"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the father of Pakistan's nuclear weapons program?",
+    "options": [
+      "Dr. Abdus Salam",
+      "Dr. Abdul Qadeer Khan",
+      "Dr. Samar Mubarakmand",
+      "Dr. Ishfaq Ahmad"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first woman Prime Minister of Pakistan?",
+    "options": [
+      "Fatima Jinnah",
+      "Benazir Bhutto",
+      "Asma Jahangir",
+      "Kulsoom Nawaz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as 'Madar-e-Millat' (Mother of the Nation) in Pakistan?",
+    "options": [
+      "Benazir Bhutto",
+      "Fatima Jinnah",
+      "Ra'ana Liaquat Ali Khan",
+      "Nusrat Bhutto"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first Prime Minister of Pakistan?",
+    "options": [
+      "Muhammad Ali Jinnah",
+      "Liaquat Ali Khan",
+      "Khawaja Nazimuddin",
+      "Chaudhry Muhammad Ali"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which leader is known as the 'Iron Lady' of the United Kingdom?",
+    "options": [
+      "Queen Elizabeth II",
+      "Margaret Thatcher",
+      "Theresa May",
+      "Angela Merkel"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first President of the United States?",
+    "options": [
+      "Thomas Jefferson",
+      "George Washington",
+      "Abraham Lincoln",
+      "John Adams"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the 'Father of the Nation' in India?",
+    "options": [
+      "Jawaharlal Nehru",
+      "Mahatma Gandhi",
+      "Sardar Patel",
+      "Subhas Chandra Bose"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the leader of the Chinese Communist Revolution and founder of the People's Republic of China?",
+    "options": [
+      "Deng Xiaoping",
+      "Mao Zedong",
+      "Chiang Kai-shek",
+      "Sun Yat-sen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the 'Father of Modern Turkey'?",
+    "options": [
+      "Recep Tayyip Erdogan",
+      "Mustafa Kemal Ataturk",
+      "Ismet Inonu",
+      "Suleiman the Magnificent"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first man to walk on the moon?",
+    "options": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "John Glenn"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the first person to travel into space?",
+    "options": [
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "John Glenn",
+      "Buzz Aldrin"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who developed the polio vaccine?",
+    "options": [
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Robert Koch",
+      "Edward Jenner"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is credited with developing the first successful smallpox vaccine?",
+    "options": [
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Edward Jenner",
+      "Alexander Fleming"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who proposed the laws of planetary motion?",
+    "options": [
+      "Nicolaus Copernicus",
+      "Johannes Kepler",
+      "Galileo Galilei",
+      "Tycho Brahe"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who proposed that the Earth revolves around the Sun (heliocentric model)?",
+    "options": [
+      "Ptolemy",
+      "Nicolaus Copernicus",
+      "Aristotle",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who wrote the novel '1984'?",
+    "options": [
+      "Aldous Huxley",
+      "George Orwell",
+      "Ernest Hemingway",
+      "F. Scott Fitzgerald"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who wrote 'Pride and Prejudice'?",
+    "options": [
+      "Charlotte Bronte",
+      "Jane Austen",
+      "Emily Dickinson",
+      "Virginia Woolf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Raphael",
+      "Vincent van Gogh"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who painted the ceiling of the Sistine Chapel?",
+    "options": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Donatello"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who composed the famous 'Ninth Symphony' despite being deaf?",
+    "options": [
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Franz Schubert"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the founder of psychoanalysis?",
+    "options": [
+      "Carl Jung",
+      "Sigmund Freud",
+      "B.F. Skinner",
+      "Ivan Pavlov"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is known as the father of computer science and codebreaking pioneer during World War II?",
+    "options": [
+      "Charles Babbage",
+      "Alan Turing",
+      "John von Neumann",
+      "Ada Lovelace"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is considered the first computer programmer?",
+    "options": [
+      "Grace Hopper",
+      "Ada Lovelace",
+      "Marie Curie",
+      "Katherine Johnson"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Pakistani physicist worked closely with Dr. Abdus Salam and contributed to Pakistan's space and nuclear programs?",
+    "options": [
+      "Dr. Samar Mubarakmand",
+      "Dr. Abdul Qadeer Khan",
+      "Dr. Atta-ur-Rahman",
+      "Dr. Ishfaq Ahmad"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who was the Mughal emperor known for constructing the Taj Mahal?",
+    "options": [
+      "Akbar",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who was the founder of the Mughal Empire in South Asia?",
+    "options": [
+      "Akbar",
+      "Babur",
+      "Humayun",
+      "Shah Jahan"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who led the resistance against British colonial rule and is known for the 1857 War of Independence in the subcontinent?",
+    "options": [
+      "Tipu Sultan",
+      "Bahadur Shah Zafar (and other regional leaders)",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was known as the 'Tiger of Mysore' for his resistance against British expansion in South Asia?",
+    "options": [
+      "Bahadur Shah Zafar",
+      "Tipu Sultan",
+      "Ranjit Singh",
+      "Siraj-ud-Daulah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which social reformer and philanthropist is widely known for founding hospitals and welfare organizations in Pakistan, including the Edhi Foundation?",
+    "options": [
+      "Imran Khan",
+      "Abdul Sattar Edhi",
+      "Dr. Ruth Pfau",
+      "Malala Yousafzai"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which German nun and doctor is renowned for her lifelong work treating leprosy patients in Pakistan?",
+    "options": [
+      "Mother Teresa",
+      "Dr. Ruth Pfau",
+      "Florence Nightingale",
+      "Clara Barton"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who is the youngest Nobel Prize laureate in history, awarded for her activism for girls' education?",
+    "options": [
+      "Greta Thunberg",
+      "Malala Yousafzai",
+      "Emma Watson",
+      "Autumn Peltier"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who wrote the national anthem of Pakistan?",
+    "options": [
+      "Allama Iqbal",
+      "Hafeez Jalandhari",
+      "Faiz Ahmed Faiz",
+      "Ahmed Faraz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Urdu poet and revolutionary writer is known for works like 'Naqsh-e-Faryadi' and faced imprisonment for his political views?",
+    "options": [
+      "Allama Iqbal",
+      "Faiz Ahmed Faiz",
+      "Mirza Ghalib",
+      "Josh Malihabadi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which classical Urdu/Persian poet of the Mughal era is famous for his ghazals and is buried in Delhi?",
+    "options": [
+      "Allama Iqbal",
+      "Mirza Ghalib",
+      "Faiz Ahmed Faiz",
+      "Ahmed Faraz"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who was the ancient Greek philosopher known as the teacher of Alexander the Great?",
+    "options": [
+      "Socrates",
+      "Plato",
+      "Aristotle",
+      "Pythagoras"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who is known as the father of geometry for his work 'Elements'?",
+    "options": [
+      "Pythagoras",
+      "Euclid",
+      "Archimedes",
+      "Thales"
+    ],
+    "correctIndex": 1
+  }
+]

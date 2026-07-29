@@ -159,6 +159,22 @@ object QuestionBank {
             emoji = "\uD83E\uDDE9"
         ),
         Category(
+            id = "personalities",
+            title = "Personalities",
+            subtitle = "Scientists, Leaders & Historical Figures",
+            jsonFile = "questions_personalities.json",
+            colorRes = R.color.card_personalities,
+            emoji = "\uD83C\uDF9F\uFE0F"
+        ),
+        Category(
+            id = "worldorganizations",
+            title = "World Organizations",
+            subtitle = "UN, NATO, SAARC & International Bodies",
+            jsonFile = "questions_worldorganizations.json",
+            colorRes = R.color.card_worldorganizations,
+            emoji = "\uD83C\uDF10"
+        ),
+        Category(
             id = "math",
             title = "Mathematics",
             subtitle = "Arithmetic, Algebra & Reasoning",

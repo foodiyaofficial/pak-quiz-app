@@ -498,5 +498,1005 @@
       "Yaseen"
     ],
     "correctIndex": 1
+  },
+  {
+    "question": "How many Surahs in the Quran are classified as Makki (revealed in Makkah)?",
+    "options": [
+      "Around 66",
+      "Around 76",
+      "Around 86",
+      "Around 96"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many Surahs in the Quran are classified as Madani (revealed in Madinah)?",
+    "options": [
+      "18",
+      "22",
+      "28",
+      "35"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Surah is known as 'Umm-ul-Quran' (Mother of the Quran)?",
+    "options": [
+      "Al-Baqarah",
+      "Al-Fatiha",
+      "Yaseen",
+      "Al-Ikhlas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Surah is recited for protection and is known as 'Al-Muawwidhatayn' along with Surah An-Nas?",
+    "options": [
+      "Al-Falaq",
+      "Al-Ikhlas",
+      "Al-Kawthar",
+      "Al-Asr"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the name of the year in which Prophet Muhammad (PBUH) was born, referring to the event of the elephant army?",
+    "options": [
+      "Year of the Elephant (Aam-ul-Feel)",
+      "Year of Sorrow (Aam-ul-Huzn)",
+      "Year of the Delegation",
+      "Year of Unity"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year of Prophethood did the migration (Hijra) to Madinah take place?",
+    "options": [
+      "10th year",
+      "12th year",
+      "13th year",
+      "15th year"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the name given to the year in which Prophet Muhammad's (PBUH) wife Khadijah (RA) and uncle Abu Talib both passed away?",
+    "options": [
+      "Year of Sorrow (Aam-ul-Huzn)",
+      "Year of the Elephant",
+      "Year of Victory",
+      "Year of Consolidation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Who compiled Sahih al-Bukhari, one of the most authentic collections of Hadith?",
+    "options": [
+      "Imam Muslim",
+      "Imam Bukhari",
+      "Imam Tirmidhi",
+      "Imam Abu Dawood"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which two Hadith collections are together referred to as 'Sahihain' (the two authentic books)?",
+    "options": [
+      "Bukhari and Muslim",
+      "Bukhari and Tirmidhi",
+      "Muslim and Abu Dawood",
+      "Tirmidhi and Nasai"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "How many major authentic Hadith collections make up 'Kutub al-Sittah' (the six books)?",
+    "options": [
+      "Four",
+      "Five",
+      "Six",
+      "Seven"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for a Hadith whose chain of narration is unbroken and reliable, considered the highest authenticity grade?",
+    "options": [
+      "Da'if",
+      "Sahih",
+      "Mawdu'",
+      "Mursal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term used for a fabricated or forged Hadith?",
+    "options": [
+      "Sahih",
+      "Hasan",
+      "Mawdu'",
+      "Marfu'"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the ruling category for an act that is obligatory in Islamic jurisprudence, such as the five daily prayers?",
+    "options": [
+      "Sunnah",
+      "Mustahab",
+      "Fard",
+      "Makruh"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for an act that is recommended but not obligatory, such as extra voluntary prayers?",
+    "options": [
+      "Fard",
+      "Haram",
+      "Sunnah/Mustahab",
+      "Makruh"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for an act that is disliked but not strictly forbidden in Islamic jurisprudence?",
+    "options": [
+      "Haram",
+      "Makruh",
+      "Fard",
+      "Wajib"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the four rightly-guided Caliphs ruled for the shortest period?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Approximately how long did Hazrat Abu Bakr (RA) serve as Caliph?",
+    "options": [
+      "About 1 year",
+      "About 2 years",
+      "About 5 years",
+      "About 10 years"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Approximately how long did Hazrat Umar (RA) serve as Caliph?",
+    "options": [
+      "About 2 years",
+      "About 5 years",
+      "About 10 years",
+      "About 15 years"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Caliph is credited with establishing the Islamic calendar (Hijri calendar) officially?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "During which Caliph's era was the Quran compiled into a single standardized written text distributed to different regions?",
+    "options": [
+      "Hazrat Abu Bakr (RA) only",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)",
+      "Hazrat Umar (RA) only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What was the primary reason for the standardization of the Quranic text under Hazrat Usman (RA)?",
+    "options": [
+      "To translate it into other languages",
+      "To resolve differences in recitation across regions",
+      "To add new verses",
+      "To remove certain Surahs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Islamic term for the consensus of Islamic scholars, used as a source of Islamic law?",
+    "options": [
+      "Qiyas",
+      "Ijma",
+      "Ijtihad",
+      "Fatwa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Islamic term for analogical reasoning used to derive rulings for new issues?",
+    "options": [
+      "Ijma",
+      "Qiyas",
+      "Taqleed",
+      "Tafseer"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What are the four primary sources of Islamic law (Shariah) according to Sunni jurisprudence?",
+    "options": [
+      "Quran, Hadith, Ijma, Qiyas",
+      "Quran, Hadith, Tafseer, Fiqh",
+      "Quran, Sunnah, Taqleed, Fatwa",
+      "Quran only"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which battle is known as the conquest where Makkah was peacefully reclaimed by Muslims with minimal bloodshed?",
+    "options": [
+      "Battle of Badr",
+      "Battle of Uhud",
+      "Conquest of Makkah (Fath Makkah)",
+      "Battle of Tabuk"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "In which year (Hijri) did the Conquest of Makkah take place?",
+    "options": [
+      "2 AH",
+      "6 AH",
+      "8 AH",
+      "10 AH"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What was the name of the treaty signed between the Muslims of Madinah and the Quraysh of Makkah in 6 AH?",
+    "options": [
+      "Treaty of Madinah",
+      "Treaty of Hudaybiyyah",
+      "Charter of Madinah",
+      "Pact of Aqaba"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the document that established the rights and responsibilities of Muslims, Jews, and other tribes in Madinah after the Hijra?",
+    "options": [
+      "Treaty of Hudaybiyyah",
+      "Constitution/Charter of Madinah",
+      "Objectives Resolution",
+      "Pact of Aqaba"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many wives did Prophet Muhammad (PBUH) marry in total during his lifetime, according to widely accepted accounts?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which wife of Prophet Muhammad (PBUH) is known for narrating a large number of Hadiths?",
+    "options": [
+      "Hazrat Khadijah (RA)",
+      "Hazrat Aisha (RA)",
+      "Hazrat Hafsa (RA)",
+      "Hazrat Zainab (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of Prophet Muhammad's (PBUH) daughter who was married to Hazrat Ali (RA)?",
+    "options": [
+      "Zainab (RA)",
+      "Ruqayyah (RA)",
+      "Fatimah (RA)",
+      "Umm Kulthum (RA)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the pre-Islamic era of ignorance in Arabia before Prophet Muhammad's (PBUH) message?",
+    "options": [
+      "Jahiliyyah",
+      "Sunnah",
+      "Bid'ah",
+      "Fitnah"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which tribe did Prophet Muhammad (PBUH) belong to?",
+    "options": [
+      "Banu Umayyah",
+      "Quraysh (Banu Hashim)",
+      "Banu Israel",
+      "Ansar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What term is used for the Muslims who migrated from Makkah to Madinah with the Prophet?",
+    "options": [
+      "Ansar",
+      "Muhajireen",
+      "Sahaba only",
+      "Tabi'een"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What term is used for the residents of Madinah who supported and helped the migrating Muslims?",
+    "options": [
+      "Muhajireen",
+      "Ansar",
+      "Munafiqeen",
+      "Quraysh"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the companions who directly saw and believed in Prophet Muhammad (PBUH)?",
+    "options": [
+      "Tabi'een",
+      "Sahaba",
+      "Ansar only",
+      "Muhajireen only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the generation that followed the companions of the Prophet, who did not meet him directly?",
+    "options": [
+      "Sahaba",
+      "Tabi'een",
+      "Muhajireen",
+      "Ansar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which battle is considered the first major battle in Islamic history, fought in 2 AH?",
+    "options": [
+      "Battle of Uhud",
+      "Battle of Badr",
+      "Battle of Khandaq",
+      "Battle of Hunayn"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Approximately how many Muslims fought in the Battle of Badr against a much larger Quraysh force?",
+    "options": [
+      "About 313",
+      "About 700",
+      "About 1000",
+      "About 1500"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year (Hijri) was the Battle of Uhud fought?",
+    "options": [
+      "1 AH",
+      "2 AH",
+      "3 AH",
+      "5 AH"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What was a key reason cited for the setback faced by Muslims in the Battle of Uhud?",
+    "options": [
+      "Lack of weapons",
+      "Archers leaving their assigned position",
+      "Bad weather",
+      "Betrayal by the Ansar"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which year (Hijri) was the Battle of the Trench (Khandaq) fought?",
+    "options": [
+      "2 AH",
+      "3 AH",
+      "5 AH",
+      "8 AH"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who suggested the strategy of digging a trench for the defense of Madinah in the Battle of Khandaq?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Salman al-Farsi (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is NOT one of the five pillars of Islam?",
+    "options": [
+      "Salah (Prayer)",
+      "Zakat (Charity)",
+      "Jihad",
+      "Sawm (Fasting)"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many Rakat (units) are there in the obligatory Fajr prayer?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "How many Rakat (units) are there in the obligatory Zuhr prayer?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many Rakat (units) are there in the obligatory Maghrib prayer?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the minimum Nisab (threshold) consideration for Zakat to become obligatory on wealth?",
+    "options": [
+      "Any amount of wealth",
+      "A specified minimum threshold of savings/assets held for a year",
+      "Only on income, not savings",
+      "Only for business owners"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "During which month is the Islamic fast (Sawm) obligatory for adult Muslims?",
+    "options": [
+      "Shawwal",
+      "Ramadan",
+      "Muharram",
+      "Rajab"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the pre-dawn meal eaten before beginning the daily fast in Ramadan?",
+    "options": [
+      "Iftar",
+      "Suhoor",
+      "Taraweeh",
+      "Itikaf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the meal eaten to break the fast at sunset during Ramadan?",
+    "options": [
+      "Suhoor",
+      "Iftar",
+      "Taraweeh",
+      "Sadaqah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the special voluntary night prayers offered during Ramadan?",
+    "options": [
+      "Tahajjud",
+      "Taraweeh",
+      "Witr only",
+      "Ishraq"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for staying in the mosque for worship, typically observed in the last ten days of Ramadan?",
+    "options": [
+      "Itikaf",
+      "Taraweeh",
+      "Tawaf",
+      "Sa'i"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for the ritual circling of the Kaaba performed during Hajj and Umrah?",
+    "options": [
+      "Sa'i",
+      "Tawaf",
+      "Ramy",
+      "Wuquf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the ritual walking/running between the hills of Safa and Marwah during Hajj?",
+    "options": [
+      "Tawaf",
+      "Sa'i",
+      "Ramy",
+      "Wuquf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for standing at the plain of Arafat, a key obligatory ritual of Hajj?",
+    "options": [
+      "Tawaf",
+      "Sa'i",
+      "Wuquf-e-Arafat",
+      "Ramy al-Jamarat"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the symbolic stoning of pillars representing Satan during Hajj?",
+    "options": [
+      "Tawaf",
+      "Ramy al-Jamarat",
+      "Sa'i",
+      "Wuquf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the special clothing worn by pilgrims during Hajj called?",
+    "options": [
+      "Ihram",
+      "Hijab",
+      "Abaya",
+      "Jubbah"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Surah of the Quran does not begin with 'Bismillah' at its start?",
+    "options": [
+      "Al-Anfal",
+      "At-Tawbah",
+      "An-Nur",
+      "Al-Hujurat"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Surah of the Quran is mentioned twice with 'Bismillah', appearing an extra time within its verses?",
+    "options": [
+      "Al-Fatiha",
+      "An-Naml",
+      "Yaseen",
+      "Al-Baqarah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many times approximately does the word 'Allah' appear in the Quran (widely cited estimate)?",
+    "options": [
+      "Around 1,000 times",
+      "Around 1,500 times",
+      "Around 2,600 times",
+      "Around 5,000 times"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for a religious edict or ruling issued by a qualified Islamic scholar?",
+    "options": [
+      "Hadith",
+      "Fatwa",
+      "Tafseer",
+      "Sunnah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the exegesis or interpretation of the Quran?",
+    "options": [
+      "Tafseer",
+      "Fiqh",
+      "Hadith",
+      "Ijma"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for Islamic jurisprudence, the study of Islamic law derived from its sources?",
+    "options": [
+      "Tafseer",
+      "Fiqh",
+      "Aqeedah",
+      "Tasawwuf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for Islamic theology/creed, concerning core beliefs?",
+    "options": [
+      "Fiqh",
+      "Tafseer",
+      "Aqeedah",
+      "Seerah"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the biography and life history of Prophet Muhammad (PBUH)?",
+    "options": [
+      "Hadith",
+      "Seerah",
+      "Fiqh",
+      "Aqeedah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the four major Sunni schools of Fiqh (jurisprudence) was founded by Imam Abu Hanifa?",
+    "options": [
+      "Maliki",
+      "Shafi'i",
+      "Hanafi",
+      "Hanbali"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Sunni school of Fiqh is most commonly followed in South Asia, including Pakistan?",
+    "options": [
+      "Maliki",
+      "Shafi'i",
+      "Hanafi",
+      "Hanbali"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who founded the Maliki school of Islamic jurisprudence?",
+    "options": [
+      "Imam Abu Hanifa",
+      "Imam Malik ibn Anas",
+      "Imam Shafi'i",
+      "Imam Ahmad ibn Hanbal"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Who founded the Shafi'i school of Islamic jurisprudence?",
+    "options": [
+      "Imam Abu Hanifa",
+      "Imam Malik",
+      "Imam al-Shafi'i",
+      "Imam Ahmad ibn Hanbal"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Who founded the Hanbali school of Islamic jurisprudence?",
+    "options": [
+      "Imam Abu Hanifa",
+      "Imam Malik",
+      "Imam Shafi'i",
+      "Imam Ahmad ibn Hanbal"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the term for the Islamic mystical/spiritual tradition often associated with Sufism?",
+    "options": [
+      "Fiqh",
+      "Tasawwuf",
+      "Aqeedah",
+      "Kalam"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which angel is believed to record a person's good deeds according to Islamic belief?",
+    "options": [
+      "Kiraman Katibin (the angel on the right)",
+      "Munkar",
+      "Nakir",
+      "Malik"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "According to Islamic belief, what are the names of the two angels who question the deceased in the grave?",
+    "options": [
+      "Jibrael and Mikael",
+      "Munkar and Nakir",
+      "Israfil and Izraeel",
+      "Harut and Marut"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the angel of death in Islamic belief?",
+    "options": [
+      "Jibrael",
+      "Izraeel",
+      "Israfil",
+      "Mikael"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the Islamic term for the intermediate state between death and the Day of Judgment?",
+    "options": [
+      "Jannah",
+      "Jahannam",
+      "Barzakh",
+      "Qiyamah"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many Prophets are commonly said to be named in the Quran?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which Prophet is associated with building the Kaaba along with his son Ismail (AS)?",
+    "options": [
+      "Hazrat Nuh (AS)",
+      "Hazrat Ibrahim (AS)",
+      "Hazrat Musa (AS)",
+      "Hazrat Adam (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Prophet is known for the story of being swallowed by a large fish?",
+    "options": [
+      "Hazrat Yunus (AS)",
+      "Hazrat Yusuf (AS)",
+      "Hazrat Ayub (AS)",
+      "Hazrat Ilyas (AS)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Prophet is known for his exceptional patience during prolonged illness and hardship?",
+    "options": [
+      "Hazrat Yunus (AS)",
+      "Hazrat Ayub (AS)",
+      "Hazrat Yusuf (AS)",
+      "Hazrat Idris (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Prophet's story includes being thrown into a well by his brothers?",
+    "options": [
+      "Hazrat Yusuf (AS)",
+      "Hazrat Yunus (AS)",
+      "Hazrat Musa (AS)",
+      "Hazrat Harun (AS)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Which Prophet is associated with parting the sea to escape the Pharaoh's army?",
+    "options": [
+      "Hazrat Ibrahim (AS)",
+      "Hazrat Musa (AS)",
+      "Hazrat Isa (AS)",
+      "Hazrat Nuh (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which Prophet built a large ark to survive a great flood, according to Islamic belief?",
+    "options": [
+      "Hazrat Ibrahim (AS)",
+      "Hazrat Nuh (AS)",
+      "Hazrat Musa (AS)",
+      "Hazrat Salih (AS)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the name of the sacred night in Ramadan believed to be better than a thousand months?",
+    "options": [
+      "Shab-e-Barat",
+      "Laylat-ul-Qadr (Night of Decree)",
+      "Shab-e-Meraj",
+      "Laylat-ul-Isra"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which of the last ten nights of Ramadan is Laylat-ul-Qadr most commonly believed to fall (among odd nights)?",
+    "options": [
+      "21st, 23rd, 25th, 27th, or 29th night",
+      "Only the 15th night",
+      "Only the 30th night",
+      "The first night of Ramadan"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for the pilgrimage to Makkah performed outside the specific Hajj season, considered optional?",
+    "options": [
+      "Hajj",
+      "Umrah",
+      "Ziyarat",
+      "Tawaf"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the charity given at the end of Ramadan before Eid prayers, distinct from regular Zakat?",
+    "options": [
+      "Sadaqah",
+      "Zakat-ul-Fitr",
+      "Khums",
+      "Kaffarah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for expiation or compensation required for certain violations of religious obligations?",
+    "options": [
+      "Zakat",
+      "Kaffarah",
+      "Sadaqah",
+      "Nisab"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which caliph is known for major territorial expansion of the Islamic state into Persia and parts of the Byzantine Empire?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which caliph faced the Wars of Apostasy (Ridda Wars) after the Prophet's death?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA)",
+      "Hazrat Ali (RA)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "During whose caliphate did the first civil strife (Fitna) within the Muslim community, including the Battle of the Camel, occur?",
+    "options": [
+      "Hazrat Abu Bakr (RA)",
+      "Hazrat Umar (RA)",
+      "Hazrat Usman (RA) and Hazrat Ali (RA) eras",
+      "None, it occurred after all four caliphs"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the term for the letter of guarantee/protection historically given to non-Muslim communities living under Islamic rule?",
+    "options": [
+      "Fatwa",
+      "Dhimma",
+      "Ijma",
+      "Bay'ah"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for the pledge of allegiance given to a new Muslim leader/Caliph?",
+    "options": [
+      "Bay'ah",
+      "Fatwa",
+      "Dhimma",
+      "Shura"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for a consultative council/assembly used in early Islamic governance?",
+    "options": [
+      "Shura",
+      "Dhimma",
+      "Bay'ah",
+      "Ijtihad"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the term for independent legal reasoning by a qualified scholar when a clear ruling is not found in primary sources?",
+    "options": [
+      "Taqleed",
+      "Ijtihad",
+      "Ijma",
+      "Qiyas only"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the term for following the established legal rulings of a particular school of thought without independent derivation?",
+    "options": [
+      "Ijtihad",
+      "Taqleed",
+      "Ijma",
+      "Fatwa"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which event is commemorated as the Prophet Muhammad's (PBUH) miraculous night journey from Makkah to Jerusalem and then to the heavens?",
+    "options": [
+      "Hijra",
+      "Isra and Mi'raj",
+      "Fath Makkah",
+      "Ghazwa-e-Badr"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "During the Isra and Mi'raj, how many daily prayers were ultimately made obligatory for Muslims?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What was the original number of daily prayers commanded before being reduced to five during the Mi'raj, according to the widely narrated account?",
+    "options": [
+      "10",
+      "20",
+      "50",
+      "100"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Which mosque is referred to as 'Al-Masjid al-Aqsa', significant in the account of the Isra journey?",
+    "options": [
+      "Masjid an-Nabawi in Madinah",
+      "Al-Aqsa Mosque in Jerusalem",
+      "Masjid al-Haram in Makkah",
+      "Masjid Quba"
+    ],
+    "correctIndex": 1
   }
 ]

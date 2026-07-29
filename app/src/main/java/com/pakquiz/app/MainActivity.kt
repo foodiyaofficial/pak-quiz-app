@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, AboutActivity::class.java))
         }
 
+        binding.rateUsButton.setOnClickListener {
+            openPlayStoreListing()
+        }
+
         binding.fullTestInclude.root.setOnClickListener {
             offerFullTestBoost()
         }
@@ -282,10 +286,6 @@ class MainActivity : AppCompatActivity() {
         }
         view.findViewById<com.google.android.material.button.MaterialButton>(R.id.laterButton).setOnClickListener {
             // Don't mark as handled - this lets the prompt show again after more app opens
-            dialog.dismiss()
-        }
-        view.findViewById<TextView>(R.id.dontAskAgainText).setOnClickListener {
-            PerformanceStore.markRatingHandled(this)
             dialog.dismiss()
         }
         dialog.show()

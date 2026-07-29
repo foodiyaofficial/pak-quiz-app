@@ -498,5 +498,1005 @@
       "25"
     ],
     "correctIndex": 1
+  },
+  {
+    "question": "Simplify: (x + 3)(x - 3)",
+    "options": [
+      "x^2 - 9",
+      "x^2 + 9",
+      "x^2 - 6x - 9",
+      "x^2 + 6x - 9"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Simplify: (x + 5)^2",
+    "options": [
+      "x^2 + 25",
+      "x^2 + 10x + 25",
+      "x^2 - 10x + 25",
+      "x^2 + 5x + 25"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: (x - 4)^2",
+    "options": [
+      "x^2 - 16",
+      "x^2 + 8x + 16",
+      "x^2 - 8x + 16",
+      "x^2 - 4x + 16"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Factorize: x^2 - 25",
+    "options": [
+      "(x-5)(x-5)",
+      "(x+5)(x-5)",
+      "(x+5)(x+5)",
+      "(x-25)(x+1)"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Factorize: x^2 + 7x + 12",
+    "options": [
+      "(x+3)(x+4)",
+      "(x+2)(x+6)",
+      "(x+1)(x+12)",
+      "(x-3)(x-4)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Factorize: x^2 - 5x + 6",
+    "options": [
+      "(x-2)(x-3)",
+      "(x+2)(x+3)",
+      "(x-1)(x-6)",
+      "(x+1)(x-6)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve for x: 2x + 5 = 17",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Solve for x: 3x - 7 = 14",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve for x: 5(x - 2) = 3x + 4",
+    "options": [
+      "x = 5",
+      "x = 6",
+      "x = 7",
+      "x = 8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve the quadratic equation: x^2 - 5x + 6 = 0",
+    "options": [
+      "x = 2, 3",
+      "x = -2, -3",
+      "x = 1, 6",
+      "x = -1, -6"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve the quadratic equation: x^2 - 9 = 0",
+    "options": [
+      "x = 3 only",
+      "x = -3 only",
+      "x = 3, -3",
+      "x = 9, -9"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the discriminant of the equation x^2 + 4x + 4 = 0?",
+    "options": [
+      "0",
+      "4",
+      "16",
+      "-16"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If a quadratic equation has a discriminant less than 0, how many real roots does it have?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Infinite"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the sum of the roots of x^2 - 7x + 10 = 0?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "-7"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the product of the roots of x^2 - 7x + 10 = 0?",
+    "options": [
+      "5",
+      "7",
+      "10",
+      "-10"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: 3x + 5x - 2x",
+    "options": [
+      "6x",
+      "7x",
+      "8x",
+      "10x"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Simplify: (2x)^3",
+    "options": [
+      "2x^3",
+      "6x^3",
+      "8x^3",
+      "8x"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: x^5 / x^2",
+    "options": [
+      "x^2",
+      "x^3",
+      "x^7",
+      "x^10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: (x^3)^2",
+    "options": [
+      "x^5",
+      "x^6",
+      "x^9",
+      "2x^3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If x = 3 and y = -2, what is the value of x^2 - y^2?",
+    "options": [
+      "5",
+      "9",
+      "13",
+      "-5"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If x = -4, what is the value of x^2 - 3x + 2?",
+    "options": [
+      "30",
+      "-30",
+      "6",
+      "-6"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve for x: -3x = 15",
+    "options": [
+      "x = 5",
+      "x = -5",
+      "x = 3",
+      "x = -3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Solve for x: -2x + 6 = -10",
+    "options": [
+      "x = -8",
+      "x = 8",
+      "x = -2",
+      "x = 2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: -5 - (-8)",
+    "options": [
+      "-13",
+      "-3",
+      "3",
+      "13"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: (-4) x (-3) x (-2)",
+    "options": [
+      "-24",
+      "24",
+      "-9",
+      "9"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the value of |-15| + |-7|?",
+    "options": [
+      "8",
+      "-8",
+      "22",
+      "-22"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the slope of the line passing through points (2, 3) and (4, 7)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the slope of the line passing through points (0, 0) and (5, -5)?",
+    "options": [
+      "1",
+      "-1",
+      "5",
+      "-5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the equation of a line with slope 2 passing through the origin?",
+    "options": [
+      "y = 2x",
+      "y = x + 2",
+      "y = 2x + 1",
+      "x = 2y"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the midpoint of the points (2, 4) and (6, 8)?",
+    "options": [
+      "(4, 6)",
+      "(3, 5)",
+      "(8, 12)",
+      "(2, 4)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the value of sin(30 degrees)?",
+    "options": [
+      "0",
+      "1/2",
+      "1/\u221a2",
+      "\u221a3/2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of cos(60 degrees)?",
+    "options": [
+      "0",
+      "1/2",
+      "1/\u221a2",
+      "1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of tan(45 degrees)?",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "\u221a3"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of sin(90 degrees)?",
+    "options": [
+      "0",
+      "1/2",
+      "\u221a3/2",
+      "1"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "What is the value of cos(0 degrees)?",
+    "options": [
+      "0",
+      "1",
+      "1/2",
+      "-1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In a right triangle, if one angle is 90 degrees and another is 30 degrees, what is the third angle?",
+    "options": [
+      "45 degrees",
+      "60 degrees",
+      "70 degrees",
+      "90 degrees"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of sin^2(theta) + cos^2(theta)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "theta"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the 10th term of the arithmetic progression: 3, 7, 11, 15, ...",
+    "options": [
+      "37",
+      "39",
+      "41",
+      "43"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the sum of the first 10 terms of the arithmetic progression: 2, 4, 6, 8, ...",
+    "options": [
+      "100",
+      "110",
+      "120",
+      "90"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the common ratio of the geometric progression: 5, 15, 45, 135, ...",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the 5th term of the geometric progression: 2, 6, 18, 54, ...",
+    "options": [
+      "108",
+      "144",
+      "162",
+      "180"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve the inequality: 2x + 3 > 11",
+    "options": [
+      "x > 4",
+      "x > 5",
+      "x < 4",
+      "x < 5"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve the inequality: -3x + 6 < 0",
+    "options": [
+      "x < 2",
+      "x > 2",
+      "x < -2",
+      "x > -2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: \u221a50",
+    "options": [
+      "5\u221a2",
+      "2\u221a5",
+      "10\u221a5",
+      "25\u221a2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Simplify: \u221a18 + \u221a8",
+    "options": [
+      "5\u221a2",
+      "\u221a26",
+      "5\u221a4",
+      "26"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Simplify: (\u221a3)^4",
+    "options": [
+      "3",
+      "9",
+      "12",
+      "27"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Rationalize the denominator: 1/\u221a2",
+    "options": [
+      "\u221a2/2",
+      "\u221a2",
+      "1/2",
+      "2\u221a2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If f(x) = 2x + 3, what is f(4)?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If f(x) = x^2 - 1, what is f(-3)?",
+    "options": [
+      "8",
+      "-8",
+      "10",
+      "-10"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "If f(x) = 3x - 5, what value of x gives f(x) = 10?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the domain restriction for f(x) = 1/(x-2)?",
+    "options": [
+      "x cannot be 0",
+      "x cannot be 1",
+      "x cannot be 2",
+      "x cannot be -2"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of log base 10 of 100?",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of log base 2 of 8?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: 2^3 x 2^4",
+    "options": [
+      "2^7",
+      "2^12",
+      "4^7",
+      "2^1"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Simplify: (5^2)^3",
+    "options": [
+      "5^5",
+      "5^6",
+      "5^8",
+      "5^9"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is 5^0?",
+    "options": [
+      "0",
+      "1",
+      "5",
+      "Undefined"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the value of 3^-2?",
+    "options": [
+      "-9",
+      "-6",
+      "1/9",
+      "9"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The perimeter of a rectangle is 40 cm and its length is 12 cm. What is its width?",
+    "options": [
+      "6 cm",
+      "7 cm",
+      "8 cm",
+      "10 cm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The area of a triangle with base 10 cm and height 6 cm is:",
+    "options": [
+      "30 cm\u00b2",
+      "60 cm\u00b2",
+      "16 cm\u00b2",
+      "24 cm\u00b2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The volume of a cube with side 4 cm is:",
+    "options": [
+      "16 cm\u00b3",
+      "48 cm\u00b3",
+      "64 cm\u00b3",
+      "12 cm\u00b3"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The circumference of a circle with radius 7 cm (using pi = 22/7) is:",
+    "options": [
+      "22 cm",
+      "44 cm",
+      "14 cm",
+      "154 cm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Two numbers are in the ratio 3:5. If their sum is 40, what are the two numbers?",
+    "options": [
+      "12 and 28",
+      "15 and 25",
+      "10 and 30",
+      "18 and 22"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "If x : y = 2 : 3 and y : z = 4 : 5, what is x : z?",
+    "options": [
+      "8 : 15",
+      "2 : 5",
+      "6 : 10",
+      "8 : 12"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve the system: x + y = 10, x - y = 2. What is x?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve the system: 2x + y = 7, x - y = 2. What is y?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the mean of: 4, 8, 6, 10, 12",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the median of: 3, 7, 9, 12, 15",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the mode of: 2, 4, 4, 6, 8, 4, 10",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the range of: 5, 12, 8, 20, 3",
+    "options": [
+      "15",
+      "17",
+      "20",
+      "12"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A die is rolled once. What is the probability of getting a number greater than 4?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A coin is tossed twice. What is the probability of getting exactly one head?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A bag has 3 red balls and 5 blue balls. What is the probability of picking a red ball at random?",
+    "options": [
+      "3/8",
+      "5/8",
+      "3/5",
+      "1/2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the probability of drawing a king from a standard deck of 52 cards?",
+    "options": [
+      "1/52",
+      "1/26",
+      "1/13",
+      "4/13"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A shopkeeper buys an item for Rs. 500 and sells it for Rs. 650. What is the profit percentage?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "An item marked at Rs. 1000 is sold at a 15% discount. What is the selling price?",
+    "options": [
+      "Rs. 750",
+      "Rs. 800",
+      "Rs. 850",
+      "Rs. 900"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If the cost price is Rs. 400 and the loss is 10%, what is the selling price?",
+    "options": [
+      "Rs. 340",
+      "Rs. 350",
+      "Rs. 360",
+      "Rs. 380"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A sum of Rs. 5000 is invested at 8% simple interest per year. What is the interest after 3 years?",
+    "options": [
+      "Rs. 1000",
+      "Rs. 1100",
+      "Rs. 1200",
+      "Rs. 1300"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the compound interest on Rs. 2000 at 10% per annum for 2 years?",
+    "options": [
+      "Rs. 400",
+      "Rs. 410",
+      "Rs. 420",
+      "Rs. 440"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The angles of a triangle are in the ratio 2:3:4. What is the largest angle?",
+    "options": [
+      "60 degrees",
+      "70 degrees",
+      "80 degrees",
+      "90 degrees"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Two angles are complementary. If one angle is 35 degrees, what is the other?",
+    "options": [
+      "45 degrees",
+      "55 degrees",
+      "65 degrees",
+      "145 degrees"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Two angles are supplementary. If one angle is 110 degrees, what is the other?",
+    "options": [
+      "60 degrees",
+      "70 degrees",
+      "80 degrees",
+      "90 degrees"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In a right triangle, the two legs are 6 cm and 8 cm. What is the length of the hypotenuse?",
+    "options": [
+      "9 cm",
+      "10 cm",
+      "12 cm",
+      "14 cm"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "A ladder 13 m long leans against a wall, with its foot 5 m from the wall. How high up the wall does the ladder reach?",
+    "options": [
+      "10 m",
+      "11 m",
+      "12 m",
+      "13 m"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The area of a circle with radius 7 cm (using pi = 22/7) is:",
+    "options": [
+      "154 cm\u00b2",
+      "144 cm\u00b2",
+      "132 cm\u00b2",
+      "168 cm\u00b2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "The surface area of a cube with side 5 cm is:",
+    "options": [
+      "100 cm\u00b2",
+      "125 cm\u00b2",
+      "150 cm\u00b2",
+      "175 cm\u00b2"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A rectangular room is 8 m long and 6 m wide. What is its area?",
+    "options": [
+      "14 m\u00b2",
+      "28 m\u00b2",
+      "42 m\u00b2",
+      "48 m\u00b2"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "question": "If 3 pens cost Rs. 45, what is the cost of 7 pens at the same rate?",
+    "options": [
+      "Rs. 95",
+      "Rs. 100",
+      "Rs. 105",
+      "Rs. 110"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A car travels at 80 km/h. How far will it travel in 2 hours 30 minutes?",
+    "options": [
+      "180 km",
+      "190 km",
+      "200 km",
+      "210 km"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 becomes 18. What was the removed number?",
+    "options": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "A number increased by 20% becomes 60. What was the original number?",
+    "options": [
+      "45",
+      "48",
+      "50",
+      "52"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of x if 2^x = 32?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What is the value of x if 3^x = 81?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Simplify: (a + b)^2 - (a - b)^2",
+    "options": [
+      "2ab",
+      "4ab",
+      "2a^2",
+      "2b^2"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Simplify: (a + b)^2 + (a - b)^2",
+    "options": [
+      "2a^2 + 2b^2",
+      "4ab",
+      "2a^2",
+      "a^2 + b^2"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Factorize: 4x^2 - 9",
+    "options": [
+      "(2x-3)(2x+3)",
+      "(4x-9)(x+1)",
+      "(2x-9)(2x+1)",
+      "(x-3)(4x+3)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Factorize: x^2 + 2x + 1",
+    "options": [
+      "(x+1)(x+1)",
+      "(x-1)(x-1)",
+      "(x+1)(x-1)",
+      "(x+2)(x-1)"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Solve for x: x/3 + 5 = 11",
+    "options": [
+      "x = 15",
+      "x = 16",
+      "x = 18",
+      "x = 20"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Solve for x: (x + 4)/2 = 9",
+    "options": [
+      "x = 12",
+      "x = 13",
+      "x = 14",
+      "x = 16"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If y varies directly with x, and y = 15 when x = 3, what is y when x = 7?",
+    "options": [
+      "30",
+      "32",
+      "35",
+      "40"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "If y varies inversely with x, and y = 8 when x = 3, what is y when x = 6?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "16"
+    ],
+    "correctIndex": 2
   }
 ]

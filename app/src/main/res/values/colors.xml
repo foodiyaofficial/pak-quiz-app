@@ -27,5 +27,7 @@
     <color name="card_electronics">#2A6B6B</color>
     <color name="card_computerscience">#1A4D8F</color>
     <color name="card_logicalreasoning">#6B4423</color>
+    <color name="card_personalities">#8E5A2E</color>
+    <color name="card_worldorganizations">#2E6B7A</color>
     <color name="card_fulltest">#8C2D3F</color>
 </resources>

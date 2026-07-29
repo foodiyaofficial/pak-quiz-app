@@ -14,7 +14,7 @@ class FullTestActivity : AppCompatActivity() {
     private var questions: MutableList<Question> = mutableListOf()
     private var currentIndex = 0
     private var score = 0
-    private var answered = false
+    private var selectedForThisQuestion = -1
 
     private lateinit var optionCards: List<MaterialCardView>
     private lateinit var optionTexts: List<android.widget.TextView>
@@ -43,12 +43,12 @@ class FullTestActivity : AppCompatActivity() {
     }
 
     private fun showQuestion() {
-        answered = false
+        selectedForThisQuestion = -1
         val q = questions[currentIndex]
         binding.progressText.text = "Question ${currentIndex + 1} of ${questions.size}  \u2022  Score: $score"
         binding.progressBar.progress = ((currentIndex.toFloat() / questions.size) * 100).toInt()
         binding.questionText.text = q.question
-        binding.answerFeedback.visibility = android.view.View.INVISIBLE
+        binding.answerFeedback.visibility = android.view.View.GONE
         binding.nextButton.isEnabled = false
         binding.nextButton.text = if (currentIndex == questions.size - 1) getString(R.string.finish) else getString(R.string.next)
 
@@ -68,36 +68,28 @@ class FullTestActivity : AppCompatActivity() {
         optionTexts[index].setTextColor(ContextCompat.getColor(this, R.color.text_dark))
     }
 
+    /**
+     * Same behavior as QuizActivity: tapping just marks the current selection (no
+     * correct/wrong reveal). Freely changeable until Next is pressed.
+     */
     private fun selectOption(selectedIndex: Int) {
-        if (answered) return
-        answered = true
-        val q = questions[currentIndex]
-        q.selectedIndex = selectedIndex
+        optionCards.indices.forEach { resetCardStyle(it) }
 
-        val isCorrect = selectedIndex == q.correctIndex
-        if (isCorrect) score++
-
-        optionCards[q.correctIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.correct))
-        optionTexts[q.correctIndex].setTextColor(ContextCompat.getColor(this, R.color.white))
-
-        if (!isCorrect) {
-            optionCards[selectedIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.wrong))
-            optionTexts[selectedIndex].setTextColor(ContextCompat.getColor(this, R.color.white))
-        }
-
-        binding.answerFeedback.visibility = android.view.View.VISIBLE
-        if (isCorrect) {
-            binding.answerFeedback.text = "\u2713 Correct!"
-            binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.correct))
-        } else {
-            binding.answerFeedback.text = getString(R.string.correct_answer_prefix) + q.options[q.correctIndex]
-            binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.wrong))
-        }
+        selectedForThisQuestion = selectedIndex
+        optionCards[selectedIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.accent))
+        optionTexts[selectedIndex].setTextColor(ContextCompat.getColor(this, R.color.primary_dark))
 
         binding.nextButton.isEnabled = true
     }
 
     private fun advance() {
+        // Lock in the final selection now, only when Next is pressed
+        val q = questions[currentIndex]
+        q.selectedIndex = selectedForThisQuestion
+        if (selectedForThisQuestion == q.correctIndex) {
+            score++
+        }
+
         val questionNumberJustFinished = currentIndex + 1
 
         if (currentIndex == questions.size - 1) {

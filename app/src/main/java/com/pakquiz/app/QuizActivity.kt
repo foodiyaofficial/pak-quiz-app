@@ -14,7 +14,7 @@ class QuizActivity : AppCompatActivity() {
     private var questions: MutableList<Question> = mutableListOf()
     private var currentIndex = 0
     private var score = 0
-    private var answered = false
+    private var selectedForThisQuestion = -1
     private lateinit var categoryId: String
     private lateinit var categoryTitle: String
     private lateinit var categoryJson: String
@@ -44,19 +44,21 @@ class QuizActivity : AppCompatActivity() {
             card.setOnClickListener { selectOption(index) }
         }
 
+        binding.reportButton.setOnClickListener { reportQuestion(questions[currentIndex]) }
+
         binding.nextButton.setOnClickListener {
             advance()
         }
     }
 
     private fun showQuestion() {
-        answered = false
+        selectedForThisQuestion = -1
         val q = questions[currentIndex]
         binding.progressText.text = "Question ${currentIndex + 1} of ${questions.size}  \u2022  Score: $score"
         binding.progressBar.progress = ((currentIndex.toFloat() / questions.size) * 100).toInt()
         binding.questionText.text = q.question
-        binding.answerFeedback.visibility = android.view.View.INVISIBLE
-        binding.reportButton.visibility = android.view.View.GONE
+        binding.answerFeedback.visibility = android.view.View.GONE
+        binding.reportButton.visibility = android.view.View.VISIBLE
         binding.nextButton.isEnabled = false
         binding.nextButton.text = if (currentIndex == questions.size - 1) getString(R.string.finish) else getString(R.string.next)
 
@@ -76,38 +78,23 @@ class QuizActivity : AppCompatActivity() {
         optionCards[index].setCardBackgroundColor(ContextCompat.getColor(this, R.color.surface))
         optionTexts[index].setTextColor(ContextCompat.getColor(this, R.color.text_dark))
         optionCards[index].strokeColor = android.graphics.Color.parseColor("#E0DED4")
+        optionCards[index].strokeWidth = (1 * resources.displayMetrics.density).toInt()
     }
 
+    /**
+     * Tapping an option just marks it as the current selection (no correct/wrong reveal).
+     * The user can freely tap a different option to change their mind - the highlight
+     * simply moves - right up until they press Next. Correctness is only revealed on the
+     * Result/Review screen at the end.
+     */
     private fun selectOption(selectedIndex: Int) {
-        if (answered) return
-        answered = true
-        val q = questions[currentIndex]
-        q.selectedIndex = selectedIndex
+        // Reset every card back to neutral, then highlight only the newly chosen one
+        optionCards.indices.forEach { resetCardStyle(it) }
 
-        val isCorrect = selectedIndex == q.correctIndex
-        if (isCorrect) score++
-
-        // Highlight the correct answer green always
-        optionCards[q.correctIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.correct))
-        optionTexts[q.correctIndex].setTextColor(ContextCompat.getColor(this, R.color.white))
-
-        // If user picked wrong, highlight their pick red
-        if (!isCorrect) {
-            optionCards[selectedIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.wrong))
-            optionTexts[selectedIndex].setTextColor(ContextCompat.getColor(this, R.color.white))
-        }
-
-        binding.answerFeedback.visibility = android.view.View.VISIBLE
-        if (isCorrect) {
-            binding.answerFeedback.text = "\u2713 Correct!"
-            binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.correct))
-            binding.reportButton.visibility = android.view.View.GONE
-        } else {
-            binding.answerFeedback.text = getString(R.string.correct_answer_prefix) + q.options[q.correctIndex]
-            binding.answerFeedback.setTextColor(ContextCompat.getColor(this, R.color.wrong))
-            binding.reportButton.visibility = android.view.View.VISIBLE
-            binding.reportButton.setOnClickListener { reportQuestion(q) }
-        }
+        selectedForThisQuestion = selectedIndex
+        optionCards[selectedIndex].setCardBackgroundColor(ContextCompat.getColor(this, R.color.accent))
+        optionTexts[selectedIndex].setTextColor(ContextCompat.getColor(this, R.color.primary_dark))
+        optionCards[selectedIndex].strokeWidth = 0
 
         binding.nextButton.isEnabled = true
     }
@@ -133,6 +120,13 @@ class QuizActivity : AppCompatActivity() {
     }
 
     private fun advance() {
+        // Lock in the final selection now, only when Next is pressed
+        val q = questions[currentIndex]
+        q.selectedIndex = selectedForThisQuestion
+        if (selectedForThisQuestion == q.correctIndex) {
+            score++
+        }
+
         if (currentIndex == questions.size - 1) {
             val intent = Intent(this, InterstitialAdActivity::class.java)
             intent.putExtra("score", score)

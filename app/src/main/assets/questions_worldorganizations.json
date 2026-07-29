@@ -1,0 +1,502 @@
+[
+  {
+    "question": "In which year was the United Nations established?",
+    "options": [
+      "1943",
+      "1945",
+      "1948",
+      "1950"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Where is the headquarters of the United Nations located?",
+    "options": [
+      "Geneva",
+      "New York",
+      "Paris",
+      "London"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many permanent members does the UN Security Council have?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Which of the following is NOT a permanent member of the UN Security Council?",
+    "options": [
+      "United States",
+      "Russia",
+      "Germany",
+      "China"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does UNESCO stand for?",
+    "options": [
+      "United Nations Educational, Scientific and Cultural Organization",
+      "United Nations Economic and Social Council Organization",
+      "United Nations Emergency Support and Cooperation Organization",
+      "United Nations Environmental and Scientific Cooperation Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of UNESCO located?",
+    "options": [
+      "New York",
+      "Geneva",
+      "Paris",
+      "Rome"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does WHO stand for?",
+    "options": [
+      "World Health Organization",
+      "World Humanitarian Organization",
+      "World Health Office",
+      "World Hygiene Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the World Health Organization located?",
+    "options": [
+      "New York",
+      "Geneva",
+      "Paris",
+      "Vienna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "In which year was the World Health Organization established?",
+    "options": [
+      "1945",
+      "1948",
+      "1950",
+      "1955"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does IMF stand for?",
+    "options": [
+      "International Monetary Fund",
+      "International Money Federation",
+      "International Ministry of Finance",
+      "International Market Fund"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the International Monetary Fund located?",
+    "options": [
+      "New York",
+      "Geneva",
+      "Washington D.C.",
+      "London"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Where is the headquarters of the World Bank located?",
+    "options": [
+      "New York",
+      "Washington D.C.",
+      "Geneva",
+      "Paris"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does NATO stand for?",
+    "options": [
+      "North Atlantic Treaty Organization",
+      "National Alliance for Trade Organization",
+      "North American Trade Organization",
+      "North Atlantic Trade Office"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year was NATO established?",
+    "options": [
+      "1945",
+      "1949",
+      "1955",
+      "1960"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Where is the headquarters of NATO located?",
+    "options": [
+      "Washington D.C.",
+      "London",
+      "Brussels",
+      "Geneva"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does SAARC stand for?",
+    "options": [
+      "South Asian Association for Regional Cooperation",
+      "South Asian Alliance for Regional Cooperation",
+      "South Asian Association for Regional Commerce",
+      "South Asian Assembly for Regional Cooperation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "In which year was SAARC established?",
+    "options": [
+      "1980",
+      "1985",
+      "1990",
+      "1995"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Where is the headquarters (Secretariat) of SAARC located?",
+    "options": [
+      "Islamabad",
+      "New Delhi",
+      "Kathmandu",
+      "Dhaka"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "How many member countries does SAARC have?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "What does OIC stand for?",
+    "options": [
+      "Organisation of Islamic Cooperation",
+      "Organization of International Countries",
+      "Organization for Islamic Commerce",
+      "Organisation of Independent Countries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the Organisation of Islamic Cooperation located?",
+    "options": [
+      "Makkah, Saudi Arabia",
+      "Jeddah, Saudi Arabia",
+      "Cairo, Egypt",
+      "Istanbul, Turkey"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does ASEAN stand for?",
+    "options": [
+      "Association of Southeast Asian Nations",
+      "Alliance of Southeast Asian Nations",
+      "Association of South and East Asian Nations",
+      "Asian Economic and Nations Association"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of ASEAN located?",
+    "options": [
+      "Bangkok, Thailand",
+      "Jakarta, Indonesia",
+      "Manila, Philippines",
+      "Singapore"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does WTO stand for?",
+    "options": [
+      "World Trade Organization",
+      "World Tariff Organization",
+      "World Treaty Organization",
+      "World Transport Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the World Trade Organization located?",
+    "options": [
+      "New York",
+      "Geneva",
+      "Brussels",
+      "Vienna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does UNICEF stand for?",
+    "options": [
+      "United Nations International Children's Emergency Fund",
+      "United Nations International Community Education Fund",
+      "United Nations Institute for Children's Education Fund",
+      "United Nations International Child and Education Foundation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary purpose of the International Committee of the Red Cross (ICRC)?",
+    "options": [
+      "Trade regulation",
+      "Humanitarian protection during armed conflict",
+      "Currency stabilization",
+      "Environmental protection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Where is the headquarters of the International Committee of the Red Cross located?",
+    "options": [
+      "Geneva",
+      "Paris",
+      "Vienna",
+      "Rome"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does IAEA stand for?",
+    "options": [
+      "International Atomic Energy Agency",
+      "International Association of Energy Affairs",
+      "International Agency for Environmental Affairs",
+      "International Alliance for Energy Assessment"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary purpose of the International Atomic Energy Agency?",
+    "options": [
+      "Promoting nuclear weapons development",
+      "Promoting peaceful use of nuclear energy and safeguarding against misuse",
+      "Regulating international trade",
+      "Monitoring climate change"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does FAO stand for?",
+    "options": [
+      "Food and Agriculture Organization",
+      "Federal Agricultural Office",
+      "Foreign Aid Organization",
+      "Farming and Agriculture Office"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the Food and Agriculture Organization located?",
+    "options": [
+      "Geneva",
+      "Rome",
+      "Paris",
+      "Vienna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does ILO stand for?",
+    "options": [
+      "International Labour Organization",
+      "International Legal Organization",
+      "International Law Office",
+      "International Liaison Organization"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary purpose of the International Labour Organization?",
+    "options": [
+      "Trade regulation",
+      "Setting international labor standards and promoting workers' rights",
+      "Currency exchange regulation",
+      "Environmental protection"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does the abbreviation EU stand for?",
+    "options": [
+      "Eastern Union",
+      "European Union",
+      "Economic Union",
+      "Equal Union"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "How many member countries are currently in the European Union (as commonly cited figure)?",
+    "options": [
+      "25",
+      "27",
+      "30",
+      "32"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the common currency used by most European Union member countries called?",
+    "options": [
+      "Pound",
+      "Euro",
+      "Franc",
+      "Mark"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does UNHCR stand for?",
+    "options": [
+      "United Nations High Commissioner for Refugees",
+      "United Nations Humanitarian Council for Relief",
+      "United Nations Health and Children's Relief",
+      "United Nations Human Rights Council"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the primary purpose of UNHCR?",
+    "options": [
+      "Trade regulation",
+      "Protecting and assisting refugees worldwide",
+      "Currency stabilization",
+      "Nuclear safeguarding"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the main judicial body of the United Nations called?",
+    "options": [
+      "UN Security Council",
+      "International Court of Justice",
+      "International Criminal Court",
+      "UN General Assembly"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Where is the International Court of Justice located?",
+    "options": [
+      "Geneva",
+      "The Hague",
+      "Paris",
+      "Vienna"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What is the difference between the International Court of Justice and the International Criminal Court?",
+    "options": [
+      "They are the same institution",
+      "ICJ handles disputes between states; ICC prosecutes individuals for serious crimes",
+      "ICJ handles individuals; ICC handles states",
+      "There is no difference in function"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does CPEC stand for, a major economic initiative between Pakistan and China?",
+    "options": [
+      "China-Pakistan Economic Corridor",
+      "China-Pakistan Export Cooperation",
+      "Central Pakistan Economic Council",
+      "China-Pakistan Energy Cooperation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does BRICS stand for, referring to a group of major emerging economies?",
+    "options": [
+      "Brazil, Russia, India, China, South Africa",
+      "Britain, Russia, India, China, Sweden",
+      "Brazil, Romania, India, China, Spain",
+      "Belgium, Russia, Iran, China, Syria"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does G7 refer to?",
+    "options": [
+      "A group of 7 major advanced economies",
+      "A group of 7 developing nations",
+      "A UN subcommittee",
+      "A regional trade bloc in Asia"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What does G20 refer to?",
+    "options": [
+      "A forum of 20 major economies (developed and developing)",
+      "A group of 20 least developed countries",
+      "A UN peacekeeping unit",
+      "A European trade alliance"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "What is the main UN body where all member states have equal representation and one vote each?",
+    "options": [
+      "Security Council",
+      "General Assembly",
+      "Secretariat",
+      "Trusteeship Council"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does the acronym NGO stand for?",
+    "options": [
+      "National Government Organization",
+      "Non-Governmental Organization",
+      "New Global Organization",
+      "National Global Office"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "What does AIIB stand for, a development bank in which Pakistan and China are members?",
+    "options": [
+      "Asian Infrastructure Investment Bank",
+      "Asian International Investment Bureau",
+      "Asian Industrial Investment Bank",
+      "Asian Institute for Investment and Banking"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Where is the headquarters of the Asian Infrastructure Investment Bank located?",
+    "options": [
+      "Tokyo",
+      "Beijing",
+      "Manila",
+      "Singapore"
+    ],
+    "correctIndex": 1
+  }
+]

@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:background="@drawable/header_gradient"
-                android:padding="20dp">
+                android:padding="14dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -32,9 +32,9 @@
                     android:gravity="center_vertical">
 
                     <ImageView
-                        android:layout_width="38dp"
-                        android:layout_height="38dp"
-                        android:layout_marginEnd="10dp"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginEnd="8dp"
                         android:src="@drawable/ic_launcher"
                         android:contentDescription="App logo" />
 
@@ -44,13 +44,22 @@
                         android:layout_weight="1"
                         android:text="@string/app_name"
                         android:textColor="@color/white"
-                        android:textSize="26sp"
+                        android:textSize="22sp"
                         android:textStyle="bold" />
 
                     <ImageButton
+                        android:id="@+id/rateUsButton"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@android:drawable/btn_star_big_on"
+                        app:tint="@color/accent_light"
+                        android:contentDescription="Rate Us" />
+
+                    <ImageButton
                         android:id="@+id/aboutButton"
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="?attr/selectableItemBackgroundBorderless"
                         android:src="@android:drawable/ic_menu_info_details"
                         app:tint="@color/accent_light"
@@ -63,15 +72,15 @@
                     android:layout_height="wrap_content"
                     android:text="@string/tagline"
                     android:textColor="@color/accent_light"
-                    android:textSize="13sp"
-                    android:layout_marginTop="4dp" />
+                    android:textSize="11sp"
+                    android:layout_marginTop="2dp" />
 
                 <!-- Stats bar -->
                 <com.google.android.material.card.MaterialCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
-                    app:cardCornerRadius="16dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="14dp"
                     app:cardElevation="0dp"
                     app:cardBackgroundColor="#22FFFFFF">
 
@@ -79,7 +88,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:padding="16dp">
+                        android:padding="10dp">
 
                         <LinearLayout
                             android:layout_width="0dp"
@@ -87,9 +96,9 @@
                             android:layout_weight="1"
                             android:orientation="vertical"
                             android:gravity="center">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\uD83D\uDD25" android:textSize="20sp" />
-                            <TextView android:id="@+id/streakValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/white" android:textSize="17sp" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Day Streak" android:textColor="@color/accent_light" android:textSize="10sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\uD83D\uDD25" android:textSize="15sp" />
+                            <TextView android:id="@+id/streakValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Day Streak" android:textColor="@color/accent_light" android:textSize="9sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -98,9 +107,9 @@
                             android:layout_weight="1"
                             android:orientation="vertical"
                             android:gravity="center">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\u2B50" android:textSize="20sp" />
-                            <TextView android:id="@+id/solvedValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/white" android:textSize="17sp" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Solved" android:textColor="@color/accent_light" android:textSize="10sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\u2B50" android:textSize="15sp" />
+                            <TextView android:id="@+id/solvedValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Solved" android:textColor="@color/accent_light" android:textSize="9sp" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -109,9 +118,9 @@
                             android:layout_weight="1"
                             android:orientation="vertical"
                             android:gravity="center">
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\uD83C\uDFAF" android:textSize="20sp" />
-                            <TextView android:id="@+id/accuracyValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:textColor="@color/white" android:textSize="17sp" android:textStyle="bold" />
-                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accuracy" android:textColor="@color/accent_light" android:textSize="10sp" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\uD83C\uDFAF" android:textSize="15sp" />
+                            <TextView android:id="@+id/accuracyValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:textColor="@color/white" android:textSize="14sp" android:textStyle="bold" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accuracy" android:textColor="@color/accent_light" android:textSize="9sp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -127,8 +136,8 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:background="@color/primary_light"
-                android:padding="18dp"
-                android:layout_margin="12dp"
+                android:padding="12dp"
+                android:layout_margin="10dp"
                 android:visibility="gone">
 
                 <TextView
@@ -136,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:text="Continue Learning"
                     android:textColor="@color/white"
-                    android:textSize="13sp" />
+                    android:textSize="11sp" />
 
                 <TextView
                     android:id="@+id/continueSubjectTitle"
@@ -144,28 +153,29 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
                     android:textColor="@color/white"
-                    android:textSize="22sp"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/resumeButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="44dp"
-                    android:layout_marginTop="12dp"
-                    android:paddingHorizontal="20dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingHorizontal="16dp"
                     android:text="Resume Now \u2192"
                     android:textColor="@color/white"
+                    android:textSize="12sp"
                     android:textAllCaps="false"
                     android:backgroundTint="#33FFFFFF"
-                    app:cornerRadius="12dp" />
+                    app:cornerRadius="10dp" />
 
             </LinearLayout>
 
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="12dp"
-                app:cardCornerRadius="18dp"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="14dp"
                 app:cardElevation="4dp"
                 app:cardBackgroundColor="@color/surface">
 
@@ -173,30 +183,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="18dp">
+                    android:padding="12dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Today's Goal"
                         android:textColor="@color/text_muted"
-                        android:textSize="13sp" />
+                        android:textSize="11sp" />
 
                     <TextView
                         android:id="@+id/goalProgressText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
+                        android:layout_marginTop="1dp"
                         android:textColor="@color/text_dark"
-                        android:textSize="24sp"
+                        android:textSize="18sp"
                         android:textStyle="bold" />
 
                     <ProgressBar
                         android:id="@+id/goalProgressBar"
                         style="?android:attr/progressBarStyleHorizontal"
                         android:layout_width="match_parent"
-                        android:layout_height="8dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_height="6dp"
+                        android:layout_marginTop="6dp"
                         android:progressTint="@color/correct"
                         android:max="100" />
 

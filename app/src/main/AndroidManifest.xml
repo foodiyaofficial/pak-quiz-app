@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PakQuiz">
 
-        <!-- Google's official TEST App ID - replace with your real AdMob App ID before publishing -->
+        <!-- Real PakQuiz AdMob App ID -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713" />
+            android:value="ca-app-pub-4944863890770793~6585372022" />
 
         <activity
             android:name=".MainActivity"

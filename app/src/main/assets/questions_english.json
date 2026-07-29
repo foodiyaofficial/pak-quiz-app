@@ -1328,5 +1328,1005 @@
       "Anonymous"
     ],
     "correctIndex": 2
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Ambiguous':",
+    "options": [
+      "Clear",
+      "Unclear",
+      "Certain",
+      "Simple"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Meticulous':",
+    "options": [
+      "Careless",
+      "Careful",
+      "Quick",
+      "Lazy"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Benevolent':",
+    "options": [
+      "Cruel",
+      "Kind",
+      "Angry",
+      "Selfish"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Candid':",
+    "options": [
+      "Dishonest",
+      "Frank",
+      "Shy",
+      "Confused"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Diligent':",
+    "options": [
+      "Lazy",
+      "Hardworking",
+      "Slow",
+      "Careless"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Reluctant':",
+    "options": [
+      "Eager",
+      "Unwilling",
+      "Happy",
+      "Confident"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Feasible':",
+    "options": [
+      "Impossible",
+      "Practical",
+      "Expensive",
+      "Difficult"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Abundant':",
+    "options": [
+      "Plentiful",
+      "Scarce",
+      "Rich",
+      "Huge"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Genuine':",
+    "options": [
+      "Real",
+      "Fake",
+      "Honest",
+      "Simple"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Optimistic':",
+    "options": [
+      "Hopeful",
+      "Pessimistic",
+      "Cheerful",
+      "Confident"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Concise':",
+    "options": [
+      "Brief",
+      "Lengthy",
+      "Clear",
+      "Short"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Humble':",
+    "options": [
+      "Modest",
+      "Arrogant",
+      "Shy",
+      "Quiet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: She has been living in Lahore ___ 2015.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "at"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: He is good ___ mathematics.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "with"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: I am looking forward ___ your reply.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "on"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: There is no point ___ arguing with him.",
+    "options": [
+      "to",
+      "in",
+      "for",
+      "at"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: She is afraid ___ dogs.",
+    "options": [
+      "of",
+      "from",
+      "with",
+      "for"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: Despite ___ hard, he failed the exam.",
+    "options": [
+      "study",
+      "studying",
+      "studied",
+      "to study"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: By the time we arrived, the movie ___ already started.",
+    "options": [
+      "has",
+      "had",
+      "have",
+      "was"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: If I ___ you, I would apologize.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "Neither of the boys were present.",
+      "Neither of the boys was present.",
+      "Neither of the boys are present.",
+      "Neither of the boys being present."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "She don't know the answer.",
+      "She doesn't knows the answer.",
+      "She doesn't know the answer.",
+      "She not know the answer."
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "Each of the students have submitted their assignment.",
+      "Each of the students has submitted their assignment.",
+      "Each of the students has submitted its assignment.",
+      "Each of the students having submitted assignment."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "He is one of the best players in the team.",
+      "He is one of the best player in the team.",
+      "He is the one of best players in team.",
+      "He are one of the best players in the team."
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "The news are very shocking.",
+      "The news is very shocking.",
+      "The news were very shocking.",
+      "The news being very shocking."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Accomodate",
+      "Acommodate",
+      "Accommodate",
+      "Acomodate"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Recieve",
+      "Receive",
+      "Receve",
+      "Receeve"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Priviledge",
+      "Privelege",
+      "Privilege",
+      "Priviege"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Embarass",
+      "Embarrass",
+      "Embaras",
+      "Embarras"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Maintainance",
+      "Maintenance",
+      "Maintanance",
+      "Maintenence"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Occurance",
+      "Occurrance",
+      "Occurrence",
+      "Occurence"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Neccessary",
+      "Necesary",
+      "Necessary",
+      "Neccesary"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Definately",
+      "Definitely",
+      "Definitly",
+      "Difinitely"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Break the ice':",
+    "options": [
+      "To cause an argument",
+      "To start a conversation in an awkward situation",
+      "To literally break ice",
+      "To end a relationship"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Cost an arm and a leg':",
+    "options": [
+      "To be very cheap",
+      "To be very expensive",
+      "To injure oneself",
+      "To be free of cost"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Hit the books':",
+    "options": [
+      "To damage books",
+      "To start studying seriously",
+      "To buy books",
+      "To sell books"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Once in a blue moon':",
+    "options": [
+      "Very frequently",
+      "Very rarely",
+      "Every month",
+      "Never"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Under the weather':",
+    "options": [
+      "Feeling great",
+      "Feeling unwell",
+      "Outside in the rain",
+      "In a hurry"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct plural form of 'Analysis':",
+    "options": [
+      "Analysises",
+      "Analyses",
+      "Analysis's",
+      "Analysi"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct plural form of 'Criterion':",
+    "options": [
+      "Criterions",
+      "Criteria",
+      "Criterias",
+      "Criterion's"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct past tense of 'Swim':",
+    "options": [
+      "Swimmed",
+      "Swam",
+      "Swum",
+      "Swimming"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct past participle of 'Swim':",
+    "options": [
+      "Swam",
+      "Swimmed",
+      "Swum",
+      "Swimming"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Choose the correct past tense of 'Lay' (to place something down):",
+    "options": [
+      "Laid",
+      "Lain",
+      "Layed",
+      "Lay"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Eloquent':",
+    "options": [
+      "Silent",
+      "Well-spoken",
+      "Confused",
+      "Rude"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Frugal':",
+    "options": [
+      "Wasteful",
+      "Thrifty",
+      "Generous",
+      "Rich"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Novice':",
+    "options": [
+      "Expert",
+      "Beginner",
+      "Teacher",
+      "Master"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Tedious':",
+    "options": [
+      "Exciting",
+      "Boring",
+      "Quick",
+      "Simple"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Vivid':",
+    "options": [
+      "Dull",
+      "Bright and clear",
+      "Confusing",
+      "Small"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Transparent':",
+    "options": [
+      "Clear",
+      "Opaque",
+      "Visible",
+      "Bright"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Voluntary':",
+    "options": [
+      "Willing",
+      "Compulsory",
+      "Optional",
+      "Free"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Cautious':",
+    "options": [
+      "Careful",
+      "Reckless",
+      "Slow",
+      "Alert"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Permanent':",
+    "options": [
+      "Lasting",
+      "Temporary",
+      "Fixed",
+      "Stable"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: The train arrived ___ time.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: She apologized ___ being late.",
+    "options": [
+      "for",
+      "of",
+      "about",
+      "to"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: He succeeded ___ passing the exam.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "with"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Fill in the blank: They congratulated her ___ her success.",
+    "options": [
+      "for",
+      "on",
+      "at",
+      "about"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: I have been waiting ___ two hours.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "in"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: The book consists ___ ten chapters.",
+    "options": [
+      "of",
+      "in",
+      "with",
+      "from"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: He was accused ___ theft.",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "about"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: She is married ___ a doctor.",
+    "options": [
+      "with",
+      "to",
+      "for",
+      "by"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "If it rain, we will stay home.",
+      "If it rains, we will stay home.",
+      "If it will rain, we will stay home.",
+      "If it rained, we will stay home."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "I have saw that movie.",
+      "I have seen that movie.",
+      "I have see that movie.",
+      "I has seen that movie."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "Neither the teacher nor the students was ready.",
+      "Neither the teacher nor the students were ready.",
+      "Neither the teacher nor the students is ready.",
+      "Neither the teacher or the students were ready."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "The number of students are increasing.",
+      "The number of students is increasing.",
+      "The number of students were increasing.",
+      "The number of students have increased."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "Everyone have submitted their homework.",
+      "Everyone has submitted their homework.",
+      "Everyone having submitted homework.",
+      "Everyone are submitted homework."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Rythm",
+      "Rhythem",
+      "Rhythm",
+      "Rhytm"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Government",
+      "Goverment",
+      "Governmant",
+      "Govermment"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Enviroment",
+      "Environment",
+      "Enviroument",
+      "Envirnoment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Tommorow",
+      "Tomorow",
+      "Tomorrow",
+      "Tommorrow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Immediatly",
+      "Immediately",
+      "Imediately",
+      "Immediatley"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Sincerely",
+      "Sincerly",
+      "Sinserely",
+      "Sincerely's"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Vaccum",
+      "Vacume",
+      "Vacuum",
+      "Vaccuum"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Spill the beans':",
+    "options": [
+      "To make a mess",
+      "To reveal a secret",
+      "To cook dinner",
+      "To argue loudly"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Bite the bullet':",
+    "options": [
+      "To eat quickly",
+      "To face a difficult situation bravely",
+      "To bite something hard",
+      "To fire a weapon"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Piece of cake':",
+    "options": [
+      "A dessert",
+      "Something very easy",
+      "Something difficult",
+      "A small portion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Let the cat out of the bag':",
+    "options": [
+      "To free an animal",
+      "To reveal a secret accidentally",
+      "To hide something",
+      "To adopt a pet"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct comparative form of 'Good':",
+    "options": [
+      "Gooder",
+      "Better",
+      "Best",
+      "More good"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct superlative form of 'Far':",
+    "options": [
+      "Farer",
+      "Farthest",
+      "Farrer",
+      "Most far"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct passive voice: 'The chef cooks the meal.'",
+    "options": [
+      "The meal cooks by the chef.",
+      "The meal is cooked by the chef.",
+      "The meal was cook by the chef.",
+      "The meal is cooking by the chef."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct passive voice: 'They are building a bridge.'",
+    "options": [
+      "A bridge is built by them.",
+      "A bridge is being built by them.",
+      "A bridge was being built by them.",
+      "A bridge builds by them."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Pragmatic':",
+    "options": [
+      "Idealistic",
+      "Practical",
+      "Emotional",
+      "Confused"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word closest in meaning to 'Adversity':",
+    "options": [
+      "Prosperity",
+      "Hardship",
+      "Joy",
+      "Comfort"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Verbose':",
+    "options": [
+      "Wordy",
+      "Concise",
+      "Long",
+      "Detailed"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word opposite in meaning to 'Diligent':",
+    "options": [
+      "Hardworking",
+      "Lazy",
+      "Careful",
+      "Punctual"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Fill in the blank: He was born ___ 1990.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: She insisted ___ paying the bill.",
+    "options": [
+      "on",
+      "for",
+      "with",
+      "to"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: The children were fond ___ ice cream.",
+    "options": [
+      "of",
+      "with",
+      "for",
+      "to"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Fill in the blank: He is capable ___ solving this problem.",
+    "options": [
+      "to",
+      "of",
+      "for",
+      "with"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "Either of the answers are correct.",
+      "Either of the answers is correct.",
+      "Either of the answers being correct.",
+      "Either of the answers were correct."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "She is one of the students who was late.",
+      "She is one of the students who were late.",
+      "She is one of the student who was late.",
+      "She are one of the students who were late."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the sentence with correct grammar:",
+    "options": [
+      "I wish I was taller.",
+      "I wish I were taller.",
+      "I wish I am taller.",
+      "I wish I will be taller."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Questionaire",
+      "Questionnaire",
+      "Questionaire's",
+      "Questionnare"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Beggining",
+      "Begining",
+      "Beginning",
+      "Beginnning"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Committment",
+      "Commitment",
+      "Committement",
+      "Comittment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Find the correctly spelled word:",
+    "options": [
+      "Occassion",
+      "Occasion",
+      "Ocassion",
+      "Occasionn"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'Burn the midnight oil':",
+    "options": [
+      "To waste resources",
+      "To work or study late into the night",
+      "To cook dinner late",
+      "To start a fire"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Identify the meaning of the idiom 'A blessing in disguise':",
+    "options": [
+      "Something bad that turns out good",
+      "A hidden gift",
+      "A religious ceremony",
+      "Something obviously good"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "question": "Choose the correct sentence: Which one uses 'their/there/they're' correctly?",
+    "options": [
+      "Their going to the market.",
+      "They're going to the market.",
+      "There going to the market.",
+      "Theyre going to the market."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the correct sentence: Which one uses 'its/it's' correctly?",
+    "options": [
+      "Its a beautiful day.",
+      "It's a beautiful day.",
+      "Its' a beautiful day.",
+      "Its's a beautiful day."
+    ],
+    "correctIndex": 1
+  },
+  {
+    "question": "Choose the word that best completes: 'The detective gathered enough ___ to solve the case.'",
+    "options": [
+      "evidence",
+      "evidances",
+      "evidences",
+      "evident"
+    ],
+    "correctIndex": 0
   }
 ]

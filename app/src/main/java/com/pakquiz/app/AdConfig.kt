@@ -23,15 +23,14 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
  * AdMob console only when you are ready to publish.
  */
 object AdConfig {
-    // Google's official test banner ad unit ID - replace with your real "PakQuiz - Home Banner" ID
-    const val BANNER_AD_UNIT_ID = "ca-app-pub-3940256099942544/6300978111"
+    // Real PakQuiz banner ad unit
+    const val BANNER_AD_UNIT_ID = "ca-app-pub-4944863890770793/6258068963"
 
-    // Google's official test interstitial ad unit ID - replace with your real
-    // "PakQuiz - Quiz Complete Interstitial" ID
-    const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
+    // Real PakQuiz interstitial ad unit
+    const val INTERSTITIAL_AD_UNIT_ID = "ca-app-pub-4944863890770793/8408067079"
 
-    // Google's official test rewarded ad unit ID - replace with your real
-    // "PakQuiz - Rewarded (Streak Freeze / Extended Practice)" ID
+    // Google's official test rewarded ad unit ID - you haven't created a real rewarded
+    // ad unit yet. Once you do (for Streak Freeze / Extended Practice), replace this line.
     const val REWARDED_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917"
 
     private var sdkInitialized = false
